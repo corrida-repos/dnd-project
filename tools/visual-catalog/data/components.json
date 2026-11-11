@@ -1,0 +1,991 @@
+{
+  "schemaVersion": 1,
+  "wardrobes": [
+    {
+      "id": "wardrobe.travel-clothes",
+      "name": "Travel clothes",
+      "armorCategory": "none",
+      "material": "cloth",
+      "metal": false,
+      "fit": "body",
+      "presentationCut": "geometry-dependent",
+      "notes": "Every current species portrait already wears travel clothes. Candidate: reuse the base portrait instead of exporting a new layer."
+    },
+    {
+      "id": "wardrobe.arcane-robes",
+      "name": "Arcane robes",
+      "armorCategory": "none",
+      "material": "cloth",
+      "metal": false,
+      "fit": "body",
+      "presentationCut": "geometry-dependent",
+      "notes": "Long robe; hides lower-body geometry, so it may tolerate more body families per export."
+    },
+    {
+      "id": "wardrobe.monastic-wraps",
+      "name": "Monastic wraps",
+      "armorCategory": "none",
+      "material": "cloth",
+      "metal": false,
+      "fit": "body",
+      "presentationCut": "geometry-dependent",
+      "notes": "Unarmored. Keeps Monk and other no-armor features valid."
+    },
+    {
+      "id": "wardrobe.light-leather",
+      "name": "Light leather armor",
+      "armorCategory": "light",
+      "material": "leather",
+      "metal": false,
+      "fit": "body",
+      "presentationCut": "geometry-dependent",
+      "notes": "Default for Rogue, Bard, Warlock, many Rangers."
+    },
+    {
+      "id": "wardrobe.medium-breastplate",
+      "name": "Medium metal breastplate",
+      "armorCategory": "medium",
+      "material": "metal",
+      "metal": true,
+      "fit": "body",
+      "presentationCut": "geometry-dependent",
+      "notes": "Shared by Ranger, Artificer, Cleric, Valor Bard, Hexblade and others; identity comes from add-ons."
+    },
+    {
+      "id": "wardrobe.medium-hide",
+      "name": "Medium organic/hide armor",
+      "armorCategory": "medium",
+      "material": "hide",
+      "metal": false,
+      "fit": "body",
+      "presentationCut": "geometry-dependent",
+      "notes": "Non-metal medium armor. Valid under the 2014 Druid metal convention."
+    },
+    {
+      "id": "wardrobe.heavy-plate",
+      "name": "Heavy plate armor",
+      "armorCategory": "heavy",
+      "material": "metal",
+      "metal": true,
+      "fit": "body",
+      "presentationCut": "geometry-dependent",
+      "notes": "Requires heavy armor training."
+    }
+  ],
+  "poses": [
+    {
+      "id": "pose.one-handed-ready",
+      "name": "One-handed ready",
+      "hands": {
+        "main": "weapon",
+        "off": "free|shield|focus|prop"
+      }
+    },
+    {
+      "id": "pose.two-handed-ready",
+      "name": "Two-handed ready",
+      "hands": {
+        "main": "two-handed",
+        "off": "two-handed"
+      }
+    },
+    {
+      "id": "pose.casting",
+      "name": "Casting",
+      "hands": {
+        "main": "focus|weapon|free",
+        "off": "gesture|focus|shield"
+      }
+    },
+    {
+      "id": "pose.bow-aiming",
+      "name": "Bow aiming",
+      "hands": {
+        "main": "ranged-two-handed",
+        "off": "ranged-two-handed"
+      }
+    },
+    {
+      "id": "pose.unarmed-guard",
+      "name": "Unarmed guard",
+      "hands": {
+        "main": "free",
+        "off": "free"
+      }
+    },
+    {
+      "id": "pose.instrument-playing",
+      "name": "Instrument playing",
+      "hands": {
+        "main": "instrument",
+        "off": "instrument"
+      }
+    }
+  ],
+  "props": [
+    {
+      "id": "prop.longsword",
+      "name": "Longsword",
+      "kind": "melee",
+      "hands": 1,
+      "metal": true,
+      "fit": "pose-grip"
+    },
+    {
+      "id": "prop.greatsword",
+      "name": "Greatsword",
+      "kind": "melee",
+      "hands": 2,
+      "metal": true,
+      "fit": "pose-grip"
+    },
+    {
+      "id": "prop.greataxe",
+      "name": "Greataxe",
+      "kind": "melee",
+      "hands": 2,
+      "metal": true,
+      "fit": "pose-grip"
+    },
+    {
+      "id": "prop.battleaxe",
+      "name": "Battleaxe",
+      "kind": "melee",
+      "hands": 1,
+      "metal": true,
+      "fit": "pose-grip"
+    },
+    {
+      "id": "prop.warhammer",
+      "name": "Warhammer",
+      "kind": "melee",
+      "hands": 1,
+      "metal": true,
+      "fit": "pose-grip"
+    },
+    {
+      "id": "prop.maul",
+      "name": "Maul",
+      "kind": "melee",
+      "hands": 2,
+      "metal": true,
+      "fit": "pose-grip"
+    },
+    {
+      "id": "prop.mace",
+      "name": "Mace",
+      "kind": "melee",
+      "hands": 1,
+      "metal": true,
+      "fit": "pose-grip"
+    },
+    {
+      "id": "prop.spear",
+      "name": "Spear",
+      "kind": "melee",
+      "hands": 1,
+      "metal": true,
+      "fit": "pose-grip"
+    },
+    {
+      "id": "prop.glaive",
+      "name": "Glaive",
+      "kind": "melee",
+      "hands": 2,
+      "metal": true,
+      "fit": "pose-grip"
+    },
+    {
+      "id": "prop.scimitar",
+      "name": "Scimitar",
+      "kind": "melee",
+      "hands": 1,
+      "metal": true,
+      "fit": "pose-grip"
+    },
+    {
+      "id": "prop.curved-sword",
+      "name": "Curved single-edged sword",
+      "kind": "melee",
+      "hands": 1,
+      "metal": true,
+      "fit": "pose-grip",
+      "notes": "Art variant shared by Samurai and Kensei; rules weapon is the player's choice."
+    },
+    {
+      "id": "prop.rapier",
+      "name": "Rapier",
+      "kind": "melee",
+      "hands": 1,
+      "metal": true,
+      "fit": "pose-grip"
+    },
+    {
+      "id": "prop.shortsword",
+      "name": "Shortsword",
+      "kind": "melee",
+      "hands": 1,
+      "metal": true,
+      "fit": "pose-grip"
+    },
+    {
+      "id": "prop.dagger",
+      "name": "Dagger",
+      "kind": "melee",
+      "hands": 1,
+      "metal": true,
+      "fit": "pose-grip"
+    },
+    {
+      "id": "prop.longbow",
+      "name": "Longbow",
+      "kind": "ranged",
+      "hands": 2,
+      "metal": false,
+      "fit": "pose-grip"
+    },
+    {
+      "id": "prop.shortbow",
+      "name": "Shortbow",
+      "kind": "ranged",
+      "hands": 2,
+      "metal": false,
+      "fit": "pose-grip"
+    },
+    {
+      "id": "prop.heavy-crossbow",
+      "name": "Heavy crossbow",
+      "kind": "ranged",
+      "hands": 2,
+      "metal": true,
+      "fit": "pose-grip"
+    },
+    {
+      "id": "prop.pistol",
+      "name": "Pistol",
+      "kind": "firearm",
+      "hands": 1,
+      "metal": true,
+      "fit": "pose-grip"
+    },
+    {
+      "id": "prop.psychic-blade",
+      "name": "Psychic blade",
+      "kind": "melee",
+      "hands": 1,
+      "metal": false,
+      "fit": "pose-grip",
+      "notes": "Painted energy blade; recolor of the arcane-motes palette is not sufficient, needs its own design."
+    },
+    {
+      "id": "prop.arcane-staff",
+      "name": "Arcane staff",
+      "kind": "focus",
+      "hands": 1,
+      "metal": false,
+      "fit": "pose-grip"
+    },
+    {
+      "id": "prop.wand",
+      "name": "Wand",
+      "kind": "focus",
+      "hands": 1,
+      "metal": false,
+      "fit": "pose-grip"
+    },
+    {
+      "id": "prop.crystal",
+      "name": "Crystal / orb focus",
+      "kind": "focus",
+      "hands": 1,
+      "metal": false,
+      "fit": "pose-grip"
+    },
+    {
+      "id": "prop.spellbook",
+      "name": "Spellbook / tome",
+      "kind": "focus",
+      "hands": 1,
+      "metal": false,
+      "fit": "pose-grip"
+    },
+    {
+      "id": "prop.holy-symbol",
+      "name": "Holy symbol",
+      "kind": "focus",
+      "hands": 1,
+      "metal": true,
+      "fit": "pose-grip"
+    },
+    {
+      "id": "prop.druidic-staff",
+      "name": "Druidic wooden staff",
+      "kind": "focus",
+      "hands": 1,
+      "metal": false,
+      "fit": "pose-grip"
+    },
+    {
+      "id": "prop.star-map",
+      "name": "Star map",
+      "kind": "focus",
+      "hands": 1,
+      "metal": false,
+      "fit": "pose-grip",
+      "notes": "Circle of Stars Star Map item, drawn as a scroll/chart."
+    },
+    {
+      "id": "prop.shield-wooden",
+      "name": "Wooden shield",
+      "kind": "shield",
+      "hands": 1,
+      "metal": false,
+      "fit": "pose-grip"
+    },
+    {
+      "id": "prop.shield-metal",
+      "name": "Metal shield",
+      "kind": "shield",
+      "hands": 1,
+      "metal": true,
+      "fit": "pose-grip"
+    },
+    {
+      "id": "prop.lute",
+      "name": "Lute",
+      "kind": "instrument",
+      "hands": 2,
+      "metal": false,
+      "fit": "pose-grip"
+    },
+    {
+      "id": "prop.flute",
+      "name": "Flute",
+      "kind": "instrument",
+      "hands": 2,
+      "metal": false,
+      "fit": "pose-grip"
+    },
+    {
+      "id": "prop.lantern",
+      "name": "Lantern",
+      "kind": "prop",
+      "hands": 1,
+      "metal": true,
+      "fit": "pose-grip"
+    },
+    {
+      "id": "prop.alchemist-flask",
+      "name": "Alchemist's flask",
+      "kind": "prop",
+      "hands": 1,
+      "metal": false,
+      "fit": "pose-grip"
+    },
+    {
+      "id": "prop.smith-hammer",
+      "name": "Smith's hammer",
+      "kind": "melee",
+      "hands": 1,
+      "metal": true,
+      "fit": "pose-grip",
+      "notes": "Drawn as a forge hammer; usable as a light-hammer style weapon."
+    },
+    {
+      "id": "prop.map-scroll",
+      "name": "Map scroll",
+      "kind": "prop",
+      "hands": 1,
+      "metal": false,
+      "fit": "pose-grip"
+    },
+    {
+      "id": "prop.genie-vessel",
+      "name": "Genie's vessel (lamp)",
+      "kind": "focus",
+      "hands": 1,
+      "metal": true,
+      "fit": "pose-grip"
+    },
+    {
+      "id": "prop.transmuter-stone",
+      "name": "Transmuter's stone",
+      "kind": "focus",
+      "hands": 1,
+      "metal": false,
+      "fit": "pose-grip"
+    }
+  ],
+  "accessoryKits": [
+    {
+      "id": "kit.barbarian",
+      "name": "Barbarian kit",
+      "fit": "body",
+      "contents": [
+        "fur mantle",
+        "trophy cords",
+        "leather bracers"
+      ]
+    },
+    {
+      "id": "kit.bard",
+      "name": "Bard kit",
+      "fit": "body",
+      "contents": [
+        "bright sash",
+        "feathered cap",
+        "songbook pouch"
+      ]
+    },
+    {
+      "id": "kit.cleric",
+      "name": "Cleric kit",
+      "fit": "body",
+      "contents": [
+        "tabard with deity sigil",
+        "prayer beads",
+        "censer clip"
+      ]
+    },
+    {
+      "id": "kit.druid",
+      "name": "Druid kit",
+      "fit": "body",
+      "contents": [
+        "leaf-and-bone fetishes",
+        "moss mantle",
+        "seed pouches"
+      ]
+    },
+    {
+      "id": "kit.fighter",
+      "name": "Fighter kit",
+      "fit": "body",
+      "contents": [
+        "sword belt",
+        "gauntlets",
+        "short cape"
+      ]
+    },
+    {
+      "id": "kit.monk",
+      "name": "Monk kit",
+      "fit": "body",
+      "contents": [
+        "hand wraps",
+        "rope belt",
+        "prayer beads"
+      ]
+    },
+    {
+      "id": "kit.paladin",
+      "name": "Paladin kit",
+      "fit": "body",
+      "contents": [
+        "oath tabard",
+        "cloak clasp with oath sigil",
+        "prayer strip"
+      ]
+    },
+    {
+      "id": "kit.ranger",
+      "name": "Ranger kit",
+      "fit": "body",
+      "contents": [
+        "hooded cloak",
+        "quiver",
+        "bracers"
+      ]
+    },
+    {
+      "id": "kit.rogue",
+      "name": "Rogue kit",
+      "fit": "body",
+      "contents": [
+        "hood",
+        "dagger bandolier",
+        "thieves' tools pouch"
+      ]
+    },
+    {
+      "id": "kit.sorcerer",
+      "name": "Sorcerer kit",
+      "fit": "body",
+      "contents": [
+        "ornamental sash",
+        "focus jewelry"
+      ]
+    },
+    {
+      "id": "kit.warlock",
+      "name": "Warlock kit",
+      "fit": "body",
+      "contents": [
+        "pact talisman",
+        "dark half-cloak",
+        "sigil charms"
+      ]
+    },
+    {
+      "id": "kit.wizard",
+      "name": "Wizard kit",
+      "fit": "body",
+      "contents": [
+        "scroll case",
+        "spell-component pouches",
+        "book strap"
+      ]
+    },
+    {
+      "id": "kit.artificer",
+      "name": "Artificer kit",
+      "fit": "body",
+      "contents": [
+        "goggles",
+        "tool belt",
+        "infused trinkets"
+      ]
+    },
+    {
+      "id": "kit.blood-hunter",
+      "name": "Blood Hunter kit",
+      "fit": "body",
+      "contents": [
+        "vial bandolier",
+        "wrapped forearm",
+        "hunter's coat tails"
+      ]
+    },
+    {
+      "id": "kit.gunslinger",
+      "name": "Gunslinger kit",
+      "fit": "body",
+      "contents": [
+        "powder horn",
+        "cartridge bandolier",
+        "holster"
+      ]
+    }
+  ],
+  "effectBases": [
+    {
+      "id": "fxbase.hand-glow",
+      "name": "Hand / focus glow",
+      "fit": "pose-anchor"
+    },
+    {
+      "id": "fxbase.aura",
+      "name": "Silhouette aura",
+      "fit": "mask-derived",
+      "notes": "Generated from the composed character alpha; deterministic."
+    },
+    {
+      "id": "fxbase.motes",
+      "name": "Floating motes",
+      "fit": "free"
+    },
+    {
+      "id": "fxbase.wisps",
+      "name": "Smoke wisps",
+      "fit": "free"
+    },
+    {
+      "id": "fxbase.runes",
+      "name": "Floating glyphs",
+      "fit": "free"
+    },
+    {
+      "id": "fxbase.arcs",
+      "name": "Lightning arcs",
+      "fit": "free"
+    },
+    {
+      "id": "fxbase.water",
+      "name": "Water swirl",
+      "fit": "free"
+    },
+    {
+      "id": "fxbase.gears",
+      "name": "Spectral gears",
+      "fit": "free"
+    },
+    {
+      "id": "fxbase.leaves",
+      "name": "Drifting leaves",
+      "fit": "free"
+    },
+    {
+      "id": "fxbase.spirits",
+      "name": "Spectral figures",
+      "fit": "free"
+    },
+    {
+      "id": "fxbase.swarm",
+      "name": "Swarm of tiny creatures",
+      "fit": "free"
+    },
+    {
+      "id": "fxbase.scales",
+      "name": "Scale-pattern overlay",
+      "fit": "mask-derived",
+      "notes": "Texture clipped to exposed skin mask; deterministic but needs per-family skin masks."
+    },
+    {
+      "id": "fxbase.spectral-hand",
+      "name": "Spectral hand",
+      "fit": "free"
+    }
+  ],
+  "effects": [
+    {
+      "id": "fx.rage-aura",
+      "base": "fxbase.aura",
+      "tint": "crimson"
+    },
+    {
+      "id": "fx.radiant-glow",
+      "base": "fxbase.hand-glow",
+      "tint": "gold-white"
+    },
+    {
+      "id": "fx.radiant-motes",
+      "base": "fxbase.motes",
+      "tint": "gold"
+    },
+    {
+      "id": "fx.necrotic-wisps",
+      "base": "fxbase.wisps",
+      "tint": "sickly green-black"
+    },
+    {
+      "id": "fx.shadow-wisps",
+      "base": "fxbase.wisps",
+      "tint": "violet-black"
+    },
+    {
+      "id": "fx.grave-pallor",
+      "base": "fxbase.wisps",
+      "tint": "pale grey-blue"
+    },
+    {
+      "id": "fx.shadowfell-mist",
+      "base": "fxbase.wisps",
+      "tint": "desaturated ash grey with pale tear-drop motes"
+    },
+    {
+      "id": "fx.psychic-shimmer",
+      "base": "fxbase.aura",
+      "tint": "violet"
+    },
+    {
+      "id": "fx.dread-aura",
+      "base": "fxbase.aura",
+      "tint": "black-red"
+    },
+    {
+      "id": "fx.arcane-motes",
+      "base": "fxbase.motes",
+      "tint": "blue"
+    },
+    {
+      "id": "fx.arcane-ward",
+      "base": "fxbase.aura",
+      "tint": "pale blue"
+    },
+    {
+      "id": "fx.fey-motes",
+      "base": "fxbase.motes",
+      "tint": "pink-green"
+    },
+    {
+      "id": "fx.charm-motes",
+      "base": "fxbase.motes",
+      "tint": "rose"
+    },
+    {
+      "id": "fx.illusion-shimmer",
+      "base": "fxbase.aura",
+      "tint": "iridescent"
+    },
+    {
+      "id": "fx.star-motes",
+      "base": "fxbase.motes",
+      "tint": "silver-white"
+    },
+    {
+      "id": "fx.fire-motes",
+      "base": "fxbase.motes",
+      "tint": "orange"
+    },
+    {
+      "id": "fx.frost-rime",
+      "base": "fxbase.motes",
+      "tint": "ice blue"
+    },
+    {
+      "id": "fx.wind-motes",
+      "base": "fxbase.motes",
+      "tint": "sand / pale air"
+    },
+    {
+      "id": "fx.spore-cloud",
+      "base": "fxbase.motes",
+      "tint": "fungal green-brown"
+    },
+    {
+      "id": "fx.alchemical-vapor",
+      "base": "fxbase.wisps",
+      "tint": "acid green"
+    },
+    {
+      "id": "fx.wild-surge",
+      "base": "fxbase.motes",
+      "tint": "multicolour"
+    },
+    {
+      "id": "fx.ki-glow",
+      "base": "fxbase.hand-glow",
+      "tint": "white-blue"
+    },
+    {
+      "id": "fx.spellfire",
+      "base": "fxbase.hand-glow",
+      "tint": "white-gold flame"
+    },
+    {
+      "id": "fx.weapon-arcane",
+      "base": "fxbase.hand-glow",
+      "tint": "blue (anchored on weapon)"
+    },
+    {
+      "id": "fx.runic-glyphs",
+      "base": "fxbase.runes",
+      "tint": "gold"
+    },
+    {
+      "id": "fx.ink-glyphs",
+      "base": "fxbase.runes",
+      "tint": "black ink"
+    },
+    {
+      "id": "fx.blood-sigils",
+      "base": "fxbase.runes",
+      "tint": "crimson"
+    },
+    {
+      "id": "fx.storm-arcs",
+      "base": "fxbase.arcs",
+      "tint": "blue-white"
+    },
+    {
+      "id": "fx.water-swirl",
+      "base": "fxbase.water",
+      "tint": "sea green"
+    },
+    {
+      "id": "fx.clockwork-gears",
+      "base": "fxbase.gears",
+      "tint": "brass"
+    },
+    {
+      "id": "fx.nature-leaves",
+      "base": "fxbase.leaves",
+      "tint": "green"
+    },
+    {
+      "id": "fx.autumn-leaves",
+      "base": "fxbase.leaves",
+      "tint": "gold"
+    },
+    {
+      "id": "fx.ancestral-spirits",
+      "base": "fxbase.spirits",
+      "tint": "pale blue"
+    },
+    {
+      "id": "fx.swarm",
+      "base": "fxbase.swarm",
+      "tint": "natural"
+    },
+    {
+      "id": "fx.draconic-scales",
+      "base": "fxbase.scales",
+      "tint": "red"
+    },
+    {
+      "id": "fx.mage-hand",
+      "base": "fxbase.spectral-hand",
+      "tint": "blue"
+    }
+  ],
+  "signatureLayers": [
+    {
+      "id": "sig.sorrow-knight-shroud",
+      "name": "Sorrow Knight shroud",
+      "fit": "body",
+      "description": "Tattered ash-grey mourning tabard and hood worn over existing Fighter armor; tear-streak sigil on one pauldron. Additive layer, not a new outfit."
+    },
+    {
+      "id": "sig.spiked-armor",
+      "name": "Spiked armor studs",
+      "fit": "body",
+      "description": "Spike add-on for the medium breastplate (Battlerager)."
+    },
+    {
+      "id": "sig.arcane-armor-seams",
+      "name": "Arcane armor seams",
+      "fit": "body",
+      "description": "Glowing seams and power core over heavy plate (Armorer)."
+    },
+    {
+      "id": "sig.heraldic-banner-back",
+      "name": "Back banner",
+      "fit": "body",
+      "description": "Back-mounted banner; heraldry swaps by deterministic recolor (Banneret / Purple Dragon Knight)."
+    },
+    {
+      "id": "sig.lamellar-guards",
+      "name": "Lamellar shoulder guards",
+      "fit": "body",
+      "description": "Shoulder and skirt guards added over the medium breastplate."
+    },
+    {
+      "id": "sig.dancer-ribbons",
+      "name": "Dancer ribbons",
+      "fit": "body",
+      "description": "Trailing sash ribbons for an unarmored dance stance."
+    },
+    {
+      "id": "sig.theatre-mask",
+      "name": "Theatre mask",
+      "fit": "head",
+      "description": "Held or worn half-mask."
+    },
+    {
+      "id": "sig.plague-mask",
+      "name": "Mercy mask",
+      "fit": "head",
+      "description": "Mask of the Warrior of Mercy (Mask of Mercy is not required by rules; artistic)."
+    }
+  ],
+  "creatures": [
+    {
+      "id": "creature.brown-bear",
+      "name": "Brown bear (Wild Shape view)",
+      "kind": "shared-creature",
+      "description": "Representative Circle of the Moon form; shown as an alternate view beside the normal species view."
+    },
+    {
+      "id": "creature.primal-beast",
+      "name": "Primal beast of the land",
+      "kind": "shared-creature",
+      "description": "Wolf-like beast companion (Beast Master)."
+    },
+    {
+      "id": "creature.steel-defender",
+      "name": "Steel defender",
+      "kind": "shared-creature",
+      "description": "Construct companion (Battle Smith)."
+    },
+    {
+      "id": "creature.eldritch-cannon",
+      "name": "Eldritch cannon",
+      "kind": "shared-creature",
+      "description": "Small magical cannon object (Artillerist)."
+    },
+    {
+      "id": "creature.wildfire-spirit",
+      "name": "Wildfire spirit",
+      "kind": "shared-creature",
+      "description": "Fiery spirit companion (Circle of Wildfire)."
+    },
+    {
+      "id": "creature.spirit-totem-bear",
+      "name": "Bear spirit totem",
+      "kind": "shared-creature",
+      "description": "Spectral bear spirit (Circle of the Shepherd)."
+    },
+    {
+      "id": "creature.skeleton-minion",
+      "name": "Skeleton minion",
+      "kind": "shared-creature",
+      "description": "Animated skeleton (Necromancy)."
+    },
+    {
+      "id": "creature.hound-of-ill-omen",
+      "name": "Hound of Ill Omen",
+      "kind": "shared-creature",
+      "description": "Shadow hound (Shadow Magic)."
+    },
+    {
+      "id": "creature.spectral-tentacle",
+      "name": "Spectral tentacle",
+      "kind": "shared-creature",
+      "description": "Tentacle of the Deeps (Fathomless)."
+    },
+    {
+      "id": "creature.dancing-item",
+      "name": "Dancing animated item",
+      "kind": "shared-creature",
+      "description": "Animating Performance object (College of Creation)."
+    },
+    {
+      "id": "creature.warhorse",
+      "name": "Warhorse (standing alongside)",
+      "kind": "shared-creature",
+      "description": "Optional mount drawn standing beside the character, never ridden. Cavalier has no class-granted mount.",
+      "incompatibleBodyFamilies": [
+        "quadrupedal-humanoid"
+      ],
+      "incompatibilityNote": "A humanoid riding pose is impossible for Centaur/Bariaur; no riding art is required by this catalog."
+    },
+    {
+      "id": "transform.astral-arms",
+      "name": "Arms of the Astral Self",
+      "kind": "overlay-fitted",
+      "description": "Spectral extra arms anchored to the shoulders."
+    },
+    {
+      "id": "transform.starry-form",
+      "name": "Starry Form (Archer)",
+      "kind": "overlay-fitted",
+      "description": "Constellation lines over the body plus a luminous bow."
+    },
+    {
+      "id": "transform.symbiotic-entity",
+      "name": "Symbiotic Entity",
+      "kind": "overlay-fitted",
+      "description": "Fungal growth overlay."
+    },
+    {
+      "id": "transform.form-of-dread",
+      "name": "Form of Dread",
+      "kind": "overlay-fitted",
+      "description": "Spectral skull-mask and shadow shroud over the character."
+    },
+    {
+      "id": "transform.giants-might",
+      "name": "Giant's Might",
+      "kind": "composition",
+      "description": "Scale-up of the composed character plus rune glow; deterministic."
+    },
+    {
+      "id": "transform.duplicate",
+      "name": "Invoke Duplicity",
+      "kind": "composition",
+      "description": "Translucent mirrored copy of the composed character; deterministic."
+    },
+    {
+      "id": "transform.form-of-the-beast",
+      "name": "Form of the Beast",
+      "kind": "hybrid-character",
+      "description": "Claws, fangs or tail grown from the character's own body; species-specific repaint."
+    },
+    {
+      "id": "transform.lycan-hybrid",
+      "name": "Hybrid Transformation",
+      "kind": "hybrid-character",
+      "description": "Lycanthropic hybrid of the character; species-specific repaint."
+    }
+  ]
+}

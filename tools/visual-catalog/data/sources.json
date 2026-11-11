@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "sources": {
+    "phb2024": {
+      "title": "Player's Handbook (2024)",
+      "publisher": "Wizards of the Coast",
+      "official": true,
+      "accessibleLink": "https://www.dndbeyond.com/srd",
+      "linkNote": "SRD 5.2 (CC-BY-4.0) is the free primary text for 2024 class armor training and one subclass per class; full book is paid."
+    },
+    "phb2014": {
+      "title": "Player's Handbook (2014)",
+      "publisher": "Wizards of the Coast",
+      "official": true,
+      "accessibleLink": "https://www.dndbeyond.com/srd",
+      "linkNote": "SRD 5.1 (CC-BY-4.0) covers 2014 class armor training and one subclass per class."
+    },
+    "xgte": {
+      "title": "Xanathar's Guide to Everything",
+      "publisher": "Wizards of the Coast",
+      "official": true,
+      "accessibleLink": "https://www.dndbeyond.com/sources/dnd/xgte",
+      "linkNote": "Paid content; table of contents is public."
+    },
+    "tcoe": {
+      "title": "Tasha's Cauldron of Everything",
+      "publisher": "Wizards of the Coast",
+      "official": true,
+      "accessibleLink": "https://www.dndbeyond.com/sources/dnd/tcoe",
+      "linkNote": "Paid content; table of contents is public."
+    },
+    "scag": {
+      "title": "Sword Coast Adventurer's Guide",
+      "publisher": "Wizards of the Coast",
+      "official": true,
+      "accessibleLink": "https://www.dndbeyond.com/sources/dnd/scag",
+      "linkNote": "Paid content."
+    },
+    "vrgtr": {
+      "title": "Van Richten's Guide to Ravenloft",
+      "publisher": "Wizards of the Coast",
+      "official": true,
+      "accessibleLink": "https://www.dndbeyond.com/sources/dnd/vrgtr",
+      "linkNote": "Paid content."
+    },
+    "hof": {
+      "title": "Forgotten Realms: Heroes of Faerûn",
+      "publisher": "Wizards of the Coast",
+      "official": true,
+      "accessibleLink": null,
+      "linkNote": "Paid content; subclass rules not reviewed this session."
+    },
+    "au": {
+      "title": "Arcana Unleashed",
+      "publisher": "Wizards of the Coast (as catalogued)",
+      "official": true,
+      "accessibleLink": null,
+      "linkNote": "Listed in the catalog as 5.5e Expanded Rules; contents not reviewed this session."
+    },
+    "efa": {
+      "title": "Eberron: Forge of the Artificer",
+      "publisher": "Wizards of the Coast",
+      "official": true,
+      "accessibleLink": null,
+      "linkNote": "Paid content; 2024 Artificer and subclasses not re-checked this session."
+    },
+    "ddb-drops": {
+      "title": "D&D Beyond Drops",
+      "publisher": "Wizards of the Coast / D&D Beyond",
+      "official": true,
+      "accessibleLink": "https://www.dndbeyond.com/posts/2252-d-d-beyonds-october-drop-shadowfell-secrets",
+      "linkNote": "Official announcement dated 2026-10-01 (per brief). The page could not be fetched from this session; feature summaries come from search-result snippets of secondary coverage."
+    },
+    "ee": {
+      "title": "Exploring Eberron (2024)",
+      "publisher": "Visionary Production and Design Inc.",
+      "official": false,
+      "accessibleLink": null,
+      "linkNote": "Third-party; rules not reviewed."
+    },
+    "vsos1": {
+      "title": "Valda's Spire of Secrets: Player Pack 1",
+      "publisher": "Mage Hand Press",
+      "official": false,
+      "accessibleLink": null,
+      "linkNote": "Third-party; rules not reviewed."
+    },
+    "vsos2": {
+      "title": "Valda's Spire of Secrets: Player Pack 2",
+      "publisher": "Mage Hand Press",
+      "official": false,
+      "accessibleLink": null,
+      "linkNote": "Third-party; rules not reviewed."
+    },
+    "vsos-gs": {
+      "title": "The Gunslinger Class: Valda's Spire of Secrets",
+      "publisher": "Mage Hand Press",
+      "official": false,
+      "accessibleLink": null,
+      "linkNote": "Third-party; rules not reviewed."
+    },
+    "cr": {
+      "title": "Critical Role",
+      "publisher": "Critical Role / Darrington Press",
+      "official": false,
+      "accessibleLink": "https://www.dndbeyond.com/sources/dnd/cr",
+      "linkNote": "Blood Hunter and Gunslinger material; rules not re-checked this session."
+    },
+    "tdcsr": {
+      "title": "Tal'Dorei Campaign Setting Reborn",
+      "publisher": "Darrington Press",
+      "official": false,
+      "accessibleLink": null,
+      "linkNote": "Third-party; rules not reviewed."
+    }
+  }
+}

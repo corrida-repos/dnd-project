@@ -1,0 +1,433 @@
+{
+  "schemaVersion": 1,
+  "note": "Rules facts only. 'confidence' reflects how well-established the fact is; nothing here was re-read against source text this session.",
+  "classes": {
+    "5.5E:Barbarian": {
+      "armorTraining": [
+        "light",
+        "medium"
+      ],
+      "shields": true,
+      "sources": [
+        "phb2024"
+      ],
+      "restrictions": [
+        {
+          "id": "rage-heavy-armor",
+          "kind": "forbid-armor-category",
+          "category": "heavy",
+          "severity": "error",
+          "text": "Rage benefits are lost (2014) / Rage cannot be used (2024) in heavy armor; Unarmored Defense needs no armor."
+        }
+      ],
+      "options": [],
+      "confidence": "high",
+      "verification": "Not re-checked against the text this session: outbound access to rules sites was blocked."
+    },
+    "5.5E:Bard": {
+      "armorTraining": [
+        "light"
+      ],
+      "shields": false,
+      "sources": [
+        "phb2024"
+      ],
+      "restrictions": [],
+      "options": [],
+      "confidence": "high",
+      "verification": "Not re-checked against the text this session: outbound access to rules sites was blocked."
+    },
+    "5.5E:Cleric": {
+      "armorTraining": [
+        "light",
+        "medium"
+      ],
+      "shields": true,
+      "sources": [
+        "phb2024"
+      ],
+      "restrictions": [],
+      "options": [
+        {
+          "id": "cleric-divine-order-protector",
+          "grants": [
+            "heavy"
+          ],
+          "level": 1,
+          "text": "Divine Order: Protector grants Martial weapons and Heavy armor training."
+        }
+      ],
+      "confidence": "high",
+      "verification": "Not re-checked against the text this session: outbound access to rules sites was blocked."
+    },
+    "5.5E:Druid": {
+      "armorTraining": [
+        "light"
+      ],
+      "shields": true,
+      "sources": [
+        "phb2024"
+      ],
+      "restrictions": [],
+      "options": [
+        {
+          "id": "druid-primal-order-warden",
+          "grants": [
+            "medium"
+          ],
+          "level": 1,
+          "text": "Primal Order: Warden grants Martial weapons and Medium armor training."
+        }
+      ],
+      "confidence": "medium",
+      "verification": "Not re-checked against the text this session: outbound access to rules sites was blocked.",
+      "notes": "The 2014 metal prohibition is believed absent from the 2024 text; verify before relying on it."
+    },
+    "5.5E:Fighter": {
+      "armorTraining": [
+        "light",
+        "medium",
+        "heavy"
+      ],
+      "shields": true,
+      "sources": [
+        "phb2024"
+      ],
+      "restrictions": [],
+      "options": [],
+      "confidence": "high",
+      "verification": "Not re-checked against the text this session: outbound access to rules sites was blocked."
+    },
+    "5.5E:Monk": {
+      "armorTraining": [],
+      "shields": false,
+      "sources": [
+        "phb2024"
+      ],
+      "restrictions": [
+        {
+          "id": "monk-unarmored",
+          "kind": "requires-no-armor-no-shield",
+          "severity": "error",
+          "text": "Unarmored Defense, Martial Arts and Unarmored Movement work only without armor or a shield."
+        }
+      ],
+      "options": [],
+      "confidence": "high",
+      "verification": "Not re-checked against the text this session: outbound access to rules sites was blocked."
+    },
+    "5.5E:Paladin": {
+      "armorTraining": [
+        "light",
+        "medium",
+        "heavy"
+      ],
+      "shields": true,
+      "sources": [
+        "phb2024"
+      ],
+      "restrictions": [],
+      "options": [],
+      "confidence": "high",
+      "verification": "Not re-checked against the text this session: outbound access to rules sites was blocked."
+    },
+    "5.5E:Ranger": {
+      "armorTraining": [
+        "light",
+        "medium"
+      ],
+      "shields": true,
+      "sources": [
+        "phb2024"
+      ],
+      "restrictions": [],
+      "options": [],
+      "confidence": "high",
+      "verification": "Not re-checked against the text this session: outbound access to rules sites was blocked."
+    },
+    "5.5E:Rogue": {
+      "armorTraining": [
+        "light"
+      ],
+      "shields": false,
+      "sources": [
+        "phb2024"
+      ],
+      "restrictions": [],
+      "options": [],
+      "confidence": "high",
+      "verification": "Not re-checked against the text this session: outbound access to rules sites was blocked."
+    },
+    "5.5E:Sorcerer": {
+      "armorTraining": [],
+      "shields": false,
+      "sources": [
+        "phb2024"
+      ],
+      "restrictions": [],
+      "options": [],
+      "confidence": "high",
+      "verification": "Not re-checked against the text this session: outbound access to rules sites was blocked."
+    },
+    "5.5E:Warlock": {
+      "armorTraining": [
+        "light"
+      ],
+      "shields": false,
+      "sources": [
+        "phb2024"
+      ],
+      "restrictions": [],
+      "options": [],
+      "confidence": "high",
+      "verification": "Not re-checked against the text this session: outbound access to rules sites was blocked."
+    },
+    "5.5E:Wizard": {
+      "armorTraining": [],
+      "shields": false,
+      "sources": [
+        "phb2024"
+      ],
+      "restrictions": [],
+      "options": [],
+      "confidence": "high",
+      "verification": "Not re-checked against the text this session: outbound access to rules sites was blocked."
+    },
+    "5.5E:Artificer": {
+      "armorTraining": [
+        "light",
+        "medium"
+      ],
+      "shields": true,
+      "sources": [
+        "efa"
+      ],
+      "restrictions": [],
+      "options": [],
+      "confidence": "medium",
+      "verification": "Not re-checked against the text this session: outbound access to rules sites was blocked."
+    },
+    "5E:Barbarian": {
+      "armorTraining": [
+        "light",
+        "medium"
+      ],
+      "shields": true,
+      "sources": [
+        "phb2014"
+      ],
+      "restrictions": [
+        {
+          "id": "rage-heavy-armor",
+          "kind": "forbid-armor-category",
+          "category": "heavy",
+          "severity": "error",
+          "text": "Rage benefits are lost (2014) / Rage cannot be used (2024) in heavy armor; Unarmored Defense needs no armor."
+        }
+      ],
+      "options": [],
+      "confidence": "high",
+      "verification": "Not re-checked against the text this session: outbound access to rules sites was blocked."
+    },
+    "5E:Bard": {
+      "armorTraining": [
+        "light"
+      ],
+      "shields": false,
+      "sources": [
+        "phb2014"
+      ],
+      "restrictions": [],
+      "options": [],
+      "confidence": "high",
+      "verification": "Not re-checked against the text this session: outbound access to rules sites was blocked."
+    },
+    "5E:Cleric": {
+      "armorTraining": [
+        "light",
+        "medium"
+      ],
+      "shields": true,
+      "sources": [
+        "phb2014"
+      ],
+      "restrictions": [],
+      "options": [],
+      "confidence": "high",
+      "verification": "Not re-checked against the text this session: outbound access to rules sites was blocked."
+    },
+    "5E:Druid": {
+      "armorTraining": [
+        "light",
+        "medium"
+      ],
+      "shields": true,
+      "sources": [
+        "phb2014"
+      ],
+      "restrictions": [
+        {
+          "id": "druid-no-metal",
+          "kind": "forbid-metal",
+          "severity": "error",
+          "text": "2014 Druid proficiency note: druids will not wear armor or use shields made of metal."
+        }
+      ],
+      "options": [],
+      "confidence": "high",
+      "verification": "Not re-checked against the text this session: outbound access to rules sites was blocked."
+    },
+    "5E:Fighter": {
+      "armorTraining": [
+        "light",
+        "medium",
+        "heavy"
+      ],
+      "shields": true,
+      "sources": [
+        "phb2014"
+      ],
+      "restrictions": [],
+      "options": [],
+      "confidence": "high",
+      "verification": "Not re-checked against the text this session: outbound access to rules sites was blocked."
+    },
+    "5E:Monk": {
+      "armorTraining": [],
+      "shields": false,
+      "sources": [
+        "phb2014"
+      ],
+      "restrictions": [
+        {
+          "id": "monk-unarmored",
+          "kind": "requires-no-armor-no-shield",
+          "severity": "error",
+          "text": "Unarmored Defense, Martial Arts and Unarmored Movement work only without armor or a shield."
+        }
+      ],
+      "options": [],
+      "confidence": "high",
+      "verification": "Not re-checked against the text this session: outbound access to rules sites was blocked."
+    },
+    "5E:Paladin": {
+      "armorTraining": [
+        "light",
+        "medium",
+        "heavy"
+      ],
+      "shields": true,
+      "sources": [
+        "phb2014"
+      ],
+      "restrictions": [],
+      "options": [],
+      "confidence": "high",
+      "verification": "Not re-checked against the text this session: outbound access to rules sites was blocked."
+    },
+    "5E:Ranger": {
+      "armorTraining": [
+        "light",
+        "medium"
+      ],
+      "shields": true,
+      "sources": [
+        "phb2014"
+      ],
+      "restrictions": [],
+      "options": [],
+      "confidence": "high",
+      "verification": "Not re-checked against the text this session: outbound access to rules sites was blocked."
+    },
+    "5E:Rogue": {
+      "armorTraining": [
+        "light"
+      ],
+      "shields": false,
+      "sources": [
+        "phb2014"
+      ],
+      "restrictions": [],
+      "options": [],
+      "confidence": "high",
+      "verification": "Not re-checked against the text this session: outbound access to rules sites was blocked."
+    },
+    "5E:Sorcerer": {
+      "armorTraining": [],
+      "shields": false,
+      "sources": [
+        "phb2014"
+      ],
+      "restrictions": [],
+      "options": [],
+      "confidence": "high",
+      "verification": "Not re-checked against the text this session: outbound access to rules sites was blocked."
+    },
+    "5E:Warlock": {
+      "armorTraining": [
+        "light"
+      ],
+      "shields": false,
+      "sources": [
+        "phb2014"
+      ],
+      "restrictions": [],
+      "options": [],
+      "confidence": "high",
+      "verification": "Not re-checked against the text this session: outbound access to rules sites was blocked."
+    },
+    "5E:Wizard": {
+      "armorTraining": [],
+      "shields": false,
+      "sources": [
+        "phb2014"
+      ],
+      "restrictions": [],
+      "options": [],
+      "confidence": "high",
+      "verification": "Not re-checked against the text this session: outbound access to rules sites was blocked."
+    },
+    "5E:Artificer": {
+      "armorTraining": [
+        "light",
+        "medium"
+      ],
+      "shields": true,
+      "sources": [
+        "tcoe"
+      ],
+      "restrictions": [],
+      "options": [],
+      "confidence": "high",
+      "verification": "Not re-checked against the text this session: outbound access to rules sites was blocked."
+    },
+    "Third-Party:Blood Hunter": {
+      "armorTraining": [
+        "light",
+        "medium"
+      ],
+      "shields": true,
+      "sources": [
+        "cr"
+      ],
+      "restrictions": [],
+      "options": [],
+      "confidence": "medium",
+      "verification": "Not re-checked against the text this session: outbound access to rules sites was blocked."
+    },
+    "Third-Party:Gunslinger": {
+      "armorTraining": [
+        "light"
+      ],
+      "shields": false,
+      "sources": [
+        "vsos-gs"
+      ],
+      "restrictions": [],
+      "options": [],
+      "confidence": "unverified",
+      "verification": "Not re-checked against the text this session: outbound access to rules sites was blocked.",
+      "notes": "Armor training not reviewed; light armor is a placeholder assumption so validation can run."
+    }
+  }
+}
