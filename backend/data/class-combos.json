@@ -2402,6 +2402,50 @@
     {
         "classRuleset":  "5.5E",
         "className":  "Fighter",
+        "subclassName":  "Sorrow Knight",
+        "subclassSourceGroup":  "5.5e Expanded Rules",
+        "spellcasterGrade":  "Spell-less",
+        "comboName":  "Sorrow Knight Fighter",
+        "sources":  [
+                        "Player\u0027s Handbook (2024)",
+                        "D\u0026D Beyond Drops"
+                    ],
+        "combatRoles":  [
+                            "Strike",
+                            "Blast",
+                            "Tank",
+                            "Control",
+                            "Healer",
+                            "Support"
+                        ],
+        "outOfCombatRoles":  [
+                                 "Face",
+                                 "Scout",
+                                 "Investigator",
+                                 "Scholar",
+                                 "Explorer",
+                                 "Utility"
+                             ],
+        "combatRatings":  {
+                              "Blast":  1,
+                              "Tank":  4,
+                              "Support":  1,
+                              "Control":  2,
+                              "Strike":  5,
+                              "Healer":  1
+                          },
+        "outOfCombatRatings":  {
+                                   "Scholar":  3,
+                                   "Face":  3,
+                                   "Explorer":  4,
+                                   "Utility":  3,
+                                   "Scout":  3,
+                                   "Investigator":  3
+                               }
+    },
+    {
+        "classRuleset":  "5.5E",
+        "className":  "Fighter",
         "subclassName":  "Arcane Archer (XGtE)",
         "subclassSourceGroup":  "5e Expanded Rules",
         "spellcasterGrade":  "Spell-less",

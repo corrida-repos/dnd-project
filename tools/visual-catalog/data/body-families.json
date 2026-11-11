@@ -1,0 +1,273 @@
+{
+  "schemaVersion": 1,
+  "note": "Independent review copy for catalog planning and export estimates. The canonical body-family audit belongs to the 2D asset workstream (tools/2d-assets/, absent from this checkout) and is not changed here. A family assignment does not prove exact PNG compatibility.",
+  "baseline": {
+    "description": "Provisional male baseline from the handoff brief (49 species + Custom Lineage).",
+    "families": {
+      "standard-tall": [
+        "Aarakocra",
+        "Aasimar",
+        "Changeling",
+        "Dhampir",
+        "Duskling",
+        "Elf",
+        "Genasi",
+        "Gith",
+        "Gnoll",
+        "Half-Elf",
+        "Harengon",
+        "Hexblood",
+        "Hobgoblin",
+        "Human",
+        "Kalashtar",
+        "Kenku",
+        "Khoravar",
+        "Lizardfolk",
+        "Merfolk",
+        "Reborn",
+        "Ruinbound",
+        "Sahuagin",
+        "Satyr",
+        "Shifter",
+        "Tabaxi",
+        "Tiefling",
+        "Triton",
+        "Yuan-ti"
+      ],
+      "broad": [
+        "Bugbear",
+        "Dragonborn",
+        "Firbolg",
+        "Goliath",
+        "Half-orc",
+        "Minotaur",
+        "Orc",
+        "Warforged"
+      ],
+      "short-broad": [
+        "Dwarf",
+        "Gnome",
+        "Halfling"
+      ],
+      "small-slender": [
+        "Fairy",
+        "Geppettin",
+        "Goblin",
+        "Grung",
+        "Kobold",
+        "Mandrake",
+        "Verdan"
+      ],
+      "shell-bodied": [
+        "Tortle"
+      ],
+      "quadrupedal-humanoid": [
+        "Centaur",
+        "Bariaur"
+      ],
+      "custom-lineage-human-exemplar": [
+        "Custom Lineage"
+      ]
+    }
+  },
+  "artIds": {
+    "Gith": [
+      "githyanki",
+      "githzerai"
+    ],
+    "Half-Elf": [
+      "half-elf"
+    ],
+    "Half-orc": [
+      "half-orc"
+    ],
+    "Yuan-ti": [
+      "yuan-ti"
+    ],
+    "Custom Lineage": [
+      "custom-lineage"
+    ],
+    "Bariaur": []
+  },
+  "componentConcerns": {
+    "description": "Per-component fit concerns observed in the current male and female portraits (frontend/assets/species). They call for component variants (sleeves, footwear, back items, tail openings), not whole duplicate outfits.",
+    "wingArms": [
+      "Aarakocra"
+    ],
+    "separateWings": [
+      "Fairy"
+    ],
+    "noWingsDespiteAvianHead": [
+      "Kenku"
+    ],
+    "tails": [
+      "Dragonborn",
+      "Kobold",
+      "Lizardfolk",
+      "Minotaur",
+      "Sahuagin",
+      "Tabaxi",
+      "Tiefling",
+      "Yuan-ti"
+    ],
+    "hornsOrTallEars": [
+      "Dragonborn",
+      "Minotaur",
+      "Satyr",
+      "Tiefling",
+      "Harengon"
+    ],
+    "shell": [
+      "Tortle"
+    ],
+    "footwear": {
+      "booted-plantigrade": [
+        "Aasimar",
+        "Bugbear",
+        "Changeling",
+        "Custom Lineage",
+        "Dhampir",
+        "Duskling",
+        "Dwarf",
+        "Elf",
+        "Geppettin",
+        "Gith",
+        "Gnome",
+        "Goblin",
+        "Goliath",
+        "Half-Elf",
+        "Half-orc",
+        "Hexblood",
+        "Hobgoblin",
+        "Human",
+        "Kalashtar",
+        "Khoravar",
+        "Orc",
+        "Reborn",
+        "Ruinbound",
+        "Shifter",
+        "Tiefling",
+        "Warforged"
+      ],
+      "bare-plantigrade": [
+        "Firbolg",
+        "Halfling",
+        "Triton",
+        "Verdan",
+        "Yuan-ti",
+        "Tortle"
+      ],
+      "digitigrade-paw-or-claw": [
+        "Gnoll",
+        "Harengon",
+        "Kobold",
+        "Lizardfolk",
+        "Sahuagin",
+        "Tabaxi"
+      ],
+      "talon": [
+        "Aarakocra",
+        "Kenku"
+      ],
+      "webbed-or-amphibian": [
+        "Merfolk",
+        "Grung"
+      ],
+      "root-like": [
+        "Mandrake"
+      ],
+      "hoof": [
+        "Minotaur",
+        "Satyr"
+      ],
+      "quadruped-hoof": [
+        "Centaur",
+        "Bariaur"
+      ],
+      "airborne-pose": [
+        "Fairy"
+      ],
+      "presentation-dependent": {
+        "Genasi": "booted (male) / barefoot (female)",
+        "Dragonborn": "booted (male) / bare clawed feet (female)"
+      }
+    },
+    "baseArtEffects": {
+      "Aasimar": "halo already painted into the portrait",
+      "Kalashtar": "psychic spirit aura already painted into the portrait",
+      "Changeling": "second face/afterimage painted into the portrait"
+    },
+    "baseClothingSilhouette": "Most female portraits wear long skirts; most male portraits wear trousers and boots; Githzerai (male) wears a long robe. Lower-body armor must cover or mask the base skirt; this difference comes from base clothing, not anatomy."
+  },
+  "proposedCorrections": [
+    {
+      "species": "Warforged",
+      "from": "broad",
+      "to": "broad (male) / standard-tall (female)",
+      "evidence": "Female portrait is slender with a narrow waist; male portrait is broad.",
+      "confidence": "high"
+    },
+    {
+      "species": "Gith",
+      "from": "one entry",
+      "to": "two art ids: githyanki, githzerai (both standard-tall)",
+      "evidence": "Separate githyanki/githzerai portraits exist; the male Githzerai wears a floor-length robe.",
+      "confidence": "high"
+    },
+    {
+      "species": "Mandrake",
+      "from": "small-slender",
+      "to": "check against standard-tall",
+      "evidence": "Portraits show long-limbed, adult-proportioned plant figures, not small-bodied proportions.",
+      "confidence": "medium"
+    },
+    {
+      "species": "Goblin",
+      "from": "small-slender",
+      "to": "keep, but test an overlay",
+      "evidence": "Large head and ears, but torso and limb proportions look close to standard in the current art.",
+      "confidence": "low"
+    },
+    {
+      "species": "Fairy",
+      "from": "small-slender",
+      "to": "small-slender plus an airborne-pose flag",
+      "evidence": "Feet off the ground with pointed toes and wings from the back; leg armor and back items need variants.",
+      "confidence": "high"
+    },
+    {
+      "species": "Aarakocra",
+      "from": "standard-tall",
+      "to": "standard-tall plus a wing-arm component variant",
+      "evidence": "The arms are feathered wings with clawed hands; sleeves, gauntlets and grips need a variant.",
+      "confidence": "high"
+    },
+    {
+      "species": "Satyr",
+      "from": "standard-tall",
+      "to": "standard-tall plus hoofed lower legs",
+      "evidence": "Bipedal goat legs with hooves; lower-leg armor and footwear could be shared with Minotaur.",
+      "confidence": "high"
+    },
+    {
+      "species": "Bariaur",
+      "from": "quadrupedal-humanoid",
+      "to": "unchanged; not reviewable here",
+      "evidence": "No Bariaur portraits or catalog entries in this checkout.",
+      "confidence": "n/a"
+    }
+  ],
+  "fitPolicy": {
+    "description": "Assumptions used by the export estimate only.",
+    "cutsPerFamily": {
+      "lower": 1,
+      "upper": 3
+    },
+    "quadrupedBardingVariants": [
+      "equine",
+      "caprine"
+    ],
+    "quadrupedUpperBodySharesWith": "standard-tall",
+    "travelClothesReusesBasePortrait": true
+  }
+}

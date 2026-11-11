@@ -1,0 +1,3612 @@
+{
+  "schemaVersion": 1,
+  "note": "artisticDefaults are artistic choices, not rules. Aliases map renamed/equivalent subclasses onto one visual without merging rules identities.",
+  "recipes": [
+    {
+      "id": "barbarian.berserker",
+      "className": "Barbarian",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.medium-hide",
+        "pose": "pose.two-handed-ready",
+        "props": [
+          "prop.greataxe"
+        ],
+        "accessoryKit": "kit.barbarian",
+        "effects": [
+          "fx.rage-aura"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "notched greataxe",
+        "red rage aura"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "barbarian.wild-heart",
+      "className": "Barbarian",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.medium-hide",
+        "pose": "pose.one-handed-ready",
+        "props": [
+          "prop.battleaxe",
+          "prop.shield-wooden"
+        ],
+        "accessoryKit": "kit.barbarian",
+        "effects": [
+          "fx.ancestral-spirits"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "bear-pelt hood",
+        "feather and claw totems"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "medium",
+      "unresolved": [],
+      "notes": "fx.ancestral-spirits re-tinted would also serve as animal spirits; kept as the same effect to avoid a new design."
+    },
+    {
+      "id": "barbarian.world-tree",
+      "className": "Barbarian",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.medium-hide",
+        "pose": "pose.two-handed-ready",
+        "props": [
+          "prop.maul"
+        ],
+        "accessoryKit": "kit.barbarian",
+        "effects": [
+          "fx.autumn-leaves"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "bark-and-root motifs on hide armor",
+        "golden leaves"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "medium",
+      "unresolved": []
+    },
+    {
+      "id": "barbarian.zealot",
+      "className": "Barbarian",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.medium-hide",
+        "pose": "pose.two-handed-ready",
+        "props": [
+          "prop.greatsword"
+        ],
+        "accessoryKit": "kit.barbarian",
+        "effects": [
+          "fx.radiant-motes"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "prayer scrolls pinned to armor",
+        "divine sigils"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "barbarian.wild-magic",
+      "className": "Barbarian",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.medium-hide",
+        "pose": "pose.one-handed-ready",
+        "props": [
+          "prop.battleaxe",
+          "prop.shield-wooden"
+        ],
+        "accessoryKit": "kit.barbarian",
+        "effects": [
+          "fx.wild-surge"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "multicolour surge motes"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "barbarian.ancestral-guardian",
+      "className": "Barbarian",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.medium-hide",
+        "pose": "pose.one-handed-ready",
+        "props": [
+          "prop.battleaxe",
+          "prop.shield-wooden"
+        ],
+        "accessoryKit": "kit.barbarian",
+        "effects": [
+          "fx.ancestral-spirits"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "spectral ancestor warriors"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "barbarian.battlerager",
+      "className": "Barbarian",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.medium-breastplate",
+        "pose": "pose.one-handed-ready",
+        "props": [
+          "prop.battleaxe"
+        ],
+        "accessoryKit": "kit.barbarian",
+        "effects": [
+          "fx.rage-aura"
+        ],
+        "signatureLayer": "sig.spiked-armor",
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "spiked armor"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "barbarian.beast",
+      "className": "Barbarian",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.medium-hide",
+        "pose": "pose.unarmed-guard",
+        "props": [],
+        "accessoryKit": "kit.barbarian",
+        "effects": [
+          "fx.rage-aura"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": "transform.form-of-the-beast"
+      },
+      "subclassCues": [
+        "natural claws",
+        "feral posture"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "barbarian.storm-herald",
+      "className": "Barbarian",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.medium-hide",
+        "pose": "pose.two-handed-ready",
+        "props": [
+          "prop.greataxe"
+        ],
+        "accessoryKit": "kit.barbarian",
+        "effects": [
+          "fx.storm-arcs"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "storm aura arcs"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "barbarian.muscle-wizard",
+      "className": "Barbarian",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.medium-hide",
+        "pose": "pose.two-handed-ready",
+        "props": [
+          "prop.maul"
+        ],
+        "accessoryKit": "kit.barbarian",
+        "effects": [
+          "fx.arcane-motes"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "arcane sigils on bracers"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "low",
+      "unresolved": [
+        "Third-party subclass rules were not reviewed; visual cues are artistic placeholders, not rules claims."
+      ]
+    },
+    {
+      "id": "bard.dance",
+      "className": "Bard",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.travel-clothes",
+        "pose": "pose.unarmed-guard",
+        "props": [],
+        "accessoryKit": "kit.bard",
+        "effects": [
+          "fx.fey-motes"
+        ],
+        "signatureLayer": "sig.dancer-ribbons",
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "mid-step dance stance",
+        "trailing ribbons"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "medium",
+      "unresolved": []
+    },
+    {
+      "id": "bard.glamour",
+      "className": "Bard",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.travel-clothes",
+        "pose": "pose.instrument-playing",
+        "props": [
+          "prop.lute"
+        ],
+        "accessoryKit": "kit.bard",
+        "effects": [
+          "fx.fey-motes"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "fey-touched finery",
+        "glittering motes"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "bard.lore",
+      "className": "Bard",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.travel-clothes",
+        "pose": "pose.instrument-playing",
+        "props": [
+          "prop.lute"
+        ],
+        "accessoryKit": "kit.bard",
+        "effects": [
+          "fx.arcane-motes"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "book-laden belt",
+        "quill behind ear"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "bard.valor",
+      "className": "Bard",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.medium-breastplate",
+        "pose": "pose.one-handed-ready",
+        "props": [
+          "prop.longsword",
+          "prop.shield-metal"
+        ],
+        "accessoryKit": "kit.bard",
+        "effects": [],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "war horn on belt",
+        "bard sash over armor"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "bard.moon",
+      "className": "Bard",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.travel-clothes",
+        "pose": "pose.instrument-playing",
+        "props": [
+          "prop.flute"
+        ],
+        "accessoryKit": "kit.bard",
+        "effects": [
+          "fx.star-motes"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "moon-phase embroidery",
+        "silver moonlight motes"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "low",
+      "unresolved": [
+        "College of the Moon rules not reviewed; moon imagery is from the name and catalog theme only."
+      ]
+    },
+    {
+      "id": "bard.creation",
+      "className": "Bard",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.travel-clothes",
+        "pose": "pose.instrument-playing",
+        "props": [
+          "prop.lute"
+        ],
+        "accessoryKit": "kit.bard",
+        "effects": [
+          "fx.radiant-motes"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": "creature.dancing-item"
+      },
+      "subclassCues": [
+        "golden 'notes of creation'"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "bard.eloquence",
+      "className": "Bard",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.travel-clothes",
+        "pose": "pose.casting",
+        "props": [
+          "prop.spellbook"
+        ],
+        "accessoryKit": "kit.bard",
+        "effects": [
+          "fx.arcane-motes"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "orator's gesture",
+        "silver-tongue brooch"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "medium",
+      "unresolved": []
+    },
+    {
+      "id": "bard.spirits",
+      "className": "Bard",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.travel-clothes",
+        "pose": "pose.casting",
+        "props": [
+          "prop.crystal"
+        ],
+        "accessoryKit": "kit.bard",
+        "effects": [
+          "fx.grave-pallor"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "tarot cards on belt",
+        "candle-lit spiritual focus"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "bard.swords",
+      "className": "Bard",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.light-leather",
+        "pose": "pose.one-handed-ready",
+        "props": [
+          "prop.scimitar"
+        ],
+        "accessoryKit": "kit.bard",
+        "effects": [],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "flourish stance",
+        "throwing daggers on bandolier"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": [],
+      "notes": "Medium armor is permitted by the subclass; light leather is an artistic choice for the performer silhouette."
+    },
+    {
+      "id": "bard.whispers",
+      "className": "Bard",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.light-leather",
+        "pose": "pose.one-handed-ready",
+        "props": [
+          "prop.dagger"
+        ],
+        "accessoryKit": "kit.bard",
+        "effects": [
+          "fx.psychic-shimmer"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "shadowed half-mask",
+        "dark hood"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "medium",
+      "unresolved": []
+    },
+    {
+      "id": "bard.masks",
+      "className": "Bard",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.travel-clothes",
+        "pose": "pose.instrument-playing",
+        "props": [
+          "prop.lute"
+        ],
+        "accessoryKit": "kit.bard",
+        "effects": [],
+        "signatureLayer": "sig.theatre-mask",
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "theatre mask"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "low",
+      "unresolved": [
+        "Third-party subclass rules were not reviewed; visual cues are artistic placeholders, not rules claims."
+      ]
+    },
+    {
+      "id": "bard.dirge-singer",
+      "className": "Bard",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.travel-clothes",
+        "pose": "pose.instrument-playing",
+        "props": [
+          "prop.flute"
+        ],
+        "accessoryKit": "kit.bard",
+        "effects": [
+          "fx.shadowfell-mist"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "mourning sash"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "low",
+      "unresolved": [
+        "Third-party subclass rules were not reviewed; visual cues are artistic placeholders, not rules claims."
+      ],
+      "notes": "Reuses the Sorrow Knight mourning mist recolor; no new effect design."
+    },
+    {
+      "id": "cleric.life",
+      "className": "Cleric",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.medium-breastplate",
+        "pose": "pose.one-handed-ready",
+        "props": [
+          "prop.mace",
+          "prop.shield-metal"
+        ],
+        "accessoryKit": "kit.cleric",
+        "effects": [
+          "fx.radiant-glow"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "healer's satchel",
+        "warm radiant glow"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": [],
+      "notes": "Medium breastplate is valid for both editions without assuming Protector or the 2014 heavy-armor grant."
+    },
+    {
+      "id": "cleric.light",
+      "className": "Cleric",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.arcane-robes",
+        "pose": "pose.casting",
+        "props": [
+          "prop.holy-symbol"
+        ],
+        "accessoryKit": "kit.cleric",
+        "effects": [
+          "fx.radiant-glow",
+          "fx.radiant-motes"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "sunburst vestments"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": [],
+      "notes": "Aasimar portraits already have a halo; avoid adding a second halo."
+    },
+    {
+      "id": "cleric.trickery",
+      "className": "Cleric",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.light-leather",
+        "pose": "pose.casting",
+        "props": [
+          "prop.dagger",
+          "prop.holy-symbol"
+        ],
+        "accessoryKit": "kit.cleric",
+        "effects": [
+          "fx.illusion-shimmer"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": "transform.duplicate"
+      },
+      "subclassCues": [
+        "trickster-deity mask"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "cleric.war",
+      "className": "Cleric",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.heavy-plate",
+        "pose": "pose.one-handed-ready",
+        "props": [
+          "prop.warhammer",
+          "prop.shield-metal"
+        ],
+        "accessoryKit": "kit.cleric",
+        "effects": [
+          "fx.radiant-glow"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "war-god sigil on shield"
+      ],
+      "ruleAssumptions": [
+        "cleric-divine-order-protector"
+      ],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "cleric.arcana",
+      "className": "Cleric",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.arcane-robes",
+        "pose": "pose.casting",
+        "props": [
+          "prop.holy-symbol",
+          "prop.spellbook"
+        ],
+        "accessoryKit": "kit.cleric",
+        "effects": [
+          "fx.arcane-motes",
+          "fx.runic-glyphs"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "arcane-eye sigil vestments"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "medium",
+      "unresolved": []
+    },
+    {
+      "id": "cleric.knowledge",
+      "className": "Cleric",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.arcane-robes",
+        "pose": "pose.casting",
+        "props": [
+          "prop.holy-symbol",
+          "prop.spellbook"
+        ],
+        "accessoryKit": "kit.cleric",
+        "effects": [
+          "fx.runic-glyphs"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "scroll case",
+        "owl or key sigil"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "medium",
+      "unresolved": []
+    },
+    {
+      "id": "cleric.nature",
+      "className": "Cleric",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.medium-hide",
+        "pose": "pose.one-handed-ready",
+        "props": [
+          "prop.spear",
+          "prop.holy-symbol"
+        ],
+        "accessoryKit": "kit.cleric",
+        "effects": [
+          "fx.nature-leaves"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "antler or leaf holy symbol"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "cleric.tempest",
+      "className": "Cleric",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.heavy-plate",
+        "pose": "pose.one-handed-ready",
+        "props": [
+          "prop.warhammer",
+          "prop.shield-metal"
+        ],
+        "accessoryKit": "kit.cleric",
+        "effects": [
+          "fx.storm-arcs"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "storm-cloud tabard"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "cleric.forge",
+      "className": "Cleric",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.heavy-plate",
+        "pose": "pose.one-handed-ready",
+        "props": [
+          "prop.smith-hammer",
+          "prop.shield-metal"
+        ],
+        "accessoryKit": "kit.cleric",
+        "effects": [
+          "fx.fire-motes"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "anvil sigil",
+        "forge-glow seams"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "cleric.grave",
+      "className": "Cleric",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.medium-breastplate",
+        "pose": "pose.one-handed-ready",
+        "props": [
+          "prop.mace",
+          "prop.holy-symbol"
+        ],
+        "accessoryKit": "kit.cleric",
+        "effects": [
+          "fx.grave-pallor"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "bone-white candles",
+        "grave-dust shroud"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "cleric.order",
+      "className": "Cleric",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.heavy-plate",
+        "pose": "pose.one-handed-ready",
+        "props": [
+          "prop.mace",
+          "prop.shield-metal"
+        ],
+        "accessoryKit": "kit.cleric",
+        "effects": [
+          "fx.runic-glyphs"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "chain of office",
+        "law scroll"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "cleric.peace",
+      "className": "Cleric",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.medium-breastplate",
+        "pose": "pose.casting",
+        "props": [
+          "prop.holy-symbol"
+        ],
+        "accessoryKit": "kit.cleric",
+        "effects": [
+          "fx.radiant-motes"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "linked-hands sigil",
+        "white sash"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "medium",
+      "unresolved": []
+    },
+    {
+      "id": "cleric.twilight",
+      "className": "Cleric",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.heavy-plate",
+        "pose": "pose.one-handed-ready",
+        "props": [
+          "prop.mace",
+          "prop.shield-metal"
+        ],
+        "accessoryKit": "kit.cleric",
+        "effects": [
+          "fx.star-motes"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "dusk-violet cloak",
+        "star-flecked shield"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "cleric.dragon",
+      "className": "Cleric",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.medium-breastplate",
+        "pose": "pose.one-handed-ready",
+        "props": [
+          "prop.mace",
+          "prop.holy-symbol"
+        ],
+        "accessoryKit": "kit.cleric",
+        "effects": [
+          "fx.fire-motes"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "dragon-scale holy symbol"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "low",
+      "unresolved": [
+        "Third-party subclass rules were not reviewed; visual cues are artistic placeholders, not rules claims."
+      ]
+    },
+    {
+      "id": "cleric.mind",
+      "className": "Cleric",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.arcane-robes",
+        "pose": "pose.casting",
+        "props": [
+          "prop.holy-symbol"
+        ],
+        "accessoryKit": "kit.cleric",
+        "effects": [
+          "fx.psychic-shimmer"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "third-eye circlet"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "low",
+      "unresolved": [
+        "Third-party subclass rules were not reviewed; visual cues are artistic placeholders, not rules claims."
+      ],
+      "notes": "Kalashtar portraits already include a psychic spirit aura; check layering."
+    },
+    {
+      "id": "druid.land",
+      "className": "Druid",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.light-leather",
+        "pose": "pose.casting",
+        "props": [
+          "prop.druidic-staff"
+        ],
+        "accessoryKit": "kit.druid",
+        "effects": [
+          "fx.nature-leaves"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "temperate-forest token (representative land type)"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "druid.moon",
+      "className": "Druid",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.medium-hide",
+        "pose": "pose.casting",
+        "props": [
+          "prop.druidic-staff"
+        ],
+        "accessoryKit": "kit.druid",
+        "effects": [],
+        "signatureLayer": null,
+        "companionOrTransformation": "creature.brown-bear"
+      },
+      "subclassCues": [
+        "moon-phase fetish"
+      ],
+      "ruleAssumptions": [
+        "druid-primal-order-warden"
+      ],
+      "confidence": "high",
+      "unresolved": [],
+      "notes": "Transformed view is a separate image; the normal species view stays available."
+    },
+    {
+      "id": "druid.sea",
+      "className": "Druid",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.light-leather",
+        "pose": "pose.casting",
+        "props": [
+          "prop.druidic-staff"
+        ],
+        "accessoryKit": "kit.druid",
+        "effects": [
+          "fx.water-swirl"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "driftwood staff",
+        "shell charms"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "medium",
+      "unresolved": []
+    },
+    {
+      "id": "druid.stars",
+      "className": "Druid",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.light-leather",
+        "pose": "pose.casting",
+        "props": [
+          "prop.star-map"
+        ],
+        "accessoryKit": "kit.druid",
+        "effects": [
+          "fx.star-motes"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": "transform.starry-form"
+      },
+      "subclassCues": [
+        "star chart"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "druid.dreams",
+      "className": "Druid",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.travel-clothes",
+        "pose": "pose.casting",
+        "props": [
+          "prop.druidic-staff"
+        ],
+        "accessoryKit": "kit.druid",
+        "effects": [
+          "fx.fey-motes"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "moonflower circlet"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "medium",
+      "unresolved": []
+    },
+    {
+      "id": "druid.spores",
+      "className": "Druid",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.medium-hide",
+        "pose": "pose.casting",
+        "props": [
+          "prop.druidic-staff"
+        ],
+        "accessoryKit": "kit.druid",
+        "effects": [
+          "fx.spore-cloud"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": "transform.symbiotic-entity"
+      },
+      "subclassCues": [
+        "fungal growths"
+      ],
+      "ruleAssumptions": [
+        "druid-primal-order-warden"
+      ],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "druid.wildfire",
+      "className": "Druid",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.light-leather",
+        "pose": "pose.casting",
+        "props": [
+          "prop.druidic-staff"
+        ],
+        "accessoryKit": "kit.druid",
+        "effects": [
+          "fx.fire-motes"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": "creature.wildfire-spirit"
+      },
+      "subclassCues": [
+        "charred staff tip"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "druid.shepherd",
+      "className": "Druid",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.medium-hide",
+        "pose": "pose.casting",
+        "props": [
+          "prop.druidic-staff"
+        ],
+        "accessoryKit": "kit.druid",
+        "effects": [],
+        "signatureLayer": null,
+        "companionOrTransformation": "creature.spirit-totem-bear"
+      },
+      "subclassCues": [
+        "animal-bone charms"
+      ],
+      "ruleAssumptions": [
+        "druid-primal-order-warden"
+      ],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "druid.city",
+      "className": "Druid",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.travel-clothes",
+        "pose": "pose.casting",
+        "props": [
+          "prop.druidic-staff"
+        ],
+        "accessoryKit": "kit.druid",
+        "effects": [
+          "fx.nature-leaves"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "cobblestone-and-ivy charms"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "low",
+      "unresolved": [
+        "Third-party subclass rules were not reviewed; visual cues are artistic placeholders, not rules claims."
+      ]
+    },
+    {
+      "id": "druid.forged",
+      "className": "Druid",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.light-leather",
+        "pose": "pose.casting",
+        "props": [
+          "prop.druidic-staff"
+        ],
+        "accessoryKit": "kit.druid",
+        "effects": [
+          "fx.clockwork-gears"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "metal filigree on staff"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "low",
+      "unresolved": [
+        "Third-party subclass rules were not reviewed; visual cues are artistic placeholders, not rules claims."
+      ]
+    },
+    {
+      "id": "fighter.battle-master",
+      "className": "Fighter",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.medium-breastplate",
+        "pose": "pose.one-handed-ready",
+        "props": [
+          "prop.longsword",
+          "prop.shield-metal"
+        ],
+        "accessoryKit": "kit.fighter",
+        "effects": [],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "tactician's sash",
+        "signal horn"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "fighter.champion",
+      "className": "Fighter",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.heavy-plate",
+        "pose": "pose.two-handed-ready",
+        "props": [
+          "prop.greatsword"
+        ],
+        "accessoryKit": "kit.fighter",
+        "effects": [],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "polished plate",
+        "victory laurel crest"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "fighter.eldritch-knight",
+      "className": "Fighter",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.heavy-plate",
+        "pose": "pose.one-handed-ready",
+        "props": [
+          "prop.longsword",
+          "prop.wand"
+        ],
+        "accessoryKit": "kit.fighter",
+        "effects": [
+          "fx.weapon-arcane",
+          "fx.arcane-motes"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "bonded-weapon glow"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "fighter.psi-warrior",
+      "className": "Fighter",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.medium-breastplate",
+        "pose": "pose.one-handed-ready",
+        "props": [
+          "prop.longsword"
+        ],
+        "accessoryKit": "kit.fighter",
+        "effects": [
+          "fx.psychic-shimmer"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "psionic glow around head and blade"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "fighter.arcane-archer",
+      "className": "Fighter",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.light-leather",
+        "pose": "pose.bow-aiming",
+        "props": [
+          "prop.longbow"
+        ],
+        "accessoryKit": "kit.fighter",
+        "effects": [
+          "fx.weapon-arcane"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "glowing arcane arrow"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "fighter.banneret",
+      "className": "Fighter",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.heavy-plate",
+        "pose": "pose.one-handed-ready",
+        "props": [
+          "prop.longsword",
+          "prop.shield-metal"
+        ],
+        "accessoryKit": "kit.fighter",
+        "effects": [],
+        "signatureLayer": "sig.heraldic-banner-back",
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "back banner",
+        "heraldic tabard"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "medium",
+      "unresolved": [],
+      "notes": "Purple Dragon Knight uses the same layer with a deterministic heraldry recolor."
+    },
+    {
+      "id": "fighter.cavalier",
+      "className": "Fighter",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.heavy-plate",
+        "pose": "pose.one-handed-ready",
+        "props": [
+          "prop.spear",
+          "prop.shield-metal"
+        ],
+        "accessoryKit": "kit.fighter",
+        "effects": [],
+        "signatureLayer": null,
+        "companionOrTransformation": "creature.warhorse"
+      },
+      "subclassCues": [
+        "riding spurs",
+        "lance pennant"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "medium",
+      "unresolved": [],
+      "notes": "Mount is optional, standing alongside; never a riding pose."
+    },
+    {
+      "id": "fighter.rune-knight",
+      "className": "Fighter",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.heavy-plate",
+        "pose": "pose.two-handed-ready",
+        "props": [
+          "prop.greatsword"
+        ],
+        "accessoryKit": "kit.fighter",
+        "effects": [
+          "fx.runic-glyphs"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": "transform.giants-might"
+      },
+      "subclassCues": [
+        "carved giant runes"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "fighter.samurai",
+      "className": "Fighter",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.medium-breastplate",
+        "pose": "pose.one-handed-ready",
+        "props": [
+          "prop.curved-sword"
+        ],
+        "accessoryKit": "kit.fighter",
+        "effects": [],
+        "signatureLayer": "sig.lamellar-guards",
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "lamellar guards",
+        "calm resolve stance"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "medium",
+      "unresolved": []
+    },
+    {
+      "id": "fighter.gunslinger",
+      "className": "Fighter",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.light-leather",
+        "pose": "pose.one-handed-ready",
+        "props": [
+          "prop.pistol"
+        ],
+        "accessoryKit": "kit.gunslinger",
+        "effects": [],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "powder horn",
+        "long coat tails"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "medium",
+      "unresolved": [],
+      "notes": "Shares the Gunslinger class kit."
+    },
+    {
+      "id": "fighter.dungeoneer",
+      "className": "Fighter",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.light-leather",
+        "pose": "pose.one-handed-ready",
+        "props": [
+          "prop.battleaxe",
+          "prop.lantern"
+        ],
+        "accessoryKit": "kit.fighter",
+        "effects": [],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "miner's lantern",
+        "rope coil"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "low",
+      "unresolved": [
+        "Third-party subclass rules were not reviewed; visual cues are artistic placeholders, not rules claims."
+      ]
+    },
+    {
+      "id": "fighter.sorrow-knight",
+      "className": "Fighter",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.heavy-plate",
+        "pose": "pose.two-handed-ready",
+        "props": [
+          "prop.greatsword"
+        ],
+        "accessoryKit": "kit.fighter",
+        "effects": [
+          "fx.shadowfell-mist"
+        ],
+        "signatureLayer": "sig.sorrow-knight-shroud",
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "ash-grey mourning shroud over plate",
+        "tear-streak pauldron sigil",
+        "drifting Shadowfell mist"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "medium",
+      "unresolved": [
+        "Official subclass text not reviewed (D&D Beyond blocked from this session; subscriber content).",
+        "Secondary sources disagree on the Despairing Strike die progression.",
+        "Optional future: a level-7 teleport afterimage could reuse fx.shadowfell-mist as a composition; not required."
+      ],
+      "notes": "Reuses Champion's heavy plate and greatsword; only the shroud layer is new art. Mist is a recolor of fxbase.wisps."
+    },
+    {
+      "id": "monk.mercy",
+      "className": "Monk",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.monastic-wraps",
+        "pose": "pose.unarmed-guard",
+        "props": [],
+        "accessoryKit": "kit.monk",
+        "effects": [
+          "fx.radiant-glow",
+          "fx.necrotic-wisps"
+        ],
+        "signatureLayer": "sig.plague-mask",
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "mercy mask",
+        "healer's pouch"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "monk.shadow",
+      "className": "Monk",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.monastic-wraps",
+        "pose": "pose.unarmed-guard",
+        "props": [],
+        "accessoryKit": "kit.monk",
+        "effects": [
+          "fx.shadow-wisps"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "dark hood",
+        "shadow step wisps"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "monk.elements",
+      "className": "Monk",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.monastic-wraps",
+        "pose": "pose.unarmed-guard",
+        "props": [],
+        "accessoryKit": "kit.monk",
+        "effects": [
+          "fx.fire-motes"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "elemental swirl (fire representative)"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "monk.open-hand",
+      "className": "Monk",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.monastic-wraps",
+        "pose": "pose.unarmed-guard",
+        "props": [],
+        "accessoryKit": "kit.monk",
+        "effects": [
+          "fx.ki-glow"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "focused palm strike"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "monk.mystic-arts",
+      "className": "Monk",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.monastic-wraps",
+        "pose": "pose.unarmed-guard",
+        "props": [],
+        "accessoryKit": "kit.monk",
+        "effects": [
+          "fx.arcane-motes"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "arcane sigils on wraps"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "low",
+      "unresolved": [
+        "Arcana Unleashed contents not reviewed; visual cues follow the shared class recipe."
+      ]
+    },
+    {
+      "id": "monk.astral-self",
+      "className": "Monk",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.monastic-wraps",
+        "pose": "pose.unarmed-guard",
+        "props": [],
+        "accessoryKit": "kit.monk",
+        "effects": [
+          "fx.psychic-shimmer"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": "transform.astral-arms"
+      },
+      "subclassCues": [
+        "spectral arms"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "monk.drunken-master",
+      "className": "Monk",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.monastic-wraps",
+        "pose": "pose.unarmed-guard",
+        "props": [],
+        "accessoryKit": "kit.monk",
+        "effects": [],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "drinking gourd on belt",
+        "swaying stance"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "monk.kensei",
+      "className": "Monk",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.monastic-wraps",
+        "pose": "pose.one-handed-ready",
+        "props": [
+          "prop.curved-sword"
+        ],
+        "accessoryKit": "kit.monk",
+        "effects": [],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "calligraphy brush",
+        "kensei weapon"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": [],
+      "notes": "Kensei weapons do not lift Monk armor/shield restrictions."
+    },
+    {
+      "id": "monk.long-death",
+      "className": "Monk",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.monastic-wraps",
+        "pose": "pose.unarmed-guard",
+        "props": [],
+        "accessoryKit": "kit.monk",
+        "effects": [
+          "fx.necrotic-wisps"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "skull prayer beads"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "monk.sun-soul",
+      "className": "Monk",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.monastic-wraps",
+        "pose": "pose.unarmed-guard",
+        "props": [],
+        "accessoryKit": "kit.monk",
+        "effects": [
+          "fx.radiant-glow"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "radiant sun bolt"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "monk.cobalt-soul",
+      "className": "Monk",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.monastic-wraps",
+        "pose": "pose.unarmed-guard",
+        "props": [],
+        "accessoryKit": "kit.monk",
+        "effects": [
+          "fx.arcane-motes"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "cobalt-blue sash",
+        "scroll satchel"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "medium",
+      "unresolved": []
+    },
+    {
+      "id": "monk.street",
+      "className": "Monk",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.monastic-wraps",
+        "pose": "pose.unarmed-guard",
+        "props": [],
+        "accessoryKit": "kit.monk",
+        "effects": [],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "taped knuckles",
+        "street-worn wraps"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "low",
+      "unresolved": [
+        "Third-party subclass rules were not reviewed; visual cues are artistic placeholders, not rules claims."
+      ]
+    },
+    {
+      "id": "monk.living-weapon",
+      "className": "Monk",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.monastic-wraps",
+        "pose": "pose.unarmed-guard",
+        "props": [],
+        "accessoryKit": "kit.monk",
+        "effects": [
+          "fx.ki-glow"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "weapon-like stance"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "low",
+      "unresolved": [
+        "Third-party subclass rules were not reviewed; visual cues are artistic placeholders, not rules claims."
+      ]
+    },
+    {
+      "id": "paladin.devotion",
+      "className": "Paladin",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.heavy-plate",
+        "pose": "pose.one-handed-ready",
+        "props": [
+          "prop.longsword",
+          "prop.shield-metal"
+        ],
+        "accessoryKit": "kit.paladin",
+        "effects": [
+          "fx.radiant-glow"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "white tabard",
+        "sacred weapon glow"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "paladin.glory",
+      "className": "Paladin",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.medium-breastplate",
+        "pose": "pose.one-handed-ready",
+        "props": [
+          "prop.spear",
+          "prop.shield-metal"
+        ],
+        "accessoryKit": "kit.paladin",
+        "effects": [
+          "fx.radiant-motes"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "laurel crest",
+        "athletic stance"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "medium",
+      "unresolved": []
+    },
+    {
+      "id": "paladin.vengeance",
+      "className": "Paladin",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.heavy-plate",
+        "pose": "pose.two-handed-ready",
+        "props": [
+          "prop.greatsword"
+        ],
+        "accessoryKit": "kit.paladin",
+        "effects": [
+          "fx.rage-aura"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "black hood over plate"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "medium",
+      "unresolved": []
+    },
+    {
+      "id": "paladin.ancients",
+      "className": "Paladin",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.heavy-plate",
+        "pose": "pose.one-handed-ready",
+        "props": [
+          "prop.longsword",
+          "prop.shield-wooden"
+        ],
+        "accessoryKit": "kit.paladin",
+        "effects": [
+          "fx.nature-leaves"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "vine-wreathed armor"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "paladin.noble-genies",
+      "className": "Paladin",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.medium-breastplate",
+        "pose": "pose.one-handed-ready",
+        "props": [
+          "prop.scimitar",
+          "prop.shield-metal"
+        ],
+        "accessoryKit": "kit.paladin",
+        "effects": [
+          "fx.wind-motes"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "elemental silk sash (air representative)"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "low",
+      "unresolved": [
+        "Oath of the Noble Genies rules not reviewed; genie kind is a representative artistic choice."
+      ]
+    },
+    {
+      "id": "paladin.conquest",
+      "className": "Paladin",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.heavy-plate",
+        "pose": "pose.two-handed-ready",
+        "props": [
+          "prop.glaive"
+        ],
+        "accessoryKit": "kit.paladin",
+        "effects": [
+          "fx.dread-aura"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "spiked pauldrons",
+        "chains"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "paladin.redemption",
+      "className": "Paladin",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.heavy-plate",
+        "pose": "pose.one-handed-ready",
+        "props": [
+          "prop.mace",
+          "prop.shield-metal"
+        ],
+        "accessoryKit": "kit.paladin",
+        "effects": [
+          "fx.radiant-motes"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "open-palm sigil"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "medium",
+      "unresolved": []
+    },
+    {
+      "id": "paladin.crown",
+      "className": "Paladin",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.heavy-plate",
+        "pose": "pose.one-handed-ready",
+        "props": [
+          "prop.longsword",
+          "prop.shield-metal"
+        ],
+        "accessoryKit": "kit.paladin",
+        "effects": [],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "crown sigil",
+        "civic tabard"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "medium",
+      "unresolved": []
+    },
+    {
+      "id": "paladin.watchers",
+      "className": "Paladin",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.heavy-plate",
+        "pose": "pose.one-handed-ready",
+        "props": [
+          "prop.longsword",
+          "prop.lantern"
+        ],
+        "accessoryKit": "kit.paladin",
+        "effects": [
+          "fx.arcane-ward"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "watchful-eye sigil"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "medium",
+      "unresolved": []
+    },
+    {
+      "id": "paladin.open-sea",
+      "className": "Paladin",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.medium-breastplate",
+        "pose": "pose.one-handed-ready",
+        "props": [
+          "prop.scimitar",
+          "prop.shield-wooden"
+        ],
+        "accessoryKit": "kit.paladin",
+        "effects": [
+          "fx.water-swirl"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "sea-blue sash",
+        "rope knots"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "medium",
+      "unresolved": []
+    },
+    {
+      "id": "paladin.revelry",
+      "className": "Paladin",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.medium-breastplate",
+        "pose": "pose.one-handed-ready",
+        "props": [
+          "prop.mace",
+          "prop.shield-wooden"
+        ],
+        "accessoryKit": "kit.paladin",
+        "effects": [],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "drinking horn",
+        "festive ribbons"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "low",
+      "unresolved": [
+        "Third-party subclass rules were not reviewed; visual cues are artistic placeholders, not rules claims."
+      ]
+    },
+    {
+      "id": "ranger.beast-master",
+      "className": "Ranger",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.light-leather",
+        "pose": "pose.bow-aiming",
+        "props": [
+          "prop.longbow"
+        ],
+        "accessoryKit": "kit.ranger",
+        "effects": [],
+        "signatureLayer": null,
+        "companionOrTransformation": "creature.primal-beast"
+      },
+      "subclassCues": [
+        "beast-claw charms"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "ranger.fey-wanderer",
+      "className": "Ranger",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.light-leather",
+        "pose": "pose.bow-aiming",
+        "props": [
+          "prop.longbow"
+        ],
+        "accessoryKit": "kit.ranger",
+        "effects": [
+          "fx.fey-motes"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "fey flower token",
+        "otherworldly glamour"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "ranger.gloom-stalker",
+      "className": "Ranger",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.light-leather",
+        "pose": "pose.bow-aiming",
+        "props": [
+          "prop.longbow"
+        ],
+        "accessoryKit": "kit.ranger",
+        "effects": [
+          "fx.shadow-wisps"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "dark cowl"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "ranger.hunter",
+      "className": "Ranger",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.medium-breastplate",
+        "pose": "pose.bow-aiming",
+        "props": [
+          "prop.longbow"
+        ],
+        "accessoryKit": "kit.ranger",
+        "effects": [],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "hunting trophies"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": [],
+      "notes": "Shares the breastplate with Artificer recipes; identity from bow and ranger kit."
+    },
+    {
+      "id": "ranger.winter-walker",
+      "className": "Ranger",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.medium-hide",
+        "pose": "pose.one-handed-ready",
+        "props": [
+          "prop.spear"
+        ],
+        "accessoryKit": "kit.ranger",
+        "effects": [
+          "fx.frost-rime"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "fur-lined hood",
+        "frost rime"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "low",
+      "unresolved": [
+        "Winter Walker rules not reviewed; cold theme assumed from catalog listing."
+      ]
+    },
+    {
+      "id": "ranger.horizon-walker",
+      "className": "Ranger",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.light-leather",
+        "pose": "pose.one-handed-ready",
+        "props": [
+          "prop.longsword"
+        ],
+        "accessoryKit": "kit.ranger",
+        "effects": [
+          "fx.arcane-motes"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "planar compass"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "medium",
+      "unresolved": []
+    },
+    {
+      "id": "ranger.monster-slayer",
+      "className": "Ranger",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.medium-breastplate",
+        "pose": "pose.bow-aiming",
+        "props": [
+          "prop.heavy-crossbow"
+        ],
+        "accessoryKit": "kit.ranger",
+        "effects": [],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "stakes and silvered bolts"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "medium",
+      "unresolved": []
+    },
+    {
+      "id": "ranger.swarmkeeper",
+      "className": "Ranger",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.light-leather",
+        "pose": "pose.bow-aiming",
+        "props": [
+          "prop.shortbow"
+        ],
+        "accessoryKit": "kit.ranger",
+        "effects": [
+          "fx.swarm"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "swirling swarm"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "ranger.beastborne",
+      "className": "Ranger",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.light-leather",
+        "pose": "pose.bow-aiming",
+        "props": [
+          "prop.longbow"
+        ],
+        "accessoryKit": "kit.ranger",
+        "effects": [],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "beast-hide trim"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "low",
+      "unresolved": [
+        "Third-party subclass rules were not reviewed; visual cues are artistic placeholders, not rules claims.",
+        "Whether Beastborne involves a transformation is unknown; none assumed."
+      ]
+    },
+    {
+      "id": "rogue.arcane-trickster",
+      "className": "Rogue",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.light-leather",
+        "pose": "pose.casting",
+        "props": [
+          "prop.dagger"
+        ],
+        "accessoryKit": "kit.rogue",
+        "effects": [
+          "fx.mage-hand"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "spectral mage hand"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "rogue.assassin",
+      "className": "Rogue",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.light-leather",
+        "pose": "pose.one-handed-ready",
+        "props": [
+          "prop.dagger"
+        ],
+        "accessoryKit": "kit.rogue",
+        "effects": [],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "poison vials",
+        "face cowl"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "rogue.soulknife",
+      "className": "Rogue",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.light-leather",
+        "pose": "pose.one-handed-ready",
+        "props": [
+          "prop.psychic-blade"
+        ],
+        "accessoryKit": "kit.rogue",
+        "effects": [
+          "fx.psychic-shimmer"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "psychic blade"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "rogue.thief",
+      "className": "Rogue",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.light-leather",
+        "pose": "pose.one-handed-ready",
+        "props": [
+          "prop.shortsword"
+        ],
+        "accessoryKit": "kit.rogue",
+        "effects": [],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "lockpicks",
+        "loot sack"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "rogue.scion-of-the-three",
+      "className": "Rogue",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.light-leather",
+        "pose": "pose.one-handed-ready",
+        "props": [
+          "prop.dagger"
+        ],
+        "accessoryKit": "kit.rogue",
+        "effects": [
+          "fx.dread-aura"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "sigil of the Dead Three"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "low",
+      "unresolved": [
+        "Scion of the Three rules not reviewed."
+      ]
+    },
+    {
+      "id": "rogue.inquisitive",
+      "className": "Rogue",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.light-leather",
+        "pose": "pose.one-handed-ready",
+        "props": [
+          "prop.rapier"
+        ],
+        "accessoryKit": "kit.rogue",
+        "effects": [],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "magnifying lens",
+        "notebook"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "medium",
+      "unresolved": []
+    },
+    {
+      "id": "rogue.mastermind",
+      "className": "Rogue",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.travel-clothes",
+        "pose": "pose.one-handed-ready",
+        "props": [
+          "prop.rapier"
+        ],
+        "accessoryKit": "kit.rogue",
+        "effects": [],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "signet ring",
+        "forged papers"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "medium",
+      "unresolved": []
+    },
+    {
+      "id": "rogue.phantom",
+      "className": "Rogue",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.light-leather",
+        "pose": "pose.one-handed-ready",
+        "props": [
+          "prop.dagger"
+        ],
+        "accessoryKit": "kit.rogue",
+        "effects": [
+          "fx.grave-pallor"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "soul trinkets"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "rogue.scout",
+      "className": "Rogue",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.light-leather",
+        "pose": "pose.bow-aiming",
+        "props": [
+          "prop.shortbow"
+        ],
+        "accessoryKit": "kit.rogue",
+        "effects": [],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "camouflage cloak"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "rogue.swashbuckler",
+      "className": "Rogue",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.travel-clothes",
+        "pose": "pose.one-handed-ready",
+        "props": [
+          "prop.rapier"
+        ],
+        "accessoryKit": "kit.rogue",
+        "effects": [],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "feathered hat",
+        "open-collar flourish"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "rogue.arachnoid-stalker",
+      "className": "Rogue",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.light-leather",
+        "pose": "pose.one-handed-ready",
+        "props": [
+          "prop.dagger"
+        ],
+        "accessoryKit": "kit.rogue",
+        "effects": [],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "spider-silk motifs"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "low",
+      "unresolved": [
+        "Third-party subclass rules were not reviewed; visual cues are artistic placeholders, not rules claims."
+      ]
+    },
+    {
+      "id": "sorcerer.aberrant",
+      "className": "Sorcerer",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.travel-clothes",
+        "pose": "pose.casting",
+        "props": [
+          "prop.crystal"
+        ],
+        "accessoryKit": "kit.sorcerer",
+        "effects": [
+          "fx.psychic-shimmer"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "tentacle-motif jewelry"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "sorcerer.clockwork",
+      "className": "Sorcerer",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.travel-clothes",
+        "pose": "pose.casting",
+        "props": [
+          "prop.crystal"
+        ],
+        "accessoryKit": "kit.sorcerer",
+        "effects": [
+          "fx.clockwork-gears"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "brass gear jewelry"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "sorcerer.draconic",
+      "className": "Sorcerer",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.travel-clothes",
+        "pose": "pose.casting",
+        "props": [
+          "prop.crystal"
+        ],
+        "accessoryKit": "kit.sorcerer",
+        "effects": [
+          "fx.draconic-scales",
+          "fx.fire-motes"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "scale patches (red ancestry representative)"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": [],
+      "notes": "Scale overlay should be skipped or adapted on already-scaled species (Dragonborn, Kobold, Lizardfolk)."
+    },
+    {
+      "id": "sorcerer.wild-magic",
+      "className": "Sorcerer",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.travel-clothes",
+        "pose": "pose.casting",
+        "props": [
+          "prop.crystal"
+        ],
+        "accessoryKit": "kit.sorcerer",
+        "effects": [
+          "fx.wild-surge"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "chaotic surge motes"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "sorcerer.spellfire",
+      "className": "Sorcerer",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.travel-clothes",
+        "pose": "pose.casting",
+        "props": [
+          "prop.crystal"
+        ],
+        "accessoryKit": "kit.sorcerer",
+        "effects": [
+          "fx.spellfire"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "white-gold flame in hand"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "low",
+      "unresolved": [
+        "Spellfire Sorcery rules not reviewed."
+      ]
+    },
+    {
+      "id": "sorcerer.divine-soul",
+      "className": "Sorcerer",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.travel-clothes",
+        "pose": "pose.casting",
+        "props": [
+          "prop.crystal"
+        ],
+        "accessoryKit": "kit.sorcerer",
+        "effects": [
+          "fx.radiant-glow"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "celestial jewelry"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "sorcerer.shadow",
+      "className": "Sorcerer",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.travel-clothes",
+        "pose": "pose.casting",
+        "props": [
+          "prop.crystal"
+        ],
+        "accessoryKit": "kit.sorcerer",
+        "effects": [
+          "fx.shadow-wisps"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": "creature.hound-of-ill-omen"
+      },
+      "subclassCues": [
+        "shadowed eyes"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "sorcerer.storm",
+      "className": "Sorcerer",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.travel-clothes",
+        "pose": "pose.casting",
+        "props": [
+          "prop.crystal"
+        ],
+        "accessoryKit": "kit.sorcerer",
+        "effects": [
+          "fx.storm-arcs"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "windswept cloak"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "sorcerer.heroic",
+      "className": "Sorcerer",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.travel-clothes",
+        "pose": "pose.casting",
+        "props": [
+          "prop.crystal"
+        ],
+        "accessoryKit": "kit.sorcerer",
+        "effects": [
+          "fx.radiant-motes"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "heroic cape"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "low",
+      "unresolved": [
+        "Third-party subclass rules were not reviewed; visual cues are artistic placeholders, not rules claims."
+      ]
+    },
+    {
+      "id": "warlock.archfey",
+      "className": "Warlock",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.light-leather",
+        "pose": "pose.casting",
+        "props": [
+          "prop.spellbook"
+        ],
+        "accessoryKit": "kit.warlock",
+        "effects": [
+          "fx.fey-motes"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "fey-thorn crown"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "warlock.celestial",
+      "className": "Warlock",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.light-leather",
+        "pose": "pose.casting",
+        "props": [
+          "prop.spellbook"
+        ],
+        "accessoryKit": "kit.warlock",
+        "effects": [
+          "fx.radiant-glow"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "celestial feather charm"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "warlock.fiend",
+      "className": "Warlock",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.light-leather",
+        "pose": "pose.casting",
+        "props": [
+          "prop.spellbook"
+        ],
+        "accessoryKit": "kit.warlock",
+        "effects": [
+          "fx.fire-motes"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "infernal contract scroll"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "warlock.great-old-one",
+      "className": "Warlock",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.light-leather",
+        "pose": "pose.casting",
+        "props": [
+          "prop.spellbook"
+        ],
+        "accessoryKit": "kit.warlock",
+        "effects": [
+          "fx.psychic-shimmer"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "eldritch eye sigils"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "warlock.vestige",
+      "className": "Warlock",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.light-leather",
+        "pose": "pose.casting",
+        "props": [
+          "prop.spellbook"
+        ],
+        "accessoryKit": "kit.warlock",
+        "effects": [
+          "fx.grave-pallor"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "faded relic"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "low",
+      "unresolved": [
+        "Arcana Unleashed contents not reviewed; visual cues follow the shared class recipe."
+      ]
+    },
+    {
+      "id": "warlock.fathomless",
+      "className": "Warlock",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.light-leather",
+        "pose": "pose.casting",
+        "props": [
+          "prop.spellbook"
+        ],
+        "accessoryKit": "kit.warlock",
+        "effects": [
+          "fx.water-swirl"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": "creature.spectral-tentacle"
+      },
+      "subclassCues": [
+        "barnacled talisman"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "warlock.genie",
+      "className": "Warlock",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.light-leather",
+        "pose": "pose.casting",
+        "props": [
+          "prop.genie-vessel"
+        ],
+        "accessoryKit": "kit.warlock",
+        "effects": [
+          "fx.wind-motes"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "genie's vessel"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "warlock.hexblade",
+      "className": "Warlock",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.medium-breastplate",
+        "pose": "pose.one-handed-ready",
+        "props": [
+          "prop.longsword"
+        ],
+        "accessoryKit": "kit.warlock",
+        "effects": [
+          "fx.shadow-wisps"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "sentient-blade eye"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "warlock.undead",
+      "className": "Warlock",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.light-leather",
+        "pose": "pose.casting",
+        "props": [
+          "prop.spellbook"
+        ],
+        "accessoryKit": "kit.warlock",
+        "effects": [
+          "fx.necrotic-wisps"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": "transform.form-of-dread"
+      },
+      "subclassCues": [
+        "grave-mould cloak"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "warlock.undying",
+      "className": "Warlock",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.light-leather",
+        "pose": "pose.casting",
+        "props": [
+          "prop.spellbook"
+        ],
+        "accessoryKit": "kit.warlock",
+        "effects": [
+          "fx.grave-pallor"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "bone charms"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "medium",
+      "unresolved": []
+    },
+    {
+      "id": "warlock.future-you",
+      "className": "Warlock",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.light-leather",
+        "pose": "pose.casting",
+        "props": [
+          "prop.spellbook"
+        ],
+        "accessoryKit": "kit.warlock",
+        "effects": [
+          "fx.clockwork-gears"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "hourglass talisman"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "low",
+      "unresolved": [
+        "Third-party subclass rules were not reviewed; visual cues are artistic placeholders, not rules claims."
+      ]
+    },
+    {
+      "id": "wizard.abjuration",
+      "className": "Wizard",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.arcane-robes",
+        "pose": "pose.casting",
+        "props": [
+          "prop.arcane-staff"
+        ],
+        "accessoryKit": "kit.wizard",
+        "effects": [
+          "fx.arcane-ward"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "warding sigils"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "medium",
+      "unresolved": []
+    },
+    {
+      "id": "wizard.divination",
+      "className": "Wizard",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.arcane-robes",
+        "pose": "pose.casting",
+        "props": [
+          "prop.crystal"
+        ],
+        "accessoryKit": "kit.wizard",
+        "effects": [
+          "fx.star-motes"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "scrying crystal"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "medium",
+      "unresolved": []
+    },
+    {
+      "id": "wizard.evocation",
+      "className": "Wizard",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.arcane-robes",
+        "pose": "pose.casting",
+        "props": [
+          "prop.wand"
+        ],
+        "accessoryKit": "kit.wizard",
+        "effects": [
+          "fx.fire-motes"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "evocation sparks"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "medium",
+      "unresolved": []
+    },
+    {
+      "id": "wizard.illusion",
+      "className": "Wizard",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.arcane-robes",
+        "pose": "pose.casting",
+        "props": [
+          "prop.arcane-staff"
+        ],
+        "accessoryKit": "kit.wizard",
+        "effects": [
+          "fx.illusion-shimmer"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "shifting mirage"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "medium",
+      "unresolved": []
+    },
+    {
+      "id": "wizard.conjuration",
+      "className": "Wizard",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.arcane-robes",
+        "pose": "pose.casting",
+        "props": [
+          "prop.arcane-staff"
+        ],
+        "accessoryKit": "kit.wizard",
+        "effects": [
+          "fx.arcane-motes"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "summoning circle sigils"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "medium",
+      "unresolved": []
+    },
+    {
+      "id": "wizard.enchantment",
+      "className": "Wizard",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.arcane-robes",
+        "pose": "pose.casting",
+        "props": [
+          "prop.wand"
+        ],
+        "accessoryKit": "kit.wizard",
+        "effects": [
+          "fx.charm-motes"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "hypnotic charm"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "medium",
+      "unresolved": []
+    },
+    {
+      "id": "wizard.necromancy",
+      "className": "Wizard",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.arcane-robes",
+        "pose": "pose.casting",
+        "props": [
+          "prop.arcane-staff"
+        ],
+        "accessoryKit": "kit.wizard",
+        "effects": [
+          "fx.necrotic-wisps"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": "creature.skeleton-minion"
+      },
+      "subclassCues": [
+        "skull-topped staff"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "medium",
+      "unresolved": []
+    },
+    {
+      "id": "wizard.transmutation",
+      "className": "Wizard",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.arcane-robes",
+        "pose": "pose.casting",
+        "props": [
+          "prop.transmuter-stone"
+        ],
+        "accessoryKit": "kit.wizard",
+        "effects": [
+          "fx.arcane-motes"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "transmuter's stone"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "medium",
+      "unresolved": []
+    },
+    {
+      "id": "wizard.bladesinging",
+      "className": "Wizard",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.light-leather",
+        "pose": "pose.one-handed-ready",
+        "props": [
+          "prop.rapier"
+        ],
+        "accessoryKit": "kit.wizard",
+        "effects": [
+          "fx.weapon-arcane",
+          "fx.arcane-motes"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "elegant blade dance"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "wizard.scribes",
+      "className": "Wizard",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.arcane-robes",
+        "pose": "pose.casting",
+        "props": [
+          "prop.spellbook"
+        ],
+        "accessoryKit": "kit.wizard",
+        "effects": [
+          "fx.ink-glyphs"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "awakened spellbook",
+        "quill"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "wizard.war-magic",
+      "className": "Wizard",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.arcane-robes",
+        "pose": "pose.casting",
+        "props": [
+          "prop.wand"
+        ],
+        "accessoryKit": "kit.wizard",
+        "effects": [
+          "fx.arcane-ward",
+          "fx.fire-motes"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "military half-cape"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "medium",
+      "unresolved": []
+    },
+    {
+      "id": "wizard.magic-missile-mage",
+      "className": "Wizard",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.arcane-robes",
+        "pose": "pose.casting",
+        "props": [
+          "prop.wand"
+        ],
+        "accessoryKit": "kit.wizard",
+        "effects": [
+          "fx.arcane-motes"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "glowing darts"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "low",
+      "unresolved": [
+        "Third-party subclass rules were not reviewed; visual cues are artistic placeholders, not rules claims."
+      ]
+    },
+    {
+      "id": "artificer.alchemist",
+      "className": "Artificer",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.light-leather",
+        "pose": "pose.casting",
+        "props": [
+          "prop.alchemist-flask"
+        ],
+        "accessoryKit": "kit.artificer",
+        "effects": [
+          "fx.alchemical-vapor"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "alchemy apron",
+        "vial belt"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "artificer.armorer",
+      "className": "Artificer",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.heavy-plate",
+        "pose": "pose.unarmed-guard",
+        "props": [],
+        "accessoryKit": "kit.artificer",
+        "effects": [],
+        "signatureLayer": "sig.arcane-armor-seams",
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "arcane armor seams",
+        "thunder gauntlets"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "artificer.artillerist",
+      "className": "Artificer",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.medium-breastplate",
+        "pose": "pose.casting",
+        "props": [
+          "prop.wand"
+        ],
+        "accessoryKit": "kit.artificer",
+        "effects": [
+          "fx.fire-motes"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": "creature.eldritch-cannon"
+      },
+      "subclassCues": [
+        "woodcarver's tools"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "artificer.battle-smith",
+      "className": "Artificer",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.medium-breastplate",
+        "pose": "pose.one-handed-ready",
+        "props": [
+          "prop.warhammer",
+          "prop.shield-metal"
+        ],
+        "accessoryKit": "kit.artificer",
+        "effects": [],
+        "signatureLayer": null,
+        "companionOrTransformation": "creature.steel-defender"
+      },
+      "subclassCues": [
+        "smith's tools on belt"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "id": "artificer.cartographer",
+      "className": "Artificer",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.light-leather",
+        "pose": "pose.casting",
+        "props": [
+          "prop.map-scroll"
+        ],
+        "accessoryKit": "kit.artificer",
+        "effects": [
+          "fx.arcane-motes"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "map case",
+        "compass"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "low",
+      "unresolved": [
+        "Cartographer rules not reviewed."
+      ]
+    },
+    {
+      "id": "artificer.forge-adept",
+      "className": "Artificer",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.medium-breastplate",
+        "pose": "pose.one-handed-ready",
+        "props": [
+          "prop.smith-hammer"
+        ],
+        "accessoryKit": "kit.artificer",
+        "effects": [
+          "fx.fire-motes"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "forge apron"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "low",
+      "unresolved": [
+        "Third-party subclass rules were not reviewed; visual cues are artistic placeholders, not rules claims."
+      ]
+    },
+    {
+      "id": "artificer.maverick",
+      "className": "Artificer",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.light-leather",
+        "pose": "pose.casting",
+        "props": [
+          "prop.wand"
+        ],
+        "accessoryKit": "kit.artificer",
+        "effects": [
+          "fx.arcane-motes"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "improvised gadgets"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "low",
+      "unresolved": [
+        "Third-party subclass rules were not reviewed; visual cues are artistic placeholders, not rules claims."
+      ]
+    },
+    {
+      "id": "blood-hunter.ghostslayer",
+      "className": "Blood Hunter",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.light-leather",
+        "pose": "pose.one-handed-ready",
+        "props": [
+          "prop.longsword",
+          "prop.lantern"
+        ],
+        "accessoryKit": "kit.blood-hunter",
+        "effects": [
+          "fx.blood-sigils",
+          "fx.radiant-glow"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "silvered blade"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "medium",
+      "unresolved": []
+    },
+    {
+      "id": "blood-hunter.lycan",
+      "className": "Blood Hunter",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.light-leather",
+        "pose": "pose.unarmed-guard",
+        "props": [],
+        "accessoryKit": "kit.blood-hunter",
+        "effects": [
+          "fx.blood-sigils"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": "transform.lycan-hybrid"
+      },
+      "subclassCues": [
+        "feral claws"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "medium",
+      "unresolved": []
+    },
+    {
+      "id": "blood-hunter.mutant",
+      "className": "Blood Hunter",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.light-leather",
+        "pose": "pose.one-handed-ready",
+        "props": [
+          "prop.longsword",
+          "prop.alchemist-flask"
+        ],
+        "accessoryKit": "kit.blood-hunter",
+        "effects": [
+          "fx.alchemical-vapor"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "mutagen vials"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "medium",
+      "unresolved": []
+    },
+    {
+      "id": "blood-hunter.profane-soul",
+      "className": "Blood Hunter",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.light-leather",
+        "pose": "pose.casting",
+        "props": [
+          "prop.longsword"
+        ],
+        "accessoryKit": "kit.blood-hunter",
+        "effects": [
+          "fx.blood-sigils",
+          "fx.shadow-wisps"
+        ],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "patron sigil"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "medium",
+      "unresolved": []
+    },
+    {
+      "id": "gunslinger.pistolero",
+      "className": "Gunslinger",
+      "artisticDefaults": {
+        "wardrobe": "wardrobe.light-leather",
+        "pose": "pose.one-handed-ready",
+        "props": [
+          "prop.pistol"
+        ],
+        "accessoryKit": "kit.gunslinger",
+        "effects": [],
+        "signatureLayer": null,
+        "companionOrTransformation": null
+      },
+      "subclassCues": [
+        "twin holsters"
+      ],
+      "ruleAssumptions": [],
+      "confidence": "low",
+      "unresolved": [
+        "Third-party subclass rules were not reviewed; visual cues are artistic placeholders, not rules claims."
+      ]
+    }
+  ],
+  "aliases": [
+    {
+      "id": "barbarian.totem-warrior",
+      "target": "barbarian.wild-heart",
+      "reason": "Path of the Totem Warrior (2014) and Path of the Wild Heart (2024) share an animal-spirit theme; rules identities stay separate."
+    },
+    {
+      "id": "cleric.arcana-legacy",
+      "target": "cleric.arcana",
+      "reason": "SCAG Arcana Domain and the newer Arcana Domain share the arcane-priest visual; rules stay separate."
+    },
+    {
+      "id": "cleric.knowledge-legacy",
+      "target": "cleric.knowledge",
+      "reason": "2014 and Heroes of Faerûn Knowledge Domain share visuals."
+    },
+    {
+      "id": "fighter.arcane-archer-legacy",
+      "target": "fighter.arcane-archer",
+      "reason": "XGtE Arcane Archer and the newer Arcane Archer are distinct rules entries sharing one visual."
+    },
+    {
+      "id": "fighter.purple-dragon-knight",
+      "target": "fighter.banneret",
+      "reason": "Heroes of Faerûn's Banneret is the updated Purple Dragon Knight; share the visual, keep both rules identities."
+    },
+    {
+      "id": "monk.way-of-mercy",
+      "target": "monk.mercy",
+      "reason": "Way of Mercy (TCoE) renamed Warrior of Mercy (2024)."
+    },
+    {
+      "id": "monk.way-of-shadow",
+      "target": "monk.shadow",
+      "reason": "Way of Shadow renamed Warrior of Shadow (2024)."
+    },
+    {
+      "id": "monk.four-elements",
+      "target": "monk.elements",
+      "reason": "Way of the Four Elements renamed Warrior of the Elements (2024); rules differ substantially."
+    },
+    {
+      "id": "monk.way-of-the-open-hand",
+      "target": "monk.open-hand",
+      "reason": "Way of the Open Hand renamed Warrior of the Open Hand (2024)."
+    },
+    {
+      "id": "sorcerer.aberrant-mind",
+      "target": "sorcerer.aberrant",
+      "reason": "Aberrant Mind (TCoE) became Aberrant Sorcery (2024)."
+    },
+    {
+      "id": "sorcerer.clockwork-soul",
+      "target": "sorcerer.clockwork",
+      "reason": "Clockwork Soul (TCoE) became Clockwork Sorcery (2024)."
+    },
+    {
+      "id": "sorcerer.draconic-bloodline",
+      "target": "sorcerer.draconic",
+      "reason": "Draconic Bloodline (2014) became Draconic Sorcery (2024)."
+    },
+    {
+      "id": "sorcerer.wild-magic-2014",
+      "target": "sorcerer.wild-magic",
+      "reason": "Wild Magic (2014) became Wild Magic Sorcery (2024)."
+    },
+    {
+      "id": "warlock.the-archfey",
+      "target": "warlock.archfey",
+      "reason": "The Archfey (2014) became Archfey Patron (2024)."
+    },
+    {
+      "id": "warlock.the-celestial",
+      "target": "warlock.celestial",
+      "reason": "The Celestial (XGtE) became Celestial Patron (2024)."
+    },
+    {
+      "id": "warlock.the-fiend",
+      "target": "warlock.fiend",
+      "reason": "The Fiend (2014) became Fiend Patron (2024)."
+    },
+    {
+      "id": "warlock.the-great-old-one",
+      "target": "warlock.great-old-one",
+      "reason": "The Great Old One (2014) became Great Old One Patron (2024)."
+    },
+    {
+      "id": "wizard.abjuration-school",
+      "target": "wizard.abjuration",
+      "reason": "School of Abjuration (2014) and Abjurer (2024 naming) share visuals."
+    },
+    {
+      "id": "wizard.divination-school",
+      "target": "wizard.divination",
+      "reason": "School of Divination (2014) and Diviner (2024 naming) share visuals."
+    },
+    {
+      "id": "wizard.evocation-school",
+      "target": "wizard.evocation",
+      "reason": "School of Evocation (2014) and Evoker (2024 naming) share visuals."
+    },
+    {
+      "id": "wizard.illusion-school",
+      "target": "wizard.illusion",
+      "reason": "School of Illusion (2014) and Illusionist (2024 naming) share visuals."
+    },
+    {
+      "id": "wizard.conjuration-school",
+      "target": "wizard.conjuration",
+      "reason": "School of Conjuration (2014) and Conjurer (2024 naming) share visuals."
+    },
+    {
+      "id": "wizard.enchantment-school",
+      "target": "wizard.enchantment",
+      "reason": "School of Enchantment (2014) and Enchanter (2024 naming) share visuals."
+    },
+    {
+      "id": "wizard.necromancy-school",
+      "target": "wizard.necromancy",
+      "reason": "School of Necromancy (2014) and Necromancer (2024 naming) share visuals."
+    },
+    {
+      "id": "wizard.transmutation-school",
+      "target": "wizard.transmutation",
+      "reason": "School of Transmutation (2014) and Transmuter (2024 naming) share visuals."
+    },
+    {
+      "id": "wizard.bladesinging-legacy",
+      "target": "wizard.bladesinging",
+      "reason": "Bladesinging (TCoE) and Bladesinger (Heroes of Faerûn) share visuals."
+    },
+    {
+      "id": "blood-hunter.profane-soul-int",
+      "target": "blood-hunter.profane-soul",
+      "reason": "INT-casting variant of Order of the Profane Soul."
+    },
+    {
+      "id": "blood-hunter.profane-soul-wis",
+      "target": "blood-hunter.profane-soul",
+      "reason": "WIS-casting variant of Order of the Profane Soul."
+    }
+  ]
+}

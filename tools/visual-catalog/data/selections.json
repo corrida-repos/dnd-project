@@ -1,0 +1,6252 @@
+{
+  "schemaVersion": 1,
+  "note": "One entry per backend/data/class-combos.json row. 'rules' holds source facts; 'visual' points at a recipe or alias.",
+  "selections": [
+    {
+      "selectionId": "5.5E|Barbarian|Path of the Berserker",
+      "classRuleset": "5.5E",
+      "className": "Barbarian",
+      "subclassName": "Path of the Berserker",
+      "comboName": "Path of the Berserker Barbarian",
+      "subclassSourceGroup": "5.5e Core Rules",
+      "sources": [
+        "phb2024"
+      ],
+      "visual": "barbarian.berserker",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Barbarian|Path of the Wild Heart",
+      "classRuleset": "5.5E",
+      "className": "Barbarian",
+      "subclassName": "Path of the Wild Heart",
+      "comboName": "Path of the Wild Heart Barbarian",
+      "subclassSourceGroup": "5.5e Core Rules",
+      "sources": [
+        "phb2024"
+      ],
+      "visual": "barbarian.wild-heart",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Barbarian|Path of the World Tree",
+      "classRuleset": "5.5E",
+      "className": "Barbarian",
+      "subclassName": "Path of the World Tree",
+      "comboName": "Path of the World Tree Barbarian",
+      "subclassSourceGroup": "5.5e Core Rules",
+      "sources": [
+        "phb2024"
+      ],
+      "visual": "barbarian.world-tree",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Barbarian|Path of the Zealot",
+      "classRuleset": "5.5E",
+      "className": "Barbarian",
+      "subclassName": "Path of the Zealot",
+      "comboName": "Path of the Zealot Barbarian",
+      "subclassSourceGroup": "5.5e Core Rules",
+      "sources": [
+        "phb2024"
+      ],
+      "visual": "barbarian.zealot",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Barbarian|Path of Wild Magic (TCoE)",
+      "classRuleset": "5.5E",
+      "className": "Barbarian",
+      "subclassName": "Path of Wild Magic (TCoE)",
+      "comboName": "Path of Wild Magic Barbarian",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "tcoe"
+      ],
+      "visual": "barbarian.wild-magic",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Barbarian|Path of the Ancestral Guardian (XGtE)",
+      "classRuleset": "5.5E",
+      "className": "Barbarian",
+      "subclassName": "Path of the Ancestral Guardian (XGtE)",
+      "comboName": "Path of the Ancestral Guardian Barbarian",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "xgte"
+      ],
+      "visual": "barbarian.ancestral-guardian",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": [
+          {
+            "level": 3,
+            "feature": "Ancestral Protectors",
+            "visualUse": "spectral warriors",
+            "source": "xgte",
+            "confidence": "high"
+          }
+        ]
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Barbarian|Path of the Battlerager (SCAG)",
+      "classRuleset": "5.5E",
+      "className": "Barbarian",
+      "subclassName": "Path of the Battlerager (SCAG)",
+      "comboName": "Path of the Battlerager Barbarian",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "scag"
+      ],
+      "visual": "barbarian.battlerager",
+      "rules": {
+        "facts": [
+          {
+            "text": "Battlerager Armor: spiked armor (medium armor) is the subclass's signature equipment.",
+            "source": "scag",
+            "confidence": "high",
+            "verification": "Not re-checked against the text this session: outbound access to rules sites was blocked."
+          }
+        ],
+        "armorGrants": [],
+        "restrictions": [
+          {
+            "id": "battlerager-dwarf-only",
+            "kind": "species-restriction",
+            "species": [
+              "Dwarf"
+            ],
+            "severity": "info",
+            "text": "SCAG states only dwarves can follow the Path of the Battlerager (DM may waive). The visualizer does not enforce it; flagged for product decision."
+          }
+        ],
+        "featureLevels": [
+          {
+            "level": 3,
+            "feature": "Battlerager Armor",
+            "visualUse": "spike layer",
+            "source": "scag",
+            "confidence": "high"
+          }
+        ]
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Barbarian|Path of the Beast (TCoE)",
+      "classRuleset": "5.5E",
+      "className": "Barbarian",
+      "subclassName": "Path of the Beast (TCoE)",
+      "comboName": "Path of the Beast Barbarian",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "tcoe"
+      ],
+      "visual": "barbarian.beast",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": [
+          {
+            "level": 3,
+            "feature": "Form of the Beast",
+            "visualUse": "hybrid transformation view",
+            "source": "tcoe",
+            "confidence": "high"
+          }
+        ]
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Barbarian|Path of the Storm Herald (XGtE)",
+      "classRuleset": "5.5E",
+      "className": "Barbarian",
+      "subclassName": "Path of the Storm Herald (XGtE)",
+      "comboName": "Path of the Storm Herald Barbarian",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "xgte"
+      ],
+      "visual": "barbarian.storm-herald",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Barbarian|Path of the Muscle Wizard",
+      "classRuleset": "5.5E",
+      "className": "Barbarian",
+      "subclassName": "Path of the Muscle Wizard",
+      "comboName": "Path of the Muscle Wizard Barbarian",
+      "subclassSourceGroup": "Mage Hand Press",
+      "sources": [
+        "phb2024",
+        "vsos1"
+      ],
+      "visual": "barbarian.muscle-wizard",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "low",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Bard|College of Dance",
+      "classRuleset": "5.5E",
+      "className": "Bard",
+      "subclassName": "College of Dance",
+      "comboName": "College of Dance Bard",
+      "subclassSourceGroup": "5.5e Core Rules",
+      "sources": [
+        "phb2024"
+      ],
+      "visual": "bard.dance",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [
+          {
+            "id": "dance-unarmored",
+            "kind": "requires-no-armor-no-shield",
+            "severity": "error",
+            "text": "Dazzling Footwork benefits require no armor and no shield."
+          }
+        ],
+        "featureLevels": [
+          {
+            "level": 3,
+            "feature": "Dazzling Footwork",
+            "visualUse": "unarmored dance stance",
+            "source": "phb2024",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "confidence": "medium",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Bard|College of Glamour",
+      "classRuleset": "5.5E",
+      "className": "Bard",
+      "subclassName": "College of Glamour",
+      "comboName": "College of Glamour Bard",
+      "subclassSourceGroup": "5.5e Core Rules",
+      "sources": [
+        "phb2024"
+      ],
+      "visual": "bard.glamour",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Bard|College of Lore",
+      "classRuleset": "5.5E",
+      "className": "Bard",
+      "subclassName": "College of Lore",
+      "comboName": "College of Lore Bard",
+      "subclassSourceGroup": "5.5e Core Rules",
+      "sources": [
+        "phb2024"
+      ],
+      "visual": "bard.lore",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Bard|College of Valor",
+      "classRuleset": "5.5E",
+      "className": "Bard",
+      "subclassName": "College of Valor",
+      "comboName": "College of Valor Bard",
+      "subclassSourceGroup": "5.5e Core Rules",
+      "sources": [
+        "phb2024"
+      ],
+      "visual": "bard.valor",
+      "rules": {
+        "facts": [
+          {
+            "text": "Martial Training: Martial weapons, Medium armor and Shields.",
+            "source": "phb2024",
+            "confidence": "high",
+            "verification": "Not re-checked against the text this session: outbound access to rules sites was blocked."
+          }
+        ],
+        "armorGrants": [
+          "medium",
+          "shields"
+        ],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Bard|College of the Moon",
+      "classRuleset": "5.5E",
+      "className": "Bard",
+      "subclassName": "College of the Moon",
+      "comboName": "College of the Moon Bard",
+      "subclassSourceGroup": "5.5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "hof"
+      ],
+      "visual": "bard.moon",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "low",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Bard|College of Creation (TCoE)",
+      "classRuleset": "5.5E",
+      "className": "Bard",
+      "subclassName": "College of Creation (TCoE)",
+      "comboName": "College of Creation Bard",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "tcoe"
+      ],
+      "visual": "bard.creation",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": [
+          {
+            "level": 6,
+            "feature": "Animating Performance",
+            "visualUse": "dancing item companion",
+            "source": "tcoe",
+            "confidence": "high"
+          }
+        ]
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Bard|College of Eloquence (TCoE)",
+      "classRuleset": "5.5E",
+      "className": "Bard",
+      "subclassName": "College of Eloquence (TCoE)",
+      "comboName": "College of Eloquence Bard",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "tcoe"
+      ],
+      "visual": "bard.eloquence",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Bard|College of Spirits (VRGtR)",
+      "classRuleset": "5.5E",
+      "className": "Bard",
+      "subclassName": "College of Spirits (VRGtR)",
+      "comboName": "College of Spirits Bard",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "vrgtr"
+      ],
+      "visual": "bard.spirits",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Bard|College of Swords (XGtE)",
+      "classRuleset": "5.5E",
+      "className": "Bard",
+      "subclassName": "College of Swords (XGtE)",
+      "comboName": "College of Swords Bard",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "xgte"
+      ],
+      "visual": "bard.swords",
+      "rules": {
+        "facts": [
+          {
+            "text": "Bonus Proficiencies: medium armor and the scimitar.",
+            "source": "xgte",
+            "confidence": "high",
+            "verification": "Not re-checked against the text this session: outbound access to rules sites was blocked."
+          }
+        ],
+        "armorGrants": [
+          "medium"
+        ],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Bard|College of Whispers (XGtE)",
+      "classRuleset": "5.5E",
+      "className": "Bard",
+      "subclassName": "College of Whispers (XGtE)",
+      "comboName": "College of Whispers Bard",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "xgte"
+      ],
+      "visual": "bard.whispers",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Bard|College of Masks (Mage Hand Press)",
+      "classRuleset": "5.5E",
+      "className": "Bard",
+      "subclassName": "College of Masks (Mage Hand Press)",
+      "comboName": "College of Masks Bard",
+      "subclassSourceGroup": "Mage Hand Press",
+      "sources": [
+        "phb2024",
+        "vsos2"
+      ],
+      "visual": "bard.masks",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "low",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Bard|College of the Dirge Singer",
+      "classRuleset": "5.5E",
+      "className": "Bard",
+      "subclassName": "College of the Dirge Singer",
+      "comboName": "College of the Dirge Singer Bard",
+      "subclassSourceGroup": "Visionary Production and Design Inc.",
+      "sources": [
+        "phb2024",
+        "ee"
+      ],
+      "visual": "bard.dirge-singer",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "low",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Cleric|Life Domain",
+      "classRuleset": "5.5E",
+      "className": "Cleric",
+      "subclassName": "Life Domain",
+      "comboName": "Life Domain Cleric",
+      "subclassSourceGroup": "5.5e Core Rules",
+      "sources": [
+        "phb2024"
+      ],
+      "visual": "cleric.life",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Cleric|Light Domain",
+      "classRuleset": "5.5E",
+      "className": "Cleric",
+      "subclassName": "Light Domain",
+      "comboName": "Light Domain Cleric",
+      "subclassSourceGroup": "5.5e Core Rules",
+      "sources": [
+        "phb2024"
+      ],
+      "visual": "cleric.light",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Cleric|Trickery Domain",
+      "classRuleset": "5.5E",
+      "className": "Cleric",
+      "subclassName": "Trickery Domain",
+      "comboName": "Trickery Domain Cleric",
+      "subclassSourceGroup": "5.5e Core Rules",
+      "sources": [
+        "phb2024"
+      ],
+      "visual": "cleric.trickery",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": [
+          {
+            "level": 3,
+            "feature": "Invoke Duplicity",
+            "visualUse": "translucent duplicate",
+            "source": "phb2024",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Cleric|War Domain",
+      "classRuleset": "5.5E",
+      "className": "Cleric",
+      "subclassName": "War Domain",
+      "comboName": "War Domain Cleric",
+      "subclassSourceGroup": "5.5e Core Rules",
+      "sources": [
+        "phb2024"
+      ],
+      "visual": "cleric.war",
+      "rules": {
+        "facts": [
+          {
+            "text": "2024 War Domain grants no armor training; heavy armor requires Divine Order: Protector.",
+            "source": "phb2024",
+            "confidence": "medium",
+            "verification": "Not re-checked against the text this session: outbound access to rules sites was blocked."
+          }
+        ],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Cleric|Arcana Domain",
+      "classRuleset": "5.5E",
+      "className": "Cleric",
+      "subclassName": "Arcana Domain",
+      "comboName": "Arcana Domain Cleric",
+      "subclassSourceGroup": "5.5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "au"
+      ],
+      "visual": "cleric.arcana",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "low",
+      "unresolved": [
+        "Arcana Unleashed contents not reviewed; visual cues follow the shared class recipe."
+      ]
+    },
+    {
+      "selectionId": "5.5E|Cleric|Knowledge Domain",
+      "classRuleset": "5.5E",
+      "className": "Cleric",
+      "subclassName": "Knowledge Domain",
+      "comboName": "Knowledge Domain Cleric",
+      "subclassSourceGroup": "5.5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "hof"
+      ],
+      "visual": "cleric.knowledge",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "medium",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Cleric|Knowledge Domain (Legacy)",
+      "classRuleset": "5.5E",
+      "className": "Cleric",
+      "subclassName": "Knowledge Domain (Legacy)",
+      "comboName": "Knowledge Domain Cleric",
+      "subclassSourceGroup": "5e Core Rules",
+      "sources": [
+        "phb2024",
+        "phb2014"
+      ],
+      "visual": "cleric.knowledge-legacy",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Cleric|Nature Domain (PHB)",
+      "classRuleset": "5.5E",
+      "className": "Cleric",
+      "subclassName": "Nature Domain (PHB)",
+      "comboName": "Nature Domain Cleric",
+      "subclassSourceGroup": "5e Core Rules",
+      "sources": [
+        "phb2024",
+        "phb2014"
+      ],
+      "visual": "cleric.nature",
+      "rules": {
+        "facts": [
+          {
+            "text": "Nature Domain: Bonus Proficiency grants heavy armor.",
+            "source": "phb2014",
+            "confidence": "high",
+            "verification": "Not re-checked against the text this session: outbound access to rules sites was blocked."
+          }
+        ],
+        "armorGrants": [
+          "heavy"
+        ],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": [
+        "Legacy subclass used with the 2024 Cleric: the armor grant comes from the older subclass text. Timing of former level-1 subclass features when the 2024 class takes its subclass at level 3 is a table rule; confirm."
+      ]
+    },
+    {
+      "selectionId": "5.5E|Cleric|Tempest Domain (PHB)",
+      "classRuleset": "5.5E",
+      "className": "Cleric",
+      "subclassName": "Tempest Domain (PHB)",
+      "comboName": "Tempest Domain Cleric",
+      "subclassSourceGroup": "5e Core Rules",
+      "sources": [
+        "phb2024",
+        "phb2014"
+      ],
+      "visual": "cleric.tempest",
+      "rules": {
+        "facts": [
+          {
+            "text": "Tempest Domain: Bonus Proficiency grants heavy armor and martial weapons.",
+            "source": "phb2014",
+            "confidence": "high",
+            "verification": "Not re-checked against the text this session: outbound access to rules sites was blocked."
+          }
+        ],
+        "armorGrants": [
+          "heavy"
+        ],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": [
+        "Legacy subclass used with the 2024 Cleric: the armor grant comes from the older subclass text. Timing of former level-1 subclass features when the 2024 class takes its subclass at level 3 is a table rule; confirm."
+      ]
+    },
+    {
+      "selectionId": "5.5E|Cleric|Arcana Domain (Legacy)",
+      "classRuleset": "5.5E",
+      "className": "Cleric",
+      "subclassName": "Arcana Domain (Legacy)",
+      "comboName": "Arcana Domain Cleric",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "scag"
+      ],
+      "visual": "cleric.arcana-legacy",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Cleric|Forge Domain (XGtE)",
+      "classRuleset": "5.5E",
+      "className": "Cleric",
+      "subclassName": "Forge Domain (XGtE)",
+      "comboName": "Forge Domain Cleric",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "xgte"
+      ],
+      "visual": "cleric.forge",
+      "rules": {
+        "facts": [
+          {
+            "text": "Forge Domain: Bonus Proficiency grants heavy armor and smith's tools.",
+            "source": "xgte",
+            "confidence": "high",
+            "verification": "Not re-checked against the text this session: outbound access to rules sites was blocked."
+          }
+        ],
+        "armorGrants": [
+          "heavy"
+        ],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": [
+        "Legacy subclass used with the 2024 Cleric: the armor grant comes from the older subclass text. Timing of former level-1 subclass features when the 2024 class takes its subclass at level 3 is a table rule; confirm."
+      ]
+    },
+    {
+      "selectionId": "5.5E|Cleric|Grave Domain (XGtE)",
+      "classRuleset": "5.5E",
+      "className": "Cleric",
+      "subclassName": "Grave Domain (XGtE)",
+      "comboName": "Grave Domain Cleric",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "xgte"
+      ],
+      "visual": "cleric.grave",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Cleric|Order Domain (TCoE)",
+      "classRuleset": "5.5E",
+      "className": "Cleric",
+      "subclassName": "Order Domain (TCoE)",
+      "comboName": "Order Domain Cleric",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "tcoe"
+      ],
+      "visual": "cleric.order",
+      "rules": {
+        "facts": [
+          {
+            "text": "Order Domain: Bonus Proficiency grants heavy armor.",
+            "source": "tcoe",
+            "confidence": "high",
+            "verification": "Not re-checked against the text this session: outbound access to rules sites was blocked."
+          }
+        ],
+        "armorGrants": [
+          "heavy"
+        ],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": [
+        "Legacy subclass used with the 2024 Cleric: the armor grant comes from the older subclass text. Timing of former level-1 subclass features when the 2024 class takes its subclass at level 3 is a table rule; confirm."
+      ]
+    },
+    {
+      "selectionId": "5.5E|Cleric|Peace Domain (TCoE)",
+      "classRuleset": "5.5E",
+      "className": "Cleric",
+      "subclassName": "Peace Domain (TCoE)",
+      "comboName": "Peace Domain Cleric",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "tcoe"
+      ],
+      "visual": "cleric.peace",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Cleric|Twilight Domain (TCoE)",
+      "classRuleset": "5.5E",
+      "className": "Cleric",
+      "subclassName": "Twilight Domain (TCoE)",
+      "comboName": "Twilight Domain Cleric",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "tcoe"
+      ],
+      "visual": "cleric.twilight",
+      "rules": {
+        "facts": [
+          {
+            "text": "Twilight Domain: Bonus Proficiency grants heavy armor and martial weapons.",
+            "source": "tcoe",
+            "confidence": "high",
+            "verification": "Not re-checked against the text this session: outbound access to rules sites was blocked."
+          }
+        ],
+        "armorGrants": [
+          "heavy"
+        ],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": [
+        "Legacy subclass used with the 2024 Cleric: the armor grant comes from the older subclass text. Timing of former level-1 subclass features when the 2024 class takes its subclass at level 3 is a table rule; confirm."
+      ]
+    },
+    {
+      "selectionId": "5.5E|Cleric|Dragon Domain",
+      "classRuleset": "5.5E",
+      "className": "Cleric",
+      "subclassName": "Dragon Domain",
+      "comboName": "Dragon Domain Cleric",
+      "subclassSourceGroup": "Mage Hand Press",
+      "sources": [
+        "phb2024",
+        "vsos2"
+      ],
+      "visual": "cleric.dragon",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "low",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Cleric|Mind Domain",
+      "classRuleset": "5.5E",
+      "className": "Cleric",
+      "subclassName": "Mind Domain",
+      "comboName": "Mind Domain Cleric",
+      "subclassSourceGroup": "Visionary Production and Design Inc.",
+      "sources": [
+        "phb2024",
+        "ee"
+      ],
+      "visual": "cleric.mind",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "low",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Druid|Circle of the Land",
+      "classRuleset": "5.5E",
+      "className": "Druid",
+      "subclassName": "Circle of the Land",
+      "comboName": "Circle of the Land Druid",
+      "subclassSourceGroup": "5.5e Core Rules",
+      "sources": [
+        "phb2024"
+      ],
+      "visual": "druid.land",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Druid|Circle of the Moon",
+      "classRuleset": "5.5E",
+      "className": "Druid",
+      "subclassName": "Circle of the Moon",
+      "comboName": "Circle of the Moon Druid",
+      "subclassSourceGroup": "5.5e Core Rules",
+      "sources": [
+        "phb2024"
+      ],
+      "visual": "druid.moon",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": [
+          {
+            "level": 3,
+            "feature": "Circle Forms",
+            "visualUse": "brown bear alternate view",
+            "source": "phb2024",
+            "confidence": "high"
+          }
+        ]
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Druid|Circle of the Sea",
+      "classRuleset": "5.5E",
+      "className": "Druid",
+      "subclassName": "Circle of the Sea",
+      "comboName": "Circle of the Sea Druid",
+      "subclassSourceGroup": "5.5e Core Rules",
+      "sources": [
+        "phb2024"
+      ],
+      "visual": "druid.sea",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": [
+          {
+            "level": 3,
+            "feature": "Wrath of the Sea",
+            "visualUse": "water swirl",
+            "source": "phb2024",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Druid|Circle of the Stars",
+      "classRuleset": "5.5E",
+      "className": "Druid",
+      "subclassName": "Circle of the Stars",
+      "comboName": "Circle of the Stars Druid",
+      "subclassSourceGroup": "5.5e Core Rules",
+      "sources": [
+        "phb2024"
+      ],
+      "visual": "druid.stars",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": [
+          {
+            "level": 3,
+            "feature": "Starry Form",
+            "visualUse": "constellation overlay",
+            "source": "phb2024",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Druid|Circle of Dreams (XGtE)",
+      "classRuleset": "5.5E",
+      "className": "Druid",
+      "subclassName": "Circle of Dreams (XGtE)",
+      "comboName": "Circle of Dreams Druid",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "xgte"
+      ],
+      "visual": "druid.dreams",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Druid|Circle of Spores (TCoE)",
+      "classRuleset": "5.5E",
+      "className": "Druid",
+      "subclassName": "Circle of Spores (TCoE)",
+      "comboName": "Circle of Spores Druid",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "tcoe"
+      ],
+      "visual": "druid.spores",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Druid|Circle of Wildfire (TCoE)",
+      "classRuleset": "5.5E",
+      "className": "Druid",
+      "subclassName": "Circle of Wildfire (TCoE)",
+      "comboName": "Circle of Wildfire Druid",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "tcoe"
+      ],
+      "visual": "druid.wildfire",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Druid|Circle of the Shepherd (XGtE)",
+      "classRuleset": "5.5E",
+      "className": "Druid",
+      "subclassName": "Circle of the Shepherd (XGtE)",
+      "comboName": "Circle of the Shepherd Druid",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "xgte"
+      ],
+      "visual": "druid.shepherd",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Druid|Circle of the City",
+      "classRuleset": "5.5E",
+      "className": "Druid",
+      "subclassName": "Circle of the City",
+      "comboName": "Circle of the City Druid",
+      "subclassSourceGroup": "Mage Hand Press",
+      "sources": [
+        "phb2024",
+        "vsos2"
+      ],
+      "visual": "druid.city",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "low",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Druid|Circle of the Forged",
+      "classRuleset": "5.5E",
+      "className": "Druid",
+      "subclassName": "Circle of the Forged",
+      "comboName": "Circle of the Forged Druid",
+      "subclassSourceGroup": "Visionary Production and Design Inc.",
+      "sources": [
+        "phb2024",
+        "ee"
+      ],
+      "visual": "druid.forged",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "low",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Fighter|Battle Master",
+      "classRuleset": "5.5E",
+      "className": "Fighter",
+      "subclassName": "Battle Master",
+      "comboName": "Battle Master Fighter",
+      "subclassSourceGroup": "5.5e Core Rules",
+      "sources": [
+        "phb2024"
+      ],
+      "visual": "fighter.battle-master",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Fighter|Champion",
+      "classRuleset": "5.5E",
+      "className": "Fighter",
+      "subclassName": "Champion",
+      "comboName": "Champion Fighter",
+      "subclassSourceGroup": "5.5e Core Rules",
+      "sources": [
+        "phb2024"
+      ],
+      "visual": "fighter.champion",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Fighter|Eldritch Knight",
+      "classRuleset": "5.5E",
+      "className": "Fighter",
+      "subclassName": "Eldritch Knight",
+      "comboName": "Eldritch Knight Fighter",
+      "subclassSourceGroup": "5.5e Core Rules",
+      "sources": [
+        "phb2024"
+      ],
+      "visual": "fighter.eldritch-knight",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Fighter|Psi Warrior",
+      "classRuleset": "5.5E",
+      "className": "Fighter",
+      "subclassName": "Psi Warrior",
+      "comboName": "Psi Warrior Fighter",
+      "subclassSourceGroup": "5.5e Core Rules",
+      "sources": [
+        "phb2024"
+      ],
+      "visual": "fighter.psi-warrior",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Fighter|Arcane Archer",
+      "classRuleset": "5.5E",
+      "className": "Fighter",
+      "subclassName": "Arcane Archer",
+      "comboName": "Arcane Archer Fighter",
+      "subclassSourceGroup": "5.5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "au"
+      ],
+      "visual": "fighter.arcane-archer",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "low",
+      "unresolved": [
+        "Arcana Unleashed contents not reviewed; visual cues follow the shared class recipe."
+      ]
+    },
+    {
+      "selectionId": "5.5E|Fighter|Banneret",
+      "classRuleset": "5.5E",
+      "className": "Fighter",
+      "subclassName": "Banneret",
+      "comboName": "Banneret Fighter",
+      "subclassSourceGroup": "5.5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "hof"
+      ],
+      "visual": "fighter.banneret",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "medium",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Fighter|Sorrow Knight",
+      "classRuleset": "5.5E",
+      "className": "Fighter",
+      "subclassName": "Sorrow Knight",
+      "comboName": "Sorrow Knight Fighter",
+      "subclassSourceGroup": "5.5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "ddb-drops"
+      ],
+      "visual": "fighter.sorrow-knight",
+      "rules": {
+        "facts": [
+          {
+            "text": "Official Fighter subclass released in the D&D Beyond Drops 'Shadowfell Secrets' (announcement dated 2026-10-01); Shadowfell-themed despair and psychic attacks.",
+            "source": "ddb-drops",
+            "confidence": "high",
+            "verification": "Not re-checked against the text this session: outbound access to rules sites was blocked."
+          },
+          {
+            "text": "No spellcasting feature is reported; catalogued Spell-less. Magical features are not spellcasting.",
+            "source": "ddb-drops",
+            "confidence": "medium",
+            "verification": "Not re-checked against the text this session: outbound access to rules sites was blocked."
+          },
+          {
+            "text": "No armor-training change is reported; uses Fighter armor training.",
+            "source": "ddb-drops",
+            "confidence": "medium",
+            "verification": "Not re-checked against the text this session: outbound access to rules sites was blocked."
+          }
+        ],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": [
+          {
+            "level": 3,
+            "feature": "Despairing Strikes (pool of dice spent on weapon hits)",
+            "visualUse": "shadowfell mist on weapon",
+            "source": "ddb-drops",
+            "confidence": "low"
+          },
+          {
+            "level": 7,
+            "feature": "Limited teleport that can frighten creatures within 10 ft of arrival",
+            "visualUse": "optional afterimage",
+            "source": "ddb-drops",
+            "confidence": "low"
+          },
+          {
+            "level": 10,
+            "feature": "Unsettled Strikes: Apathetic, Lost and Weary options",
+            "visualUse": "none",
+            "source": "ddb-drops",
+            "confidence": "low"
+          },
+          {
+            "level": 15,
+            "feature": "Additional Despairing Strike die (reported)",
+            "visualUse": "none",
+            "source": "ddb-drops",
+            "confidence": "low"
+          },
+          {
+            "level": 18,
+            "feature": "Shadowfell attunement after Action Surge (reported)",
+            "visualUse": "candidate stronger mist",
+            "source": "ddb-drops",
+            "confidence": "low"
+          }
+        ]
+      },
+      "confidence": "medium",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Fighter|Arcane Archer (XGtE)",
+      "classRuleset": "5.5E",
+      "className": "Fighter",
+      "subclassName": "Arcane Archer (XGtE)",
+      "comboName": "Arcane Archer Fighter",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "xgte"
+      ],
+      "visual": "fighter.arcane-archer-legacy",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Fighter|Cavalier (XGtE)",
+      "classRuleset": "5.5E",
+      "className": "Fighter",
+      "subclassName": "Cavalier (XGtE)",
+      "comboName": "Cavalier Fighter",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "xgte"
+      ],
+      "visual": "fighter.cavalier",
+      "rules": {
+        "facts": [
+          {
+            "text": "Cavalier features support mounted combat but do not grant a mount.",
+            "source": "xgte",
+            "confidence": "high",
+            "verification": "Not re-checked against the text this session: outbound access to rules sites was blocked."
+          }
+        ],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Fighter|Purple Dragon Knight (SCAG)",
+      "classRuleset": "5.5E",
+      "className": "Fighter",
+      "subclassName": "Purple Dragon Knight (SCAG)",
+      "comboName": "Purple Dragon Knight Fighter",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "scag"
+      ],
+      "visual": "fighter.purple-dragon-knight",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Fighter|Rune Knight (TCoE)",
+      "classRuleset": "5.5E",
+      "className": "Fighter",
+      "subclassName": "Rune Knight (TCoE)",
+      "comboName": "Rune Knight Fighter",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "tcoe"
+      ],
+      "visual": "fighter.rune-knight",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": [
+          {
+            "level": 3,
+            "feature": "Giant's Might",
+            "visualUse": "scale-up view",
+            "source": "tcoe",
+            "confidence": "high"
+          }
+        ]
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Fighter|Samurai (XGtE)",
+      "classRuleset": "5.5E",
+      "className": "Fighter",
+      "subclassName": "Samurai (XGtE)",
+      "comboName": "Samurai Fighter",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "xgte"
+      ],
+      "visual": "fighter.samurai",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Fighter|Gunslinger (CR)",
+      "classRuleset": "5.5E",
+      "className": "Fighter",
+      "subclassName": "Gunslinger (CR)",
+      "comboName": "Gunslinger Fighter",
+      "subclassSourceGroup": "Critical Role",
+      "sources": [
+        "phb2024",
+        "cr"
+      ],
+      "visual": "fighter.gunslinger",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "medium",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Fighter|Dungeoneer",
+      "classRuleset": "5.5E",
+      "className": "Fighter",
+      "subclassName": "Dungeoneer",
+      "comboName": "Dungeoneer Fighter",
+      "subclassSourceGroup": "Mage Hand Press",
+      "sources": [
+        "phb2024",
+        "vsos1"
+      ],
+      "visual": "fighter.dungeoneer",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "low",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Monk|Warrior of Mercy",
+      "classRuleset": "5.5E",
+      "className": "Monk",
+      "subclassName": "Warrior of Mercy",
+      "comboName": "Warrior of Mercy Monk",
+      "subclassSourceGroup": "5.5e Core Rules",
+      "sources": [
+        "phb2024"
+      ],
+      "visual": "monk.mercy",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Monk|Warrior of Shadow",
+      "classRuleset": "5.5E",
+      "className": "Monk",
+      "subclassName": "Warrior of Shadow",
+      "comboName": "Warrior of Shadow Monk",
+      "subclassSourceGroup": "5.5e Core Rules",
+      "sources": [
+        "phb2024"
+      ],
+      "visual": "monk.shadow",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Monk|Warrior of the Elements",
+      "classRuleset": "5.5E",
+      "className": "Monk",
+      "subclassName": "Warrior of the Elements",
+      "comboName": "Warrior of the Elements Monk",
+      "subclassSourceGroup": "5.5e Core Rules",
+      "sources": [
+        "phb2024"
+      ],
+      "visual": "monk.elements",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Monk|Warrior of the Open Hand",
+      "classRuleset": "5.5E",
+      "className": "Monk",
+      "subclassName": "Warrior of the Open Hand",
+      "comboName": "Warrior of the Open Hand Monk",
+      "subclassSourceGroup": "5.5e Core Rules",
+      "sources": [
+        "phb2024"
+      ],
+      "visual": "monk.open-hand",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Monk|Warrior of the Mystic Arts",
+      "classRuleset": "5.5E",
+      "className": "Monk",
+      "subclassName": "Warrior of the Mystic Arts",
+      "comboName": "Warrior of the Mystic Arts Monk",
+      "subclassSourceGroup": "5.5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "au"
+      ],
+      "visual": "monk.mystic-arts",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "low",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Monk|Way of the Astral Self (TCoE)",
+      "classRuleset": "5.5E",
+      "className": "Monk",
+      "subclassName": "Way of the Astral Self (TCoE)",
+      "comboName": "Way of the Astral Self Monk",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "tcoe"
+      ],
+      "visual": "monk.astral-self",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": [
+          {
+            "level": 3,
+            "feature": "Arms of the Astral Self",
+            "visualUse": "spectral arms overlay",
+            "source": "tcoe",
+            "confidence": "high"
+          }
+        ]
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Monk|Way of the Drunken Master (XGtE)",
+      "classRuleset": "5.5E",
+      "className": "Monk",
+      "subclassName": "Way of the Drunken Master (XGtE)",
+      "comboName": "Way of the Drunken Master Monk",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "xgte"
+      ],
+      "visual": "monk.drunken-master",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Monk|Way of the Kensei (XGtE)",
+      "classRuleset": "5.5E",
+      "className": "Monk",
+      "subclassName": "Way of the Kensei (XGtE)",
+      "comboName": "Way of the Kensei Monk",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "xgte"
+      ],
+      "visual": "monk.kensei",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Monk|Way of the Long Death (SCAG)",
+      "classRuleset": "5.5E",
+      "className": "Monk",
+      "subclassName": "Way of the Long Death (SCAG)",
+      "comboName": "Way of the Long Death Monk",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "scag"
+      ],
+      "visual": "monk.long-death",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Monk|Way of the Sun Soul (SCAG)",
+      "classRuleset": "5.5E",
+      "className": "Monk",
+      "subclassName": "Way of the Sun Soul (SCAG)",
+      "comboName": "Way of the Sun Soul Monk",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "scag"
+      ],
+      "visual": "monk.sun-soul",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Monk|Way of the Cobalt Soul (TCSR)",
+      "classRuleset": "5.5E",
+      "className": "Monk",
+      "subclassName": "Way of the Cobalt Soul (TCSR)",
+      "comboName": "Way of the Cobalt Soul Monk",
+      "subclassSourceGroup": "Critical Role",
+      "sources": [
+        "phb2024",
+        "tdcsr"
+      ],
+      "visual": "monk.cobalt-soul",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "medium",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Monk|Warrior of the Street",
+      "classRuleset": "5.5E",
+      "className": "Monk",
+      "subclassName": "Warrior of the Street",
+      "comboName": "Warrior of the Street Monk",
+      "subclassSourceGroup": "Mage Hand Press",
+      "sources": [
+        "phb2024",
+        "vsos1"
+      ],
+      "visual": "monk.street",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "low",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Monk|Warrior of the Living Weapon",
+      "classRuleset": "5.5E",
+      "className": "Monk",
+      "subclassName": "Warrior of the Living Weapon",
+      "comboName": "Warrior of the Living Weapon Monk",
+      "subclassSourceGroup": "Visionary Production and Design Inc.",
+      "sources": [
+        "phb2024",
+        "ee"
+      ],
+      "visual": "monk.living-weapon",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "low",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Paladin|Oath of Devotion",
+      "classRuleset": "5.5E",
+      "className": "Paladin",
+      "subclassName": "Oath of Devotion",
+      "comboName": "Oath of Devotion Paladin",
+      "subclassSourceGroup": "5.5e Core Rules",
+      "sources": [
+        "phb2024"
+      ],
+      "visual": "paladin.devotion",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Paladin|Oath of Glory",
+      "classRuleset": "5.5E",
+      "className": "Paladin",
+      "subclassName": "Oath of Glory",
+      "comboName": "Oath of Glory Paladin",
+      "subclassSourceGroup": "5.5e Core Rules",
+      "sources": [
+        "phb2024"
+      ],
+      "visual": "paladin.glory",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Paladin|Oath of Vengeance",
+      "classRuleset": "5.5E",
+      "className": "Paladin",
+      "subclassName": "Oath of Vengeance",
+      "comboName": "Oath of Vengeance Paladin",
+      "subclassSourceGroup": "5.5e Core Rules",
+      "sources": [
+        "phb2024"
+      ],
+      "visual": "paladin.vengeance",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Paladin|Oath of the Ancients",
+      "classRuleset": "5.5E",
+      "className": "Paladin",
+      "subclassName": "Oath of the Ancients",
+      "comboName": "Oath of the Ancients Paladin",
+      "subclassSourceGroup": "5.5e Core Rules",
+      "sources": [
+        "phb2024"
+      ],
+      "visual": "paladin.ancients",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Paladin|Oath of the Noble Genies",
+      "classRuleset": "5.5E",
+      "className": "Paladin",
+      "subclassName": "Oath of the Noble Genies",
+      "comboName": "Oath of the Noble Genies Paladin",
+      "subclassSourceGroup": "5.5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "hof"
+      ],
+      "visual": "paladin.noble-genies",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "low",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Paladin|Oath of Conquest (XGtE)",
+      "classRuleset": "5.5E",
+      "className": "Paladin",
+      "subclassName": "Oath of Conquest (XGtE)",
+      "comboName": "Oath of Conquest Paladin",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "xgte"
+      ],
+      "visual": "paladin.conquest",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Paladin|Oath of Redemption (XGtE)",
+      "classRuleset": "5.5E",
+      "className": "Paladin",
+      "subclassName": "Oath of Redemption (XGtE)",
+      "comboName": "Oath of Redemption Paladin",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "xgte"
+      ],
+      "visual": "paladin.redemption",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Paladin|Oath of the Crown (SCAG)",
+      "classRuleset": "5.5E",
+      "className": "Paladin",
+      "subclassName": "Oath of the Crown (SCAG)",
+      "comboName": "Oath of the Crown Paladin",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "scag"
+      ],
+      "visual": "paladin.crown",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Paladin|Oath of the Watchers (TCoE)",
+      "classRuleset": "5.5E",
+      "className": "Paladin",
+      "subclassName": "Oath of the Watchers (TCoE)",
+      "comboName": "Oath of the Watchers Paladin",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "tcoe"
+      ],
+      "visual": "paladin.watchers",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Paladin|Oath of the Open Sea (TCSR)",
+      "classRuleset": "5.5E",
+      "className": "Paladin",
+      "subclassName": "Oath of the Open Sea (TCSR)",
+      "comboName": "Oath of the Open Sea Paladin",
+      "subclassSourceGroup": "Critical Role",
+      "sources": [
+        "phb2024",
+        "tdcsr"
+      ],
+      "visual": "paladin.open-sea",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "medium",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Paladin|Oath of Revelry",
+      "classRuleset": "5.5E",
+      "className": "Paladin",
+      "subclassName": "Oath of Revelry",
+      "comboName": "Oath of Revelry Paladin",
+      "subclassSourceGroup": "Mage Hand Press",
+      "sources": [
+        "phb2024",
+        "vsos1"
+      ],
+      "visual": "paladin.revelry",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "low",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Ranger|Beast Master",
+      "classRuleset": "5.5E",
+      "className": "Ranger",
+      "subclassName": "Beast Master",
+      "comboName": "Beast Master Ranger",
+      "subclassSourceGroup": "5.5e Core Rules",
+      "sources": [
+        "phb2024"
+      ],
+      "visual": "ranger.beast-master",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": [
+          {
+            "level": 3,
+            "feature": "Primal Companion",
+            "visualUse": "beast companion",
+            "source": "phb2024",
+            "confidence": "high"
+          }
+        ]
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Ranger|Fey Wanderer",
+      "classRuleset": "5.5E",
+      "className": "Ranger",
+      "subclassName": "Fey Wanderer",
+      "comboName": "Fey Wanderer Ranger",
+      "subclassSourceGroup": "5.5e Core Rules",
+      "sources": [
+        "phb2024"
+      ],
+      "visual": "ranger.fey-wanderer",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Ranger|Gloom Stalker",
+      "classRuleset": "5.5E",
+      "className": "Ranger",
+      "subclassName": "Gloom Stalker",
+      "comboName": "Gloom Stalker Ranger",
+      "subclassSourceGroup": "5.5e Core Rules",
+      "sources": [
+        "phb2024"
+      ],
+      "visual": "ranger.gloom-stalker",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Ranger|Hunter",
+      "classRuleset": "5.5E",
+      "className": "Ranger",
+      "subclassName": "Hunter",
+      "comboName": "Hunter Ranger",
+      "subclassSourceGroup": "5.5e Core Rules",
+      "sources": [
+        "phb2024"
+      ],
+      "visual": "ranger.hunter",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Ranger|Winter Walker",
+      "classRuleset": "5.5E",
+      "className": "Ranger",
+      "subclassName": "Winter Walker",
+      "comboName": "Winter Walker Ranger",
+      "subclassSourceGroup": "5.5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "hof"
+      ],
+      "visual": "ranger.winter-walker",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "low",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Ranger|Horizon Walker (XGtE)",
+      "classRuleset": "5.5E",
+      "className": "Ranger",
+      "subclassName": "Horizon Walker (XGtE)",
+      "comboName": "Horizon Walker Ranger",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "xgte"
+      ],
+      "visual": "ranger.horizon-walker",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Ranger|Monster Slayer (XGtE)",
+      "classRuleset": "5.5E",
+      "className": "Ranger",
+      "subclassName": "Monster Slayer (XGtE)",
+      "comboName": "Monster Slayer Ranger",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "xgte"
+      ],
+      "visual": "ranger.monster-slayer",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Ranger|Swarmkeeper (TCoE)",
+      "classRuleset": "5.5E",
+      "className": "Ranger",
+      "subclassName": "Swarmkeeper (TCoE)",
+      "comboName": "Swarmkeeper Ranger",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "tcoe"
+      ],
+      "visual": "ranger.swarmkeeper",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Ranger|Beastborne",
+      "classRuleset": "5.5E",
+      "className": "Ranger",
+      "subclassName": "Beastborne",
+      "comboName": "Beastborne Ranger",
+      "subclassSourceGroup": "Mage Hand Press",
+      "sources": [
+        "phb2024",
+        "vsos2"
+      ],
+      "visual": "ranger.beastborne",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "low",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Rogue|Arcane Trickster",
+      "classRuleset": "5.5E",
+      "className": "Rogue",
+      "subclassName": "Arcane Trickster",
+      "comboName": "Arcane Trickster Rogue",
+      "subclassSourceGroup": "5.5e Core Rules",
+      "sources": [
+        "phb2024"
+      ],
+      "visual": "rogue.arcane-trickster",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Rogue|Assassin",
+      "classRuleset": "5.5E",
+      "className": "Rogue",
+      "subclassName": "Assassin",
+      "comboName": "Assassin Rogue",
+      "subclassSourceGroup": "5.5e Core Rules",
+      "sources": [
+        "phb2024"
+      ],
+      "visual": "rogue.assassin",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Rogue|Soulknife",
+      "classRuleset": "5.5E",
+      "className": "Rogue",
+      "subclassName": "Soulknife",
+      "comboName": "Soulknife Rogue",
+      "subclassSourceGroup": "5.5e Core Rules",
+      "sources": [
+        "phb2024"
+      ],
+      "visual": "rogue.soulknife",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Rogue|Thief",
+      "classRuleset": "5.5E",
+      "className": "Rogue",
+      "subclassName": "Thief",
+      "comboName": "Thief Rogue",
+      "subclassSourceGroup": "5.5e Core Rules",
+      "sources": [
+        "phb2024"
+      ],
+      "visual": "rogue.thief",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Rogue|Scion of the Three",
+      "classRuleset": "5.5E",
+      "className": "Rogue",
+      "subclassName": "Scion of the Three",
+      "comboName": "Scion of the Three Rogue",
+      "subclassSourceGroup": "5.5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "hof"
+      ],
+      "visual": "rogue.scion-of-the-three",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "low",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Rogue|Inquisitive (XGtE)",
+      "classRuleset": "5.5E",
+      "className": "Rogue",
+      "subclassName": "Inquisitive (XGtE)",
+      "comboName": "Inquisitive Rogue",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "xgte"
+      ],
+      "visual": "rogue.inquisitive",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Rogue|Mastermind (SCAG)",
+      "classRuleset": "5.5E",
+      "className": "Rogue",
+      "subclassName": "Mastermind (SCAG)",
+      "comboName": "Mastermind Rogue",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "scag"
+      ],
+      "visual": "rogue.mastermind",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Rogue|Phantom (TCoE)",
+      "classRuleset": "5.5E",
+      "className": "Rogue",
+      "subclassName": "Phantom (TCoE)",
+      "comboName": "Phantom Rogue",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "tcoe"
+      ],
+      "visual": "rogue.phantom",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Rogue|Scout (XGtE)",
+      "classRuleset": "5.5E",
+      "className": "Rogue",
+      "subclassName": "Scout (XGtE)",
+      "comboName": "Scout Rogue",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "xgte"
+      ],
+      "visual": "rogue.scout",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Rogue|Swashbuckler (SCAG)",
+      "classRuleset": "5.5E",
+      "className": "Rogue",
+      "subclassName": "Swashbuckler (SCAG)",
+      "comboName": "Swashbuckler Rogue",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "scag"
+      ],
+      "visual": "rogue.swashbuckler",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Rogue|Arachnoid Stalker",
+      "classRuleset": "5.5E",
+      "className": "Rogue",
+      "subclassName": "Arachnoid Stalker",
+      "comboName": "Arachnoid Stalker Rogue",
+      "subclassSourceGroup": "Mage Hand Press",
+      "sources": [
+        "phb2024",
+        "vsos1"
+      ],
+      "visual": "rogue.arachnoid-stalker",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "low",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Sorcerer|Aberrant Sorcery",
+      "classRuleset": "5.5E",
+      "className": "Sorcerer",
+      "subclassName": "Aberrant Sorcery",
+      "comboName": "Aberrant Sorcery Sorcerer",
+      "subclassSourceGroup": "5.5e Core Rules",
+      "sources": [
+        "phb2024"
+      ],
+      "visual": "sorcerer.aberrant",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Sorcerer|Clockwork Sorcery",
+      "classRuleset": "5.5E",
+      "className": "Sorcerer",
+      "subclassName": "Clockwork Sorcery",
+      "comboName": "Clockwork Sorcery Sorcerer",
+      "subclassSourceGroup": "5.5e Core Rules",
+      "sources": [
+        "phb2024"
+      ],
+      "visual": "sorcerer.clockwork",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Sorcerer|Draconic Sorcery",
+      "classRuleset": "5.5E",
+      "className": "Sorcerer",
+      "subclassName": "Draconic Sorcery",
+      "comboName": "Draconic Sorcery Sorcerer",
+      "subclassSourceGroup": "5.5e Core Rules",
+      "sources": [
+        "phb2024"
+      ],
+      "visual": "sorcerer.draconic",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Sorcerer|Wild Magic Sorcery",
+      "classRuleset": "5.5E",
+      "className": "Sorcerer",
+      "subclassName": "Wild Magic Sorcery",
+      "comboName": "Wild Magic Sorcery Sorcerer",
+      "subclassSourceGroup": "5.5e Core Rules",
+      "sources": [
+        "phb2024"
+      ],
+      "visual": "sorcerer.wild-magic",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Sorcerer|Spellfire Sorcery",
+      "classRuleset": "5.5E",
+      "className": "Sorcerer",
+      "subclassName": "Spellfire Sorcery",
+      "comboName": "Spellfire Sorcery Sorcerer",
+      "subclassSourceGroup": "5.5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "hof"
+      ],
+      "visual": "sorcerer.spellfire",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "low",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Sorcerer|Divine Soul (XGtE)",
+      "classRuleset": "5.5E",
+      "className": "Sorcerer",
+      "subclassName": "Divine Soul (XGtE)",
+      "comboName": "Divine Soul Sorcerer",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "xgte"
+      ],
+      "visual": "sorcerer.divine-soul",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Sorcerer|Shadow Magic (XGtE)",
+      "classRuleset": "5.5E",
+      "className": "Sorcerer",
+      "subclassName": "Shadow Magic (XGtE)",
+      "comboName": "Shadow Magic Sorcerer",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "xgte"
+      ],
+      "visual": "sorcerer.shadow",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": [
+          {
+            "level": 6,
+            "feature": "Hound of Ill Omen",
+            "visualUse": "shadow hound",
+            "source": "xgte",
+            "confidence": "high"
+          }
+        ]
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Sorcerer|Storm Sorcery (SCAG)",
+      "classRuleset": "5.5E",
+      "className": "Sorcerer",
+      "subclassName": "Storm Sorcery (SCAG)",
+      "comboName": "Storm Sorcery Sorcerer",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "scag"
+      ],
+      "visual": "sorcerer.storm",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Sorcerer|Heroic Sorcery",
+      "classRuleset": "5.5E",
+      "className": "Sorcerer",
+      "subclassName": "Heroic Sorcery",
+      "comboName": "Heroic Sorcery Sorcerer",
+      "subclassSourceGroup": "Mage Hand Press",
+      "sources": [
+        "phb2024",
+        "vsos2"
+      ],
+      "visual": "sorcerer.heroic",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "low",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Warlock|Archfey Patron",
+      "classRuleset": "5.5E",
+      "className": "Warlock",
+      "subclassName": "Archfey Patron",
+      "comboName": "Archfey Patron Warlock",
+      "subclassSourceGroup": "5.5e Core Rules",
+      "sources": [
+        "phb2024"
+      ],
+      "visual": "warlock.archfey",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Warlock|Celestial Patron",
+      "classRuleset": "5.5E",
+      "className": "Warlock",
+      "subclassName": "Celestial Patron",
+      "comboName": "Celestial Patron Warlock",
+      "subclassSourceGroup": "5.5e Core Rules",
+      "sources": [
+        "phb2024"
+      ],
+      "visual": "warlock.celestial",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Warlock|Fiend Patron",
+      "classRuleset": "5.5E",
+      "className": "Warlock",
+      "subclassName": "Fiend Patron",
+      "comboName": "Fiend Patron Warlock",
+      "subclassSourceGroup": "5.5e Core Rules",
+      "sources": [
+        "phb2024"
+      ],
+      "visual": "warlock.fiend",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Warlock|Great Old One Patron",
+      "classRuleset": "5.5E",
+      "className": "Warlock",
+      "subclassName": "Great Old One Patron",
+      "comboName": "Great Old One Patron Warlock",
+      "subclassSourceGroup": "5.5e Core Rules",
+      "sources": [
+        "phb2024"
+      ],
+      "visual": "warlock.great-old-one",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Warlock|Vestige Patron",
+      "classRuleset": "5.5E",
+      "className": "Warlock",
+      "subclassName": "Vestige Patron",
+      "comboName": "Vestige Patron Warlock",
+      "subclassSourceGroup": "5.5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "au"
+      ],
+      "visual": "warlock.vestige",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "low",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Warlock|The Fathomless (TCoE)",
+      "classRuleset": "5.5E",
+      "className": "Warlock",
+      "subclassName": "The Fathomless (TCoE)",
+      "comboName": "The Fathomless Warlock",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "tcoe"
+      ],
+      "visual": "warlock.fathomless",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": [
+          {
+            "level": 1,
+            "feature": "Tentacle of the Deeps",
+            "visualUse": "spectral tentacle",
+            "source": "tcoe",
+            "confidence": "high"
+          }
+        ]
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Warlock|The Genie (TCoE)",
+      "classRuleset": "5.5E",
+      "className": "Warlock",
+      "subclassName": "The Genie (TCoE)",
+      "comboName": "The Genie Warlock",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "tcoe"
+      ],
+      "visual": "warlock.genie",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": [
+          {
+            "level": 1,
+            "feature": "Genie's Vessel",
+            "visualUse": "held vessel",
+            "source": "tcoe",
+            "confidence": "high"
+          }
+        ]
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Warlock|The Hexblade (XGtE)",
+      "classRuleset": "5.5E",
+      "className": "Warlock",
+      "subclassName": "The Hexblade (XGtE)",
+      "comboName": "The Hexblade Warlock",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "xgte"
+      ],
+      "visual": "warlock.hexblade",
+      "rules": {
+        "facts": [
+          {
+            "text": "Hex Warrior: medium armor, shields and martial weapons.",
+            "source": "xgte",
+            "confidence": "high",
+            "verification": "Not re-checked against the text this session: outbound access to rules sites was blocked."
+          }
+        ],
+        "armorGrants": [
+          "medium",
+          "shields"
+        ],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Warlock|The Undead (VRGtR)",
+      "classRuleset": "5.5E",
+      "className": "Warlock",
+      "subclassName": "The Undead (VRGtR)",
+      "comboName": "The Undead Warlock",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "vrgtr"
+      ],
+      "visual": "warlock.undead",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": [
+          {
+            "level": 1,
+            "feature": "Form of Dread",
+            "visualUse": "spectral overlay",
+            "source": "vrgtr",
+            "confidence": "high"
+          }
+        ]
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Warlock|The Undying (SCAG)",
+      "classRuleset": "5.5E",
+      "className": "Warlock",
+      "subclassName": "The Undying (SCAG)",
+      "comboName": "The Undying Warlock",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "scag"
+      ],
+      "visual": "warlock.undying",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Warlock|Future You Patron",
+      "classRuleset": "5.5E",
+      "className": "Warlock",
+      "subclassName": "Future You Patron",
+      "comboName": "Future You Patron Warlock",
+      "subclassSourceGroup": "Mage Hand Press",
+      "sources": [
+        "phb2024",
+        "vsos1"
+      ],
+      "visual": "warlock.future-you",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "low",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Wizard|Abjurer",
+      "classRuleset": "5.5E",
+      "className": "Wizard",
+      "subclassName": "Abjurer",
+      "comboName": "Abjurer Wizard",
+      "subclassSourceGroup": "5.5e Core Rules",
+      "sources": [
+        "phb2024"
+      ],
+      "visual": "wizard.abjuration",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Wizard|Diviner",
+      "classRuleset": "5.5E",
+      "className": "Wizard",
+      "subclassName": "Diviner",
+      "comboName": "Diviner Wizard",
+      "subclassSourceGroup": "5.5e Core Rules",
+      "sources": [
+        "phb2024"
+      ],
+      "visual": "wizard.divination",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Wizard|Evoker",
+      "classRuleset": "5.5E",
+      "className": "Wizard",
+      "subclassName": "Evoker",
+      "comboName": "Evoker Wizard",
+      "subclassSourceGroup": "5.5e Core Rules",
+      "sources": [
+        "phb2024"
+      ],
+      "visual": "wizard.evocation",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Wizard|Illusionist",
+      "classRuleset": "5.5E",
+      "className": "Wizard",
+      "subclassName": "Illusionist",
+      "comboName": "Illusionist Wizard",
+      "subclassSourceGroup": "5.5e Core Rules",
+      "sources": [
+        "phb2024"
+      ],
+      "visual": "wizard.illusion",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Wizard|Bladesinger",
+      "classRuleset": "5.5E",
+      "className": "Wizard",
+      "subclassName": "Bladesinger",
+      "comboName": "Bladesinger Wizard",
+      "subclassSourceGroup": "5.5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "hof"
+      ],
+      "visual": "wizard.bladesinging",
+      "rules": {
+        "facts": [],
+        "armorGrants": [
+          "light"
+        ],
+        "restrictions": [
+          {
+            "id": "bladesong-2024",
+            "kind": "bladesong",
+            "severity": "error",
+            "text": "Bladesinger (Heroes of Faerûn): Bladesong believed to keep the medium/heavy armor and shield limits; two-handed-attack wording not verified.",
+            "confidence": "medium"
+          }
+        ],
+        "featureLevels": []
+      },
+      "confidence": "medium",
+      "unresolved": [
+        "Whether the 2024 Bladesinger grants light armor training is not verified; light leather assumed permitted."
+      ]
+    },
+    {
+      "selectionId": "5.5E|Wizard|Conjurer",
+      "classRuleset": "5.5E",
+      "className": "Wizard",
+      "subclassName": "Conjurer",
+      "comboName": "Conjurer Wizard",
+      "subclassSourceGroup": "5.5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "au"
+      ],
+      "visual": "wizard.conjuration",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "low",
+      "unresolved": [
+        "Arcana Unleashed contents not reviewed; visual cues follow the shared class recipe."
+      ]
+    },
+    {
+      "selectionId": "5.5E|Wizard|Enchanter",
+      "classRuleset": "5.5E",
+      "className": "Wizard",
+      "subclassName": "Enchanter",
+      "comboName": "Enchanter Wizard",
+      "subclassSourceGroup": "5.5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "au"
+      ],
+      "visual": "wizard.enchantment",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "low",
+      "unresolved": [
+        "Arcana Unleashed contents not reviewed; visual cues follow the shared class recipe."
+      ]
+    },
+    {
+      "selectionId": "5.5E|Wizard|Necromancer",
+      "classRuleset": "5.5E",
+      "className": "Wizard",
+      "subclassName": "Necromancer",
+      "comboName": "Necromancer Wizard",
+      "subclassSourceGroup": "5.5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "au"
+      ],
+      "visual": "wizard.necromancy",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "low",
+      "unresolved": [
+        "Arcana Unleashed contents not reviewed; visual cues follow the shared class recipe."
+      ]
+    },
+    {
+      "selectionId": "5.5E|Wizard|Transmuter",
+      "classRuleset": "5.5E",
+      "className": "Wizard",
+      "subclassName": "Transmuter",
+      "comboName": "Transmuter Wizard",
+      "subclassSourceGroup": "5.5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "au"
+      ],
+      "visual": "wizard.transmutation",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "low",
+      "unresolved": [
+        "Arcana Unleashed contents not reviewed; visual cues follow the shared class recipe."
+      ]
+    },
+    {
+      "selectionId": "5.5E|Wizard|School of Conjuration (PHB)",
+      "classRuleset": "5.5E",
+      "className": "Wizard",
+      "subclassName": "School of Conjuration (PHB)",
+      "comboName": "School of Conjuration Wizard",
+      "subclassSourceGroup": "5e Core Rules",
+      "sources": [
+        "phb2024",
+        "phb2014"
+      ],
+      "visual": "wizard.conjuration-school",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Wizard|School of Enchantment (PHB)",
+      "classRuleset": "5.5E",
+      "className": "Wizard",
+      "subclassName": "School of Enchantment (PHB)",
+      "comboName": "School of Enchantment Wizard",
+      "subclassSourceGroup": "5e Core Rules",
+      "sources": [
+        "phb2024",
+        "phb2014"
+      ],
+      "visual": "wizard.enchantment-school",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Wizard|School of Necromancy (PHB)",
+      "classRuleset": "5.5E",
+      "className": "Wizard",
+      "subclassName": "School of Necromancy (PHB)",
+      "comboName": "School of Necromancy Wizard",
+      "subclassSourceGroup": "5e Core Rules",
+      "sources": [
+        "phb2024",
+        "phb2014"
+      ],
+      "visual": "wizard.necromancy-school",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Wizard|School of Transmutation (PHB)",
+      "classRuleset": "5.5E",
+      "className": "Wizard",
+      "subclassName": "School of Transmutation (PHB)",
+      "comboName": "School of Transmutation Wizard",
+      "subclassSourceGroup": "5e Core Rules",
+      "sources": [
+        "phb2024",
+        "phb2014"
+      ],
+      "visual": "wizard.transmutation-school",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Wizard|Bladesinging (Legacy)",
+      "classRuleset": "5.5E",
+      "className": "Wizard",
+      "subclassName": "Bladesinging (Legacy)",
+      "comboName": "Bladesinging Wizard",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "tcoe"
+      ],
+      "visual": "wizard.bladesinging-legacy",
+      "rules": {
+        "facts": [
+          {
+            "text": "Training in War and Song: light armor and one one-handed melee weapon.",
+            "source": "tcoe",
+            "confidence": "high",
+            "verification": "Not re-checked against the text this session: outbound access to rules sites was blocked."
+          }
+        ],
+        "armorGrants": [
+          "light"
+        ],
+        "restrictions": [
+          {
+            "id": "bladesong-2014",
+            "kind": "bladesong",
+            "severity": "error",
+            "text": "Bladesong can't be used in medium or heavy armor or with a shield, and ends if you use two hands to attack with a weapon."
+          }
+        ],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Wizard|Order of Scribes (TCoE)",
+      "classRuleset": "5.5E",
+      "className": "Wizard",
+      "subclassName": "Order of Scribes (TCoE)",
+      "comboName": "Order of Scribes Wizard",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "tcoe"
+      ],
+      "visual": "wizard.scribes",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Wizard|War Magic (XGtE)",
+      "classRuleset": "5.5E",
+      "className": "Wizard",
+      "subclassName": "War Magic (XGtE)",
+      "comboName": "War Magic Wizard",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2024",
+        "xgte"
+      ],
+      "visual": "wizard.war-magic",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Wizard|Magic Missile Mage",
+      "classRuleset": "5.5E",
+      "className": "Wizard",
+      "subclassName": "Magic Missile Mage",
+      "comboName": "Magic Missile Mage Wizard",
+      "subclassSourceGroup": "Mage Hand Press",
+      "sources": [
+        "phb2024",
+        "vsos2"
+      ],
+      "visual": "wizard.magic-missile-mage",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "low",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Artificer|Alchemist",
+      "classRuleset": "5.5E",
+      "className": "Artificer",
+      "subclassName": "Alchemist",
+      "comboName": "Alchemist Artificer",
+      "subclassSourceGroup": "5.5e Expanded Rules",
+      "sources": [
+        "efa"
+      ],
+      "visual": "artificer.alchemist",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Artificer|Armorer",
+      "classRuleset": "5.5E",
+      "className": "Artificer",
+      "subclassName": "Armorer",
+      "comboName": "Armorer Artificer",
+      "subclassSourceGroup": "5.5e Expanded Rules",
+      "sources": [
+        "efa"
+      ],
+      "visual": "artificer.armorer",
+      "rules": {
+        "facts": [
+          {
+            "text": "Armorer grants heavy armor training (2024 version believed unchanged).",
+            "source": "efa",
+            "confidence": "medium",
+            "verification": "Not re-checked against the text this session: outbound access to rules sites was blocked."
+          }
+        ],
+        "armorGrants": [
+          "heavy"
+        ],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Artificer|Artillerist",
+      "classRuleset": "5.5E",
+      "className": "Artificer",
+      "subclassName": "Artillerist",
+      "comboName": "Artillerist Artificer",
+      "subclassSourceGroup": "5.5e Expanded Rules",
+      "sources": [
+        "efa"
+      ],
+      "visual": "artificer.artillerist",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": [
+          {
+            "level": 3,
+            "feature": "Eldritch Cannon",
+            "visualUse": "cannon companion",
+            "source": "efa",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Artificer|Battle Smith",
+      "classRuleset": "5.5E",
+      "className": "Artificer",
+      "subclassName": "Battle Smith",
+      "comboName": "Battle Smith Artificer",
+      "subclassSourceGroup": "5.5e Expanded Rules",
+      "sources": [
+        "efa"
+      ],
+      "visual": "artificer.battle-smith",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": [
+          {
+            "level": 3,
+            "feature": "Steel Defender",
+            "visualUse": "construct companion",
+            "source": "efa",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Artificer|Cartographer",
+      "classRuleset": "5.5E",
+      "className": "Artificer",
+      "subclassName": "Cartographer",
+      "comboName": "Cartographer Artificer",
+      "subclassSourceGroup": "5.5e Expanded Rules",
+      "sources": [
+        "efa"
+      ],
+      "visual": "artificer.cartographer",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "low",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Artificer|Forge Adept",
+      "classRuleset": "5.5E",
+      "className": "Artificer",
+      "subclassName": "Forge Adept",
+      "comboName": "Forge Adept Artificer",
+      "subclassSourceGroup": "Visionary Production and Design Inc.",
+      "sources": [
+        "efa",
+        "ee"
+      ],
+      "visual": "artificer.forge-adept",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "low",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5.5E|Artificer|Maverick",
+      "classRuleset": "5.5E",
+      "className": "Artificer",
+      "subclassName": "Maverick",
+      "comboName": "Maverick Artificer",
+      "subclassSourceGroup": "Visionary Production and Design Inc.",
+      "sources": [
+        "efa",
+        "ee"
+      ],
+      "visual": "artificer.maverick",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "low",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Barbarian|Path of the Berserker",
+      "classRuleset": "5E",
+      "className": "Barbarian",
+      "subclassName": "Path of the Berserker",
+      "comboName": "Path of the Berserker Barbarian",
+      "subclassSourceGroup": "5e Core Rules",
+      "sources": [
+        "phb2014"
+      ],
+      "visual": "barbarian.berserker",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Barbarian|Path of the Totem Warrior",
+      "classRuleset": "5E",
+      "className": "Barbarian",
+      "subclassName": "Path of the Totem Warrior",
+      "comboName": "Path of the Totem Warrior Barbarian",
+      "subclassSourceGroup": "5e Core Rules",
+      "sources": [
+        "phb2014"
+      ],
+      "visual": "barbarian.totem-warrior",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Barbarian|Path of Wild Magic",
+      "classRuleset": "5E",
+      "className": "Barbarian",
+      "subclassName": "Path of Wild Magic",
+      "comboName": "Path of Wild Magic Barbarian",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "tcoe"
+      ],
+      "visual": "barbarian.wild-magic",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Barbarian|Path of the Ancestral Guardian",
+      "classRuleset": "5E",
+      "className": "Barbarian",
+      "subclassName": "Path of the Ancestral Guardian",
+      "comboName": "Path of the Ancestral Guardian Barbarian",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "xgte"
+      ],
+      "visual": "barbarian.ancestral-guardian",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": [
+          {
+            "level": 3,
+            "feature": "Ancestral Protectors",
+            "visualUse": "spectral warriors",
+            "source": "xgte",
+            "confidence": "high"
+          }
+        ]
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Barbarian|Path of the Battlerager",
+      "classRuleset": "5E",
+      "className": "Barbarian",
+      "subclassName": "Path of the Battlerager",
+      "comboName": "Path of the Battlerager Barbarian",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "scag"
+      ],
+      "visual": "barbarian.battlerager",
+      "rules": {
+        "facts": [
+          {
+            "text": "Battlerager Armor: spiked armor (medium armor) is the subclass's signature equipment.",
+            "source": "scag",
+            "confidence": "high",
+            "verification": "Not re-checked against the text this session: outbound access to rules sites was blocked."
+          }
+        ],
+        "armorGrants": [],
+        "restrictions": [
+          {
+            "id": "battlerager-dwarf-only",
+            "kind": "species-restriction",
+            "species": [
+              "Dwarf"
+            ],
+            "severity": "info",
+            "text": "SCAG states only dwarves can follow the Path of the Battlerager (DM may waive). The visualizer does not enforce it; flagged for product decision."
+          }
+        ],
+        "featureLevels": [
+          {
+            "level": 3,
+            "feature": "Battlerager Armor",
+            "visualUse": "spike layer",
+            "source": "scag",
+            "confidence": "high"
+          }
+        ]
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Barbarian|Path of the Beast",
+      "classRuleset": "5E",
+      "className": "Barbarian",
+      "subclassName": "Path of the Beast",
+      "comboName": "Path of the Beast Barbarian",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "tcoe"
+      ],
+      "visual": "barbarian.beast",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": [
+          {
+            "level": 3,
+            "feature": "Form of the Beast",
+            "visualUse": "hybrid transformation view",
+            "source": "tcoe",
+            "confidence": "high"
+          }
+        ]
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Barbarian|Path of the Storm Herald",
+      "classRuleset": "5E",
+      "className": "Barbarian",
+      "subclassName": "Path of the Storm Herald",
+      "comboName": "Path of the Storm Herald Barbarian",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "xgte"
+      ],
+      "visual": "barbarian.storm-herald",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Barbarian|Path of the Zealot",
+      "classRuleset": "5E",
+      "className": "Barbarian",
+      "subclassName": "Path of the Zealot",
+      "comboName": "Path of the Zealot Barbarian",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "xgte"
+      ],
+      "visual": "barbarian.zealot",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Bard|College of Lore",
+      "classRuleset": "5E",
+      "className": "Bard",
+      "subclassName": "College of Lore",
+      "comboName": "College of Lore Bard",
+      "subclassSourceGroup": "5e Core Rules",
+      "sources": [
+        "phb2014"
+      ],
+      "visual": "bard.lore",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Bard|College of Valor",
+      "classRuleset": "5E",
+      "className": "Bard",
+      "subclassName": "College of Valor",
+      "comboName": "College of Valor Bard",
+      "subclassSourceGroup": "5e Core Rules",
+      "sources": [
+        "phb2014"
+      ],
+      "visual": "bard.valor",
+      "rules": {
+        "facts": [
+          {
+            "text": "Bonus Proficiencies: medium armor, shields and martial weapons.",
+            "source": "phb2014",
+            "confidence": "high",
+            "verification": "Not re-checked against the text this session: outbound access to rules sites was blocked."
+          }
+        ],
+        "armorGrants": [
+          "medium",
+          "shields"
+        ],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Bard|College of Creation",
+      "classRuleset": "5E",
+      "className": "Bard",
+      "subclassName": "College of Creation",
+      "comboName": "College of Creation Bard",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "tcoe"
+      ],
+      "visual": "bard.creation",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": [
+          {
+            "level": 6,
+            "feature": "Animating Performance",
+            "visualUse": "dancing item companion",
+            "source": "tcoe",
+            "confidence": "high"
+          }
+        ]
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Bard|College of Eloquence",
+      "classRuleset": "5E",
+      "className": "Bard",
+      "subclassName": "College of Eloquence",
+      "comboName": "College of Eloquence Bard",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "tcoe"
+      ],
+      "visual": "bard.eloquence",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Bard|College of Glamour",
+      "classRuleset": "5E",
+      "className": "Bard",
+      "subclassName": "College of Glamour",
+      "comboName": "College of Glamour Bard",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "xgte"
+      ],
+      "visual": "bard.glamour",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Bard|College of Spirits",
+      "classRuleset": "5E",
+      "className": "Bard",
+      "subclassName": "College of Spirits",
+      "comboName": "College of Spirits Bard",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "vrgtr"
+      ],
+      "visual": "bard.spirits",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Bard|College of Swords",
+      "classRuleset": "5E",
+      "className": "Bard",
+      "subclassName": "College of Swords",
+      "comboName": "College of Swords Bard",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "xgte"
+      ],
+      "visual": "bard.swords",
+      "rules": {
+        "facts": [
+          {
+            "text": "Bonus Proficiencies: medium armor and the scimitar.",
+            "source": "xgte",
+            "confidence": "high",
+            "verification": "Not re-checked against the text this session: outbound access to rules sites was blocked."
+          }
+        ],
+        "armorGrants": [
+          "medium"
+        ],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Bard|College of Whispers",
+      "classRuleset": "5E",
+      "className": "Bard",
+      "subclassName": "College of Whispers",
+      "comboName": "College of Whispers Bard",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "xgte"
+      ],
+      "visual": "bard.whispers",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Cleric|Knowledge Domain",
+      "classRuleset": "5E",
+      "className": "Cleric",
+      "subclassName": "Knowledge Domain",
+      "comboName": "Knowledge Domain Cleric",
+      "subclassSourceGroup": "5e Core Rules",
+      "sources": [
+        "phb2014"
+      ],
+      "visual": "cleric.knowledge-legacy",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Cleric|Life Domain",
+      "classRuleset": "5E",
+      "className": "Cleric",
+      "subclassName": "Life Domain",
+      "comboName": "Life Domain Cleric",
+      "subclassSourceGroup": "5e Core Rules",
+      "sources": [
+        "phb2014"
+      ],
+      "visual": "cleric.life",
+      "rules": {
+        "facts": [
+          {
+            "text": "Life Domain: Bonus Proficiency grants heavy armor.",
+            "source": "phb2014",
+            "confidence": "high",
+            "verification": "Not re-checked against the text this session: outbound access to rules sites was blocked."
+          }
+        ],
+        "armorGrants": [
+          "heavy"
+        ],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Cleric|Light Domain",
+      "classRuleset": "5E",
+      "className": "Cleric",
+      "subclassName": "Light Domain",
+      "comboName": "Light Domain Cleric",
+      "subclassSourceGroup": "5e Core Rules",
+      "sources": [
+        "phb2014"
+      ],
+      "visual": "cleric.light",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Cleric|Nature Domain",
+      "classRuleset": "5E",
+      "className": "Cleric",
+      "subclassName": "Nature Domain",
+      "comboName": "Nature Domain Cleric",
+      "subclassSourceGroup": "5e Core Rules",
+      "sources": [
+        "phb2014"
+      ],
+      "visual": "cleric.nature",
+      "rules": {
+        "facts": [
+          {
+            "text": "Nature Domain: Bonus Proficiency grants heavy armor.",
+            "source": "phb2014",
+            "confidence": "high",
+            "verification": "Not re-checked against the text this session: outbound access to rules sites was blocked."
+          }
+        ],
+        "armorGrants": [
+          "heavy"
+        ],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Cleric|Tempest Domain",
+      "classRuleset": "5E",
+      "className": "Cleric",
+      "subclassName": "Tempest Domain",
+      "comboName": "Tempest Domain Cleric",
+      "subclassSourceGroup": "5e Core Rules",
+      "sources": [
+        "phb2014"
+      ],
+      "visual": "cleric.tempest",
+      "rules": {
+        "facts": [
+          {
+            "text": "Tempest Domain: Bonus Proficiency grants heavy armor and martial weapons.",
+            "source": "phb2014",
+            "confidence": "high",
+            "verification": "Not re-checked against the text this session: outbound access to rules sites was blocked."
+          }
+        ],
+        "armorGrants": [
+          "heavy"
+        ],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Cleric|Trickery Domain",
+      "classRuleset": "5E",
+      "className": "Cleric",
+      "subclassName": "Trickery Domain",
+      "comboName": "Trickery Domain Cleric",
+      "subclassSourceGroup": "5e Core Rules",
+      "sources": [
+        "phb2014"
+      ],
+      "visual": "cleric.trickery",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": [
+          {
+            "level": 2,
+            "feature": "Channel Divinity: Invoke Duplicity",
+            "visualUse": "translucent duplicate",
+            "source": "phb2014",
+            "confidence": "high"
+          }
+        ]
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Cleric|War Domain",
+      "classRuleset": "5E",
+      "className": "Cleric",
+      "subclassName": "War Domain",
+      "comboName": "War Domain Cleric",
+      "subclassSourceGroup": "5e Core Rules",
+      "sources": [
+        "phb2014"
+      ],
+      "visual": "cleric.war",
+      "rules": {
+        "facts": [
+          {
+            "text": "War Domain: Bonus Proficiency grants heavy armor and martial weapons.",
+            "source": "phb2014",
+            "confidence": "high",
+            "verification": "Not re-checked against the text this session: outbound access to rules sites was blocked."
+          }
+        ],
+        "armorGrants": [
+          "heavy"
+        ],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Cleric|Arcana Domain",
+      "classRuleset": "5E",
+      "className": "Cleric",
+      "subclassName": "Arcana Domain",
+      "comboName": "Arcana Domain Cleric",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "scag"
+      ],
+      "visual": "cleric.arcana-legacy",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Cleric|Forge Domain",
+      "classRuleset": "5E",
+      "className": "Cleric",
+      "subclassName": "Forge Domain",
+      "comboName": "Forge Domain Cleric",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "xgte"
+      ],
+      "visual": "cleric.forge",
+      "rules": {
+        "facts": [
+          {
+            "text": "Forge Domain: Bonus Proficiency grants heavy armor and smith's tools.",
+            "source": "xgte",
+            "confidence": "high",
+            "verification": "Not re-checked against the text this session: outbound access to rules sites was blocked."
+          }
+        ],
+        "armorGrants": [
+          "heavy"
+        ],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Cleric|Grave Domain",
+      "classRuleset": "5E",
+      "className": "Cleric",
+      "subclassName": "Grave Domain",
+      "comboName": "Grave Domain Cleric",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "xgte"
+      ],
+      "visual": "cleric.grave",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Cleric|Order Domain",
+      "classRuleset": "5E",
+      "className": "Cleric",
+      "subclassName": "Order Domain",
+      "comboName": "Order Domain Cleric",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "tcoe"
+      ],
+      "visual": "cleric.order",
+      "rules": {
+        "facts": [
+          {
+            "text": "Order Domain: Bonus Proficiency grants heavy armor.",
+            "source": "tcoe",
+            "confidence": "high",
+            "verification": "Not re-checked against the text this session: outbound access to rules sites was blocked."
+          }
+        ],
+        "armorGrants": [
+          "heavy"
+        ],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Cleric|Peace Domain",
+      "classRuleset": "5E",
+      "className": "Cleric",
+      "subclassName": "Peace Domain",
+      "comboName": "Peace Domain Cleric",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "tcoe"
+      ],
+      "visual": "cleric.peace",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Cleric|Twilight Domain",
+      "classRuleset": "5E",
+      "className": "Cleric",
+      "subclassName": "Twilight Domain",
+      "comboName": "Twilight Domain Cleric",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "tcoe"
+      ],
+      "visual": "cleric.twilight",
+      "rules": {
+        "facts": [
+          {
+            "text": "Twilight Domain: Bonus Proficiency grants heavy armor and martial weapons.",
+            "source": "tcoe",
+            "confidence": "high",
+            "verification": "Not re-checked against the text this session: outbound access to rules sites was blocked."
+          }
+        ],
+        "armorGrants": [
+          "heavy"
+        ],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Druid|Circle of the Land",
+      "classRuleset": "5E",
+      "className": "Druid",
+      "subclassName": "Circle of the Land",
+      "comboName": "Circle of the Land Druid",
+      "subclassSourceGroup": "5e Core Rules",
+      "sources": [
+        "phb2014"
+      ],
+      "visual": "druid.land",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Druid|Circle of the Moon",
+      "classRuleset": "5E",
+      "className": "Druid",
+      "subclassName": "Circle of the Moon",
+      "comboName": "Circle of the Moon Druid",
+      "subclassSourceGroup": "5e Core Rules",
+      "sources": [
+        "phb2014"
+      ],
+      "visual": "druid.moon",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": [
+          {
+            "level": 2,
+            "feature": "Combat Wild Shape",
+            "visualUse": "brown bear alternate view",
+            "source": "phb2014",
+            "confidence": "high"
+          }
+        ]
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Druid|Circle of Dreams",
+      "classRuleset": "5E",
+      "className": "Druid",
+      "subclassName": "Circle of Dreams",
+      "comboName": "Circle of Dreams Druid",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "xgte"
+      ],
+      "visual": "druid.dreams",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Druid|Circle of Spores",
+      "classRuleset": "5E",
+      "className": "Druid",
+      "subclassName": "Circle of Spores",
+      "comboName": "Circle of Spores Druid",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "tcoe"
+      ],
+      "visual": "druid.spores",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": [
+          {
+            "level": 2,
+            "feature": "Symbiotic Entity",
+            "visualUse": "fungal overlay",
+            "source": "tcoe",
+            "confidence": "high"
+          }
+        ]
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Druid|Circle of Stars",
+      "classRuleset": "5E",
+      "className": "Druid",
+      "subclassName": "Circle of Stars",
+      "comboName": "Circle of Stars Druid",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "tcoe"
+      ],
+      "visual": "druid.stars",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": [
+          {
+            "level": 2,
+            "feature": "Starry Form",
+            "visualUse": "constellation overlay",
+            "source": "tcoe",
+            "confidence": "high"
+          }
+        ]
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Druid|Circle of Wildfire",
+      "classRuleset": "5E",
+      "className": "Druid",
+      "subclassName": "Circle of Wildfire",
+      "comboName": "Circle of Wildfire Druid",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "tcoe"
+      ],
+      "visual": "druid.wildfire",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": [
+          {
+            "level": 2,
+            "feature": "Summon Wildfire Spirit",
+            "visualUse": "spirit companion",
+            "source": "tcoe",
+            "confidence": "high"
+          }
+        ]
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Druid|Circle of the Shepherd",
+      "classRuleset": "5E",
+      "className": "Druid",
+      "subclassName": "Circle of the Shepherd",
+      "comboName": "Circle of the Shepherd Druid",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "xgte"
+      ],
+      "visual": "druid.shepherd",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": [
+          {
+            "level": 2,
+            "feature": "Spirit Totem",
+            "visualUse": "bear spirit",
+            "source": "xgte",
+            "confidence": "high"
+          }
+        ]
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Fighter|Battle Master",
+      "classRuleset": "5E",
+      "className": "Fighter",
+      "subclassName": "Battle Master",
+      "comboName": "Battle Master Fighter",
+      "subclassSourceGroup": "5e Core Rules",
+      "sources": [
+        "phb2014"
+      ],
+      "visual": "fighter.battle-master",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Fighter|Champion",
+      "classRuleset": "5E",
+      "className": "Fighter",
+      "subclassName": "Champion",
+      "comboName": "Champion Fighter",
+      "subclassSourceGroup": "5e Core Rules",
+      "sources": [
+        "phb2014"
+      ],
+      "visual": "fighter.champion",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Fighter|Eldritch Knight",
+      "classRuleset": "5E",
+      "className": "Fighter",
+      "subclassName": "Eldritch Knight",
+      "comboName": "Eldritch Knight Fighter",
+      "subclassSourceGroup": "5e Core Rules",
+      "sources": [
+        "phb2014"
+      ],
+      "visual": "fighter.eldritch-knight",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Fighter|Arcane Archer",
+      "classRuleset": "5E",
+      "className": "Fighter",
+      "subclassName": "Arcane Archer",
+      "comboName": "Arcane Archer Fighter",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "xgte"
+      ],
+      "visual": "fighter.arcane-archer-legacy",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Fighter|Cavalier",
+      "classRuleset": "5E",
+      "className": "Fighter",
+      "subclassName": "Cavalier",
+      "comboName": "Cavalier Fighter",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "xgte"
+      ],
+      "visual": "fighter.cavalier",
+      "rules": {
+        "facts": [
+          {
+            "text": "Cavalier features support mounted combat but do not grant a mount.",
+            "source": "xgte",
+            "confidence": "high",
+            "verification": "Not re-checked against the text this session: outbound access to rules sites was blocked."
+          }
+        ],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Fighter|Psi Warrior",
+      "classRuleset": "5E",
+      "className": "Fighter",
+      "subclassName": "Psi Warrior",
+      "comboName": "Psi Warrior Fighter",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "tcoe"
+      ],
+      "visual": "fighter.psi-warrior",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Fighter|Purple Dragon Knight",
+      "classRuleset": "5E",
+      "className": "Fighter",
+      "subclassName": "Purple Dragon Knight",
+      "comboName": "Purple Dragon Knight Fighter",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "scag"
+      ],
+      "visual": "fighter.purple-dragon-knight",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Fighter|Rune Knight",
+      "classRuleset": "5E",
+      "className": "Fighter",
+      "subclassName": "Rune Knight",
+      "comboName": "Rune Knight Fighter",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "tcoe"
+      ],
+      "visual": "fighter.rune-knight",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": [
+          {
+            "level": 3,
+            "feature": "Giant's Might",
+            "visualUse": "scale-up view",
+            "source": "tcoe",
+            "confidence": "high"
+          }
+        ]
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Fighter|Samurai",
+      "classRuleset": "5E",
+      "className": "Fighter",
+      "subclassName": "Samurai",
+      "comboName": "Samurai Fighter",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "xgte"
+      ],
+      "visual": "fighter.samurai",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Fighter|Gunslinger",
+      "classRuleset": "5E",
+      "className": "Fighter",
+      "subclassName": "Gunslinger",
+      "comboName": "Gunslinger Fighter",
+      "subclassSourceGroup": "Critical Role",
+      "sources": [
+        "phb2014",
+        "cr"
+      ],
+      "visual": "fighter.gunslinger",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "medium",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Monk|Way of Shadow",
+      "classRuleset": "5E",
+      "className": "Monk",
+      "subclassName": "Way of Shadow",
+      "comboName": "Way of Shadow Monk",
+      "subclassSourceGroup": "5e Core Rules",
+      "sources": [
+        "phb2014"
+      ],
+      "visual": "monk.way-of-shadow",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Monk|Way of the Four Elements",
+      "classRuleset": "5E",
+      "className": "Monk",
+      "subclassName": "Way of the Four Elements",
+      "comboName": "Way of the Four Elements Monk",
+      "subclassSourceGroup": "5e Core Rules",
+      "sources": [
+        "phb2014"
+      ],
+      "visual": "monk.four-elements",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Monk|Way of the Open Hand",
+      "classRuleset": "5E",
+      "className": "Monk",
+      "subclassName": "Way of the Open Hand",
+      "comboName": "Way of the Open Hand Monk",
+      "subclassSourceGroup": "5e Core Rules",
+      "sources": [
+        "phb2014"
+      ],
+      "visual": "monk.way-of-the-open-hand",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Monk|Way of Mercy",
+      "classRuleset": "5E",
+      "className": "Monk",
+      "subclassName": "Way of Mercy",
+      "comboName": "Way of Mercy Monk",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "tcoe"
+      ],
+      "visual": "monk.way-of-mercy",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Monk|Way of the Astral Self",
+      "classRuleset": "5E",
+      "className": "Monk",
+      "subclassName": "Way of the Astral Self",
+      "comboName": "Way of the Astral Self Monk",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "tcoe"
+      ],
+      "visual": "monk.astral-self",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": [
+          {
+            "level": 3,
+            "feature": "Arms of the Astral Self",
+            "visualUse": "spectral arms overlay",
+            "source": "tcoe",
+            "confidence": "high"
+          }
+        ]
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Monk|Way of the Drunken Master",
+      "classRuleset": "5E",
+      "className": "Monk",
+      "subclassName": "Way of the Drunken Master",
+      "comboName": "Way of the Drunken Master Monk",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "xgte"
+      ],
+      "visual": "monk.drunken-master",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Monk|Way of the Kensei",
+      "classRuleset": "5E",
+      "className": "Monk",
+      "subclassName": "Way of the Kensei",
+      "comboName": "Way of the Kensei Monk",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "xgte"
+      ],
+      "visual": "monk.kensei",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Monk|Way of the Long Death",
+      "classRuleset": "5E",
+      "className": "Monk",
+      "subclassName": "Way of the Long Death",
+      "comboName": "Way of the Long Death Monk",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "scag"
+      ],
+      "visual": "monk.long-death",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Monk|Way of the Sun Soul",
+      "classRuleset": "5E",
+      "className": "Monk",
+      "subclassName": "Way of the Sun Soul",
+      "comboName": "Way of the Sun Soul Monk",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "xgte"
+      ],
+      "visual": "monk.sun-soul",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Monk|Way of the Cobalt Soul",
+      "classRuleset": "5E",
+      "className": "Monk",
+      "subclassName": "Way of the Cobalt Soul",
+      "comboName": "Way of the Cobalt Soul Monk",
+      "subclassSourceGroup": "Critical Role",
+      "sources": [
+        "phb2014",
+        "tdcsr"
+      ],
+      "visual": "monk.cobalt-soul",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "medium",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Paladin|Oath of Devotion",
+      "classRuleset": "5E",
+      "className": "Paladin",
+      "subclassName": "Oath of Devotion",
+      "comboName": "Oath of Devotion Paladin",
+      "subclassSourceGroup": "5e Core Rules",
+      "sources": [
+        "phb2014"
+      ],
+      "visual": "paladin.devotion",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Paladin|Oath of Vengeance",
+      "classRuleset": "5E",
+      "className": "Paladin",
+      "subclassName": "Oath of Vengeance",
+      "comboName": "Oath of Vengeance Paladin",
+      "subclassSourceGroup": "5e Core Rules",
+      "sources": [
+        "phb2014"
+      ],
+      "visual": "paladin.vengeance",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Paladin|Oath of the Ancients",
+      "classRuleset": "5E",
+      "className": "Paladin",
+      "subclassName": "Oath of the Ancients",
+      "comboName": "Oath of the Ancients Paladin",
+      "subclassSourceGroup": "5e Core Rules",
+      "sources": [
+        "phb2014"
+      ],
+      "visual": "paladin.ancients",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Paladin|Oath of Conquest",
+      "classRuleset": "5E",
+      "className": "Paladin",
+      "subclassName": "Oath of Conquest",
+      "comboName": "Oath of Conquest Paladin",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "xgte"
+      ],
+      "visual": "paladin.conquest",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Paladin|Oath of Glory",
+      "classRuleset": "5E",
+      "className": "Paladin",
+      "subclassName": "Oath of Glory",
+      "comboName": "Oath of Glory Paladin",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "tcoe"
+      ],
+      "visual": "paladin.glory",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Paladin|Oath of Redemption",
+      "classRuleset": "5E",
+      "className": "Paladin",
+      "subclassName": "Oath of Redemption",
+      "comboName": "Oath of Redemption Paladin",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "xgte"
+      ],
+      "visual": "paladin.redemption",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Paladin|Oath of the Crown",
+      "classRuleset": "5E",
+      "className": "Paladin",
+      "subclassName": "Oath of the Crown",
+      "comboName": "Oath of the Crown Paladin",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "scag"
+      ],
+      "visual": "paladin.crown",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Paladin|Oath of the Watchers",
+      "classRuleset": "5E",
+      "className": "Paladin",
+      "subclassName": "Oath of the Watchers",
+      "comboName": "Oath of the Watchers Paladin",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "tcoe"
+      ],
+      "visual": "paladin.watchers",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Paladin|Oath of the Open Sea",
+      "classRuleset": "5E",
+      "className": "Paladin",
+      "subclassName": "Oath of the Open Sea",
+      "comboName": "Oath of the Open Sea Paladin",
+      "subclassSourceGroup": "Critical Role",
+      "sources": [
+        "phb2014",
+        "tdcsr"
+      ],
+      "visual": "paladin.open-sea",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "medium",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Ranger|Beast Master",
+      "classRuleset": "5E",
+      "className": "Ranger",
+      "subclassName": "Beast Master",
+      "comboName": "Beast Master Ranger",
+      "subclassSourceGroup": "5e Core Rules",
+      "sources": [
+        "phb2014"
+      ],
+      "visual": "ranger.beast-master",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": [
+          {
+            "level": 3,
+            "feature": "Ranger's Companion",
+            "visualUse": "beast companion",
+            "source": "phb2014",
+            "confidence": "high"
+          }
+        ]
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Ranger|Hunter",
+      "classRuleset": "5E",
+      "className": "Ranger",
+      "subclassName": "Hunter",
+      "comboName": "Hunter Ranger",
+      "subclassSourceGroup": "5e Core Rules",
+      "sources": [
+        "phb2014"
+      ],
+      "visual": "ranger.hunter",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Ranger|Fey Wanderer",
+      "classRuleset": "5E",
+      "className": "Ranger",
+      "subclassName": "Fey Wanderer",
+      "comboName": "Fey Wanderer Ranger",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "tcoe"
+      ],
+      "visual": "ranger.fey-wanderer",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Ranger|Gloom Stalker",
+      "classRuleset": "5E",
+      "className": "Ranger",
+      "subclassName": "Gloom Stalker",
+      "comboName": "Gloom Stalker Ranger",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "xgte"
+      ],
+      "visual": "ranger.gloom-stalker",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Ranger|Horizon Walker",
+      "classRuleset": "5E",
+      "className": "Ranger",
+      "subclassName": "Horizon Walker",
+      "comboName": "Horizon Walker Ranger",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "xgte"
+      ],
+      "visual": "ranger.horizon-walker",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Ranger|Monster Slayer",
+      "classRuleset": "5E",
+      "className": "Ranger",
+      "subclassName": "Monster Slayer",
+      "comboName": "Monster Slayer Ranger",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "xgte"
+      ],
+      "visual": "ranger.monster-slayer",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Ranger|Swarmkeeper",
+      "classRuleset": "5E",
+      "className": "Ranger",
+      "subclassName": "Swarmkeeper",
+      "comboName": "Swarmkeeper Ranger",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "tcoe"
+      ],
+      "visual": "ranger.swarmkeeper",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Rogue|Arcane Trickster",
+      "classRuleset": "5E",
+      "className": "Rogue",
+      "subclassName": "Arcane Trickster",
+      "comboName": "Arcane Trickster Rogue",
+      "subclassSourceGroup": "5e Core Rules",
+      "sources": [
+        "phb2014"
+      ],
+      "visual": "rogue.arcane-trickster",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Rogue|Assassin",
+      "classRuleset": "5E",
+      "className": "Rogue",
+      "subclassName": "Assassin",
+      "comboName": "Assassin Rogue",
+      "subclassSourceGroup": "5e Core Rules",
+      "sources": [
+        "phb2014"
+      ],
+      "visual": "rogue.assassin",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Rogue|Thief",
+      "classRuleset": "5E",
+      "className": "Rogue",
+      "subclassName": "Thief",
+      "comboName": "Thief Rogue",
+      "subclassSourceGroup": "5e Core Rules",
+      "sources": [
+        "phb2014"
+      ],
+      "visual": "rogue.thief",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Rogue|Inquisitive",
+      "classRuleset": "5E",
+      "className": "Rogue",
+      "subclassName": "Inquisitive",
+      "comboName": "Inquisitive Rogue",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "xgte"
+      ],
+      "visual": "rogue.inquisitive",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Rogue|Mastermind",
+      "classRuleset": "5E",
+      "className": "Rogue",
+      "subclassName": "Mastermind",
+      "comboName": "Mastermind Rogue",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "xgte"
+      ],
+      "visual": "rogue.mastermind",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Rogue|Phantom",
+      "classRuleset": "5E",
+      "className": "Rogue",
+      "subclassName": "Phantom",
+      "comboName": "Phantom Rogue",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "tcoe"
+      ],
+      "visual": "rogue.phantom",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Rogue|Scout",
+      "classRuleset": "5E",
+      "className": "Rogue",
+      "subclassName": "Scout",
+      "comboName": "Scout Rogue",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "xgte"
+      ],
+      "visual": "rogue.scout",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Rogue|Soulknife",
+      "classRuleset": "5E",
+      "className": "Rogue",
+      "subclassName": "Soulknife",
+      "comboName": "Soulknife Rogue",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "tcoe"
+      ],
+      "visual": "rogue.soulknife",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Rogue|Swashbuckler",
+      "classRuleset": "5E",
+      "className": "Rogue",
+      "subclassName": "Swashbuckler",
+      "comboName": "Swashbuckler Rogue",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "xgte"
+      ],
+      "visual": "rogue.swashbuckler",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Sorcerer|Draconic Bloodline",
+      "classRuleset": "5E",
+      "className": "Sorcerer",
+      "subclassName": "Draconic Bloodline",
+      "comboName": "Draconic Bloodline Sorcerer",
+      "subclassSourceGroup": "5e Core Rules",
+      "sources": [
+        "phb2014"
+      ],
+      "visual": "sorcerer.draconic-bloodline",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Sorcerer|Wild Magic",
+      "classRuleset": "5E",
+      "className": "Sorcerer",
+      "subclassName": "Wild Magic",
+      "comboName": "Wild Magic Sorcerer",
+      "subclassSourceGroup": "5e Core Rules",
+      "sources": [
+        "phb2014"
+      ],
+      "visual": "sorcerer.wild-magic-2014",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Sorcerer|Aberrant Mind",
+      "classRuleset": "5E",
+      "className": "Sorcerer",
+      "subclassName": "Aberrant Mind",
+      "comboName": "Aberrant Mind Sorcerer",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "tcoe"
+      ],
+      "visual": "sorcerer.aberrant-mind",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Sorcerer|Clockwork Soul",
+      "classRuleset": "5E",
+      "className": "Sorcerer",
+      "subclassName": "Clockwork Soul",
+      "comboName": "Clockwork Soul Sorcerer",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "tcoe"
+      ],
+      "visual": "sorcerer.clockwork-soul",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Sorcerer|Divine Soul",
+      "classRuleset": "5E",
+      "className": "Sorcerer",
+      "subclassName": "Divine Soul",
+      "comboName": "Divine Soul Sorcerer",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "xgte"
+      ],
+      "visual": "sorcerer.divine-soul",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Sorcerer|Shadow Magic",
+      "classRuleset": "5E",
+      "className": "Sorcerer",
+      "subclassName": "Shadow Magic",
+      "comboName": "Shadow Magic Sorcerer",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "xgte"
+      ],
+      "visual": "sorcerer.shadow",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": [
+          {
+            "level": 6,
+            "feature": "Hound of Ill Omen",
+            "visualUse": "shadow hound",
+            "source": "xgte",
+            "confidence": "high"
+          }
+        ]
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Sorcerer|Storm Sorcery",
+      "classRuleset": "5E",
+      "className": "Sorcerer",
+      "subclassName": "Storm Sorcery",
+      "comboName": "Storm Sorcery Sorcerer",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "xgte"
+      ],
+      "visual": "sorcerer.storm",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Warlock|The Archfey",
+      "classRuleset": "5E",
+      "className": "Warlock",
+      "subclassName": "The Archfey",
+      "comboName": "The Archfey Warlock",
+      "subclassSourceGroup": "5e Core Rules",
+      "sources": [
+        "phb2014"
+      ],
+      "visual": "warlock.the-archfey",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Warlock|The Fiend",
+      "classRuleset": "5E",
+      "className": "Warlock",
+      "subclassName": "The Fiend",
+      "comboName": "The Fiend Warlock",
+      "subclassSourceGroup": "5e Core Rules",
+      "sources": [
+        "phb2014"
+      ],
+      "visual": "warlock.the-fiend",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Warlock|The Great Old One",
+      "classRuleset": "5E",
+      "className": "Warlock",
+      "subclassName": "The Great Old One",
+      "comboName": "The Great Old One Warlock",
+      "subclassSourceGroup": "5e Core Rules",
+      "sources": [
+        "phb2014"
+      ],
+      "visual": "warlock.the-great-old-one",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Warlock|The Celestial",
+      "classRuleset": "5E",
+      "className": "Warlock",
+      "subclassName": "The Celestial",
+      "comboName": "The Celestial Warlock",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "xgte"
+      ],
+      "visual": "warlock.the-celestial",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Warlock|The Fathomless",
+      "classRuleset": "5E",
+      "className": "Warlock",
+      "subclassName": "The Fathomless",
+      "comboName": "The Fathomless Warlock",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "tcoe"
+      ],
+      "visual": "warlock.fathomless",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": [
+          {
+            "level": 1,
+            "feature": "Tentacle of the Deeps",
+            "visualUse": "spectral tentacle",
+            "source": "tcoe",
+            "confidence": "high"
+          }
+        ]
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Warlock|The Genie",
+      "classRuleset": "5E",
+      "className": "Warlock",
+      "subclassName": "The Genie",
+      "comboName": "The Genie Warlock",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "tcoe"
+      ],
+      "visual": "warlock.genie",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": [
+          {
+            "level": 1,
+            "feature": "Genie's Vessel",
+            "visualUse": "held vessel",
+            "source": "tcoe",
+            "confidence": "high"
+          }
+        ]
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Warlock|The Hexblade",
+      "classRuleset": "5E",
+      "className": "Warlock",
+      "subclassName": "The Hexblade",
+      "comboName": "The Hexblade Warlock",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "xgte"
+      ],
+      "visual": "warlock.hexblade",
+      "rules": {
+        "facts": [
+          {
+            "text": "Hex Warrior: medium armor, shields and martial weapons.",
+            "source": "xgte",
+            "confidence": "high",
+            "verification": "Not re-checked against the text this session: outbound access to rules sites was blocked."
+          }
+        ],
+        "armorGrants": [
+          "medium",
+          "shields"
+        ],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Warlock|The Undead",
+      "classRuleset": "5E",
+      "className": "Warlock",
+      "subclassName": "The Undead",
+      "comboName": "The Undead Warlock",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "vrgtr"
+      ],
+      "visual": "warlock.undead",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": [
+          {
+            "level": 1,
+            "feature": "Form of Dread",
+            "visualUse": "spectral overlay",
+            "source": "vrgtr",
+            "confidence": "high"
+          }
+        ]
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Warlock|The Undying",
+      "classRuleset": "5E",
+      "className": "Warlock",
+      "subclassName": "The Undying",
+      "comboName": "The Undying Warlock",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "scag"
+      ],
+      "visual": "warlock.undying",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Wizard|School of Abjuration",
+      "classRuleset": "5E",
+      "className": "Wizard",
+      "subclassName": "School of Abjuration",
+      "comboName": "School of Abjuration Wizard",
+      "subclassSourceGroup": "5e Core Rules",
+      "sources": [
+        "phb2014"
+      ],
+      "visual": "wizard.abjuration-school",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Wizard|School of Conjuration",
+      "classRuleset": "5E",
+      "className": "Wizard",
+      "subclassName": "School of Conjuration",
+      "comboName": "School of Conjuration Wizard",
+      "subclassSourceGroup": "5e Core Rules",
+      "sources": [
+        "phb2014"
+      ],
+      "visual": "wizard.conjuration-school",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Wizard|School of Divination",
+      "classRuleset": "5E",
+      "className": "Wizard",
+      "subclassName": "School of Divination",
+      "comboName": "School of Divination Wizard",
+      "subclassSourceGroup": "5e Core Rules",
+      "sources": [
+        "phb2014"
+      ],
+      "visual": "wizard.divination-school",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Wizard|School of Enchantment",
+      "classRuleset": "5E",
+      "className": "Wizard",
+      "subclassName": "School of Enchantment",
+      "comboName": "School of Enchantment Wizard",
+      "subclassSourceGroup": "5e Core Rules",
+      "sources": [
+        "phb2014"
+      ],
+      "visual": "wizard.enchantment-school",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Wizard|School of Evocation",
+      "classRuleset": "5E",
+      "className": "Wizard",
+      "subclassName": "School of Evocation",
+      "comboName": "School of Evocation Wizard",
+      "subclassSourceGroup": "5e Core Rules",
+      "sources": [
+        "phb2014"
+      ],
+      "visual": "wizard.evocation-school",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Wizard|School of Illusion",
+      "classRuleset": "5E",
+      "className": "Wizard",
+      "subclassName": "School of Illusion",
+      "comboName": "School of Illusion Wizard",
+      "subclassSourceGroup": "5e Core Rules",
+      "sources": [
+        "phb2014"
+      ],
+      "visual": "wizard.illusion-school",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Wizard|School of Necromancy",
+      "classRuleset": "5E",
+      "className": "Wizard",
+      "subclassName": "School of Necromancy",
+      "comboName": "School of Necromancy Wizard",
+      "subclassSourceGroup": "5e Core Rules",
+      "sources": [
+        "phb2014"
+      ],
+      "visual": "wizard.necromancy-school",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Wizard|School of Transmutation",
+      "classRuleset": "5E",
+      "className": "Wizard",
+      "subclassName": "School of Transmutation",
+      "comboName": "School of Transmutation Wizard",
+      "subclassSourceGroup": "5e Core Rules",
+      "sources": [
+        "phb2014"
+      ],
+      "visual": "wizard.transmutation-school",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Wizard|Bladesinging",
+      "classRuleset": "5E",
+      "className": "Wizard",
+      "subclassName": "Bladesinging",
+      "comboName": "Bladesinging Wizard",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "tcoe"
+      ],
+      "visual": "wizard.bladesinging-legacy",
+      "rules": {
+        "facts": [
+          {
+            "text": "Training in War and Song: light armor and one one-handed melee weapon.",
+            "source": "tcoe",
+            "confidence": "high",
+            "verification": "Not re-checked against the text this session: outbound access to rules sites was blocked."
+          }
+        ],
+        "armorGrants": [
+          "light"
+        ],
+        "restrictions": [
+          {
+            "id": "bladesong-2014",
+            "kind": "bladesong",
+            "severity": "error",
+            "text": "Bladesong can't be used in medium or heavy armor or with a shield, and ends if you use two hands to attack with a weapon."
+          }
+        ],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Wizard|Order of Scribes",
+      "classRuleset": "5E",
+      "className": "Wizard",
+      "subclassName": "Order of Scribes",
+      "comboName": "Order of Scribes Wizard",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "tcoe"
+      ],
+      "visual": "wizard.scribes",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Wizard|War Magic",
+      "classRuleset": "5E",
+      "className": "Wizard",
+      "subclassName": "War Magic",
+      "comboName": "War Magic Wizard",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "phb2014",
+        "xgte"
+      ],
+      "visual": "wizard.war-magic",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Artificer|Alchemist",
+      "classRuleset": "5E",
+      "className": "Artificer",
+      "subclassName": "Alchemist",
+      "comboName": "Alchemist Artificer",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "tcoe"
+      ],
+      "visual": "artificer.alchemist",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Artificer|Armorer",
+      "classRuleset": "5E",
+      "className": "Artificer",
+      "subclassName": "Armorer",
+      "comboName": "Armorer Artificer",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "tcoe"
+      ],
+      "visual": "artificer.armorer",
+      "rules": {
+        "facts": [
+          {
+            "text": "Tools of the Trade: heavy armor proficiency.",
+            "source": "tcoe",
+            "confidence": "high",
+            "verification": "Not re-checked against the text this session: outbound access to rules sites was blocked."
+          }
+        ],
+        "armorGrants": [
+          "heavy"
+        ],
+        "restrictions": [],
+        "featureLevels": [
+          {
+            "level": 3,
+            "feature": "Arcane Armor",
+            "visualUse": "armor seam layer",
+            "source": "tcoe",
+            "confidence": "high"
+          }
+        ]
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Artificer|Artillerist",
+      "classRuleset": "5E",
+      "className": "Artificer",
+      "subclassName": "Artillerist",
+      "comboName": "Artillerist Artificer",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "tcoe"
+      ],
+      "visual": "artificer.artillerist",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": [
+          {
+            "level": 3,
+            "feature": "Eldritch Cannon",
+            "visualUse": "cannon companion",
+            "source": "tcoe",
+            "confidence": "high"
+          }
+        ]
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "5E|Artificer|Battle Smith",
+      "classRuleset": "5E",
+      "className": "Artificer",
+      "subclassName": "Battle Smith",
+      "comboName": "Battle Smith Artificer",
+      "subclassSourceGroup": "5e Expanded Rules",
+      "sources": [
+        "tcoe"
+      ],
+      "visual": "artificer.battle-smith",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": [
+          {
+            "level": 3,
+            "feature": "Steel Defender",
+            "visualUse": "construct companion",
+            "source": "tcoe",
+            "confidence": "high"
+          }
+        ]
+      },
+      "confidence": "high",
+      "unresolved": []
+    },
+    {
+      "selectionId": "Third-Party|Blood Hunter|Order of the Ghostslayer",
+      "classRuleset": "Third-Party",
+      "className": "Blood Hunter",
+      "subclassName": "Order of the Ghostslayer",
+      "comboName": "Order of the Ghostslayer Blood Hunter",
+      "subclassSourceGroup": "Critical Role",
+      "sources": [
+        "cr"
+      ],
+      "visual": "blood-hunter.ghostslayer",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "medium",
+      "unresolved": []
+    },
+    {
+      "selectionId": "Third-Party|Blood Hunter|Order of the Lycan",
+      "classRuleset": "Third-Party",
+      "className": "Blood Hunter",
+      "subclassName": "Order of the Lycan",
+      "comboName": "Order of the Lycan Blood Hunter",
+      "subclassSourceGroup": "Critical Role",
+      "sources": [
+        "cr"
+      ],
+      "visual": "blood-hunter.lycan",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": [
+          {
+            "level": 3,
+            "feature": "Hybrid Transformation",
+            "visualUse": "hybrid view",
+            "source": "cr",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "confidence": "medium",
+      "unresolved": []
+    },
+    {
+      "selectionId": "Third-Party|Blood Hunter|Order of the Mutant",
+      "classRuleset": "Third-Party",
+      "className": "Blood Hunter",
+      "subclassName": "Order of the Mutant",
+      "comboName": "Order of the Mutant Blood Hunter",
+      "subclassSourceGroup": "Critical Role",
+      "sources": [
+        "cr"
+      ],
+      "visual": "blood-hunter.mutant",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "medium",
+      "unresolved": []
+    },
+    {
+      "selectionId": "Third-Party|Blood Hunter|Order of the Profane Soul",
+      "classRuleset": "Third-Party",
+      "className": "Blood Hunter",
+      "subclassName": "Order of the Profane Soul",
+      "comboName": "Order of the Profane Soul Blood Hunter",
+      "subclassSourceGroup": "Critical Role",
+      "sources": [
+        "cr"
+      ],
+      "visual": "blood-hunter.profane-soul",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "medium",
+      "unresolved": []
+    },
+    {
+      "selectionId": "Third-Party|Blood Hunter|Order of the Profane Soul (INT)",
+      "classRuleset": "Third-Party",
+      "className": "Blood Hunter",
+      "subclassName": "Order of the Profane Soul (INT)",
+      "comboName": "Order of the Profane Soul Blood Hunter",
+      "subclassSourceGroup": "Critical Role",
+      "sources": [
+        "cr"
+      ],
+      "visual": "blood-hunter.profane-soul-int",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "medium",
+      "unresolved": []
+    },
+    {
+      "selectionId": "Third-Party|Blood Hunter|Order of the Profane Soul (WIS)",
+      "classRuleset": "Third-Party",
+      "className": "Blood Hunter",
+      "subclassName": "Order of the Profane Soul (WIS)",
+      "comboName": "Order of the Profane Soul Blood Hunter",
+      "subclassSourceGroup": "Critical Role",
+      "sources": [
+        "cr"
+      ],
+      "visual": "blood-hunter.profane-soul-wis",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "medium",
+      "unresolved": []
+    },
+    {
+      "selectionId": "Third-Party|Gunslinger|Pistolero",
+      "classRuleset": "Third-Party",
+      "className": "Gunslinger",
+      "subclassName": "Pistolero",
+      "comboName": "Pistolero Gunslinger",
+      "subclassSourceGroup": "Mage Hand Press",
+      "sources": [
+        "vsos-gs",
+        "vsos2"
+      ],
+      "visual": "gunslinger.pistolero",
+      "rules": {
+        "facts": [],
+        "armorGrants": [],
+        "restrictions": [],
+        "featureLevels": []
+      },
+      "confidence": "low",
+      "unresolved": []
+    }
+  ]
+}
